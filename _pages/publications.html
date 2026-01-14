@@ -17,11 +17,79 @@ permalink: /publications/
                href="#collapse{{forloop.index}}"
                style="color: inherit;">
             <!-- authors -->
-            {% assign authors = "" | split:"/" %}
-            {% for author in publi.author %}
-                {% assign authors = authors | push: author.family %}
-            {% endfor %}
-            {{ authors | array_to_sentence_string }},
+            {%- assign apa_authors = "" | split:"|" -%}
+
+            {%- for a in publi.author -%}
+            {%- assign family = a.family | strip -%}
+            {%- assign given  = a.given  | default: "" | replace: ".", "" | strip -%}
+            {%- assign initials = "" -%}
+
+            {%- if given == "" -%}
+                {%- assign initials = "" -%}
+
+            {%- elsif given contains " " -%}
+                {%- assign parts = given | split: " " -%}
+                {%- for p in parts -%}
+                {%- assign p = p | strip -%}
+                {%- if p != "" -%}
+                    {%- assign first = p | slice: 0, 1 | upcase -%}
+                    {%- assign initials = initials | append: first | append: ". " -%}
+                {%- endif -%}
+                {%- endfor -%}
+
+            {%- elsif given contains "-" -%}
+                {%- assign parts = given | split: "-" -%}
+                {%- for p in parts -%}
+                {%- assign p = p | strip -%}
+                {%- if p != "" -%}
+                    {%- assign first = p | slice: 0, 1 | upcase -%}
+                    {%- assign initials = initials | append: first | append: "." -%}
+                {%- endif -%}
+                {%- unless forloop.last -%}
+                    {%- assign initials = initials | append: "-" -%}
+                {%- endunless -%}
+                {%- endfor -%}
+                {%- assign initials = initials | append: " " -%}
+
+            {%- else -%}
+                {%- assign gsize = given | size -%}
+                {%- if gsize > 1 -%}
+                {%- for i in (0..gsize-1) -%}
+                    {%- assign ch = given | slice: i, 1 -%}
+                    {%- assign ch = ch | strip -%}
+                    {%- if ch != "" -%}
+                    {%- assign ch_up = ch | upcase -%}
+                    {%- assign initials = initials | append: ch_up | append: ". " -%}
+                    {%- endif -%}
+                {%- endfor -%}
+                {%- else -%}
+                {%- assign first = given | slice: 0, 1 | upcase -%}
+                {%- assign initials = initials | append: first | append: ". " -%}
+                {%- endif -%}
+            {%- endif -%}
+
+            {%- assign initials = initials | strip -%}
+
+            {%- if initials != "" -%}
+                {%- assign formatted = family | append: ", " | append: initials -%}
+            {%- else -%}
+                {%- assign formatted = family -%}
+            {%- endif -%}
+
+            {%- assign apa_authors = apa_authors | push: formatted -%}
+            {%- endfor -%}
+
+            {%- for name in apa_authors -%}
+            {%- if forloop.first -%}
+                {{ name }}
+            {%- elsif forloop.last -%}
+                , & {{ name }}
+            {%- else -%}
+                , {{ name }}
+            {%- endif -%}
+            {%- endfor -%}
+
+            
 
             <!-- title with link -->
             "{{ publi.title }}",
@@ -32,10 +100,15 @@ permalink: /publications/
             <!-- issued date -->
             ({{ publi.issued.date-parts | jsonify | slice: 3,4 }}),
 
-            <!-- DOI -->
-            {% if publi.DOI %}
-                <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
+            {% assign link_url = nil %}
+
+            {% if publi.URL %}
+            {% assign link_url = publi.URL %}
+            {% elsif publi.DOI %}
+            {% assign link_url = "https://doi.org/" | append: publi.DOI %}
             {% endif %}
+            
+
             </a>
         </div>
 
@@ -43,8 +116,13 @@ permalink: /publications/
             <div class="panel-body">
                 <p>{{ publi.abstract }}</p>
 
-                <a class="btn btn-outline-primary" href="https://doi.org/{{publi.DOI}}"
-                   role="button" target="blank">Link</a>
+                {% if link_url %}
+                    <a class="btn btn-outline-primary"
+                        href="{{ link_url }}"
+                        role="button" target="_blank" rel="noopener">
+                        Link
+                    </a>
+                    {% endif %}
             </div>
         </div>
     {% endfor %}
