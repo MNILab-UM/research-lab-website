@@ -1,84 +1,299 @@
 ---
-title: "Team"
+title: "Meet the Team"
 layout: default
 excerpt: "RT2 Lab: Team members"
 sitemap: false
 permalink: /team/
 ---
 
-<h1>{{page.title}}</h1>
+<style>
+    /* --- 本页专用的样式 (Team Specific) --- */
 
-<!-- Staff -->
+    /* 页面标题区域 (Hero) */
+    .page-hero {
+        background: linear-gradient(135deg, #ffffff 0%, #f0f7ff 100%);
+        padding: 3rem 0;
+        text-align: center;
+        margin-bottom: 2rem;
+        border-bottom: 1px solid rgba(74,144,226,0.1);
+        /* 简单的淡入动画 */
+        animation: fadeInUp 0.8s ease forwards;
+    }
+    
+    .page-title {
+        font-family: 'Crimson Text', Georgia, serif;
+        font-size: 3rem;
+        color: var(--dark-blue); /* 使用了你全局定义的变量 */
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
 
-<h2><a id="staff"></a>Principal Investigator</h2>
-{% assign members = site.posts | where: 'category', 'staff' | sort: 'date' %}
-{% for member in members %}
-<div class="card team-member-card">
-    <div class="row mt-3">
-        <div class="col-md-2">
-            <a href={{member.url}}>
-                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-                    class="card-img img-responsive img-thumbnail"
-                    style="max-width: 100px;"/>
-            </a>
-        </div>
+    /* 成员卡片样式 (列表式布局) */
+    .member-card {
+        background: white;
+        border: 1px solid rgba(74, 144, 226, 0.1);
+        border-radius: 12px;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        box-shadow: 0 5px 20px rgba(74, 144, 226, 0.05);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        /* 初始隐藏，用于动画 */
+        opacity: 0;
+        animation: fadeInUp 0.8s ease forwards;
+        animation-delay: 0.2s;
+    }
+    
+    .member-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 30px rgba(74, 144, 226, 0.15);
+        border-color: var(--accent-blue);
+    }
 
-        <div class="col-md-10">
-            <div class="card-body">
-            <h4 class="card-title">{{ member.title }}</h4>
-            <p class="card-text">{{ member.role }}</p>
+    /* 头像容器 */
+    .member-img-wrapper {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 4px solid var(--light-blue);
+        background: #fff;
+        flex-shrink: 0;
+        /* 移动端居中 */
+        margin: 0 auto 1.5rem auto; 
+    }
+
+    .member-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    /* 姓名和职位 */
+    .member-header-info {
+        border-bottom: 1px solid var(--light-blue);
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        text-align: center; /* 默认居中 (移动端) */
+    }
+
+    .member-name {
+        font-family: 'Crimson Text', Georgia, serif;
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: var(--dark-blue);
+        margin-bottom: 0.2rem;
+    }
+
+    .member-role {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1rem;
+        color: var(--primary-blue);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    /* Markdown 正文内容优化 */
+    .member-bio {
+        color: var(--text-dark);
+        font-size: 1.05rem;
+        text-align: left;
+    }
+    .member-bio p { margin-bottom: 0.8rem; }
+    .member-bio ul { padding-left: 1.2rem; margin-bottom: 1rem; }
+    .member-bio li { margin-bottom: 0.3rem; color: var(--text-light); }
+    .member-bio a { color: var(--primary-blue); text-decoration: none; border-bottom: 1px dotted var(--primary-blue); }
+    .member-bio a:hover { border-bottom-style: solid; }
+
+    /* PI (导师) 特殊样式 - 更显眼 */
+    .pi-card {
+        border-left: 5px solid var(--primary-blue);
+        background: linear-gradient(to right, #fff 60%, #f4f9ff 100%);
+    }
+    .pi-card .member-img-wrapper {
+        width: 180px;
+        height: 180px;
+        border-color: var(--primary-blue);
+    }
+    .pi-card .member-name {
+        font-size: 2.2rem;
+    }
+
+    /* 桌面端布局调整 (左图右文) */
+    @media (min-width: 768px) {
+        .member-img-wrapper { margin: 0; }
+        .member-header-info { text-align: left; }
+    }
+
+    /* --- 校友栏专用样式 (Alumni Section) --- */
+    
+    /* 校友名字的小卡片盒子 */
+    .alumni-box {
+        background: white;
+        border: 1px solid rgba(74, 144, 226, 0.15); /* 淡蓝色边框 */
+        border-radius: 8px;
+        padding: 1rem 1.5rem;
+        text-align: center;
+        transition: all 0.2s ease;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* 鼠标悬停效果 - 微微上浮 */
+    .alumni-box:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(74, 144, 226, 0.1);
+        background-color: #fcfdff;
+        border-color: var(--primary-blue);
+    }
+
+    /* 校友名字字体 */
+    .alumni-name {
+        font-family: 'Crimson Text', Georgia, serif;
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: var(--text-dark);
+        margin: 0;
+    }
+    
+    /* (可选) 如果你想显示毕业年份/去向，可以加这个 */
+    .alumni-meta {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 0.85rem;
+        color: var(--text-light);
+        margin-top: 0.2rem;
+    }
+</style>
+
+<div class="page-hero">
+    <div class="container">
+        <h1 class="page-title">{{ page.title }}</h1>
+        <p class="text-muted lead mb-0">The people behind the science</p>
+    </div>
+</div>
+
+<div class="container pb-5">
+
+    <div class="section-header">
+        <h2 class="section-title"><a id="staff"></a>Principal Investigator</h2>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                {% assign members = site.posts | where: 'category', 'staff' | sort: 'date' %}
+                {% for member in members %}
+                <div class="member-card pi-card">
+                    <div class="row align-items-start">
+                        <div class="col-md-3 text-center d-flex flex-column align-items-center justify-content-start pt-3">
+                            <div class="member-img-wrapper shadow-sm">
+                                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}" alt="{{ member.title }}" class="member-img">
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="member-header-info">
+                                <h3 class="member-name">{{ member.title }}</h3>
+                                <div class="member-role">{{ member.role }}</div>
+                            </div>
+                            <div class="member-bio">
+                                {{ member.content }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
             </div>
         </div>
     </div>
-</div>
-{% endfor %}
+    <!--PhD students-->
+    <div class="section-header">
+        <h2 class="section-title"><a id="Ph.D. Students"></a>Ph.D. Students</h2>
+    </div>
 
-<!-- Students -->
-
-<h2><a id="Ph.D. Students"></a>Ph.D. Students</h2>
-{% assign members = site.posts | where: 'category', 'Ph.D. Students' | sort: 'date' %}
-{% for member in members %}
-<div class="card team-member-card">
-    <div class="row mt-3">
-        <div class="col-md-2">
-            <a href={{member.url}}>
-                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-                    class="card-img img-responsive img-thumbnail"
-                    style="max-width: 100px;"/>
-            </a>
-        </div>
-
-        <div class="col-md-10">
-            <div class="card-body">
-            <h4 class="card-title">{{ member.title }}</h4>
-            <p class="card-text">{{ member.role }}</p>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                {% assign members = site.posts | where: 'category', 'Ph.D. Students' | sort: 'date' %}
+                {% for member in members %}
+                <div class="member-card">
+                    <div class="row">
+                        <div class="col-md-2 text-center pt-2">
+                            <div class="member-img-wrapper" style="width: 120px; height: 120px;">
+                                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}" alt="{{ member.title }}" class="member-img">
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="member-header-info">
+                                <h4 class="member-name">{{ member.title }}</h4>
+                                <div class="member-role">{{ member.role }}</div>
+                            </div>
+                            <div class="member-bio">
+                                {{ member.content }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
             </div>
         </div>
     </div>
-</div>
-{% endfor %}
-<!-- Master Students -->
+    <!--Master students-->
+    <div class="section-header">
+        <h2 class="section-title"><a id="Master Students"></a>Master Students</h2>
+    </div>
 
-<h2><a id="Master Students"></a>Master Students</h2>
-{% assign members = site.posts | where: 'category', 'Master Students' | sort: 'date' %}
-{% for member in members %}
-<div class="card team-member-card">
-    <div class="row mt-3">
-        <div class="col-md-2">
-            <a href={{member.url}}>
-                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-                    class="card-img img-responsive img-thumbnail"
-                    style="max-width: 100px;"/>
-            </a>
-        </div>
-
-        <div class="col-md-10">
-            <div class="card-body">
-            <h4 class="card-title">{{ member.title }}</h4>
-            <p class="card-text">{{ member.role }}</p>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                {% assign members = site.posts | where: 'category', 'Master Students' | sort: 'date' %}
+                {% for member in members %}
+                <div class="member-card">
+                    <div class="row">
+                        <div class="col-md-2 text-center pt-2">
+                            <div class="member-img-wrapper" style="width: 120px; height: 120px;">
+                                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}" alt="{{ member.title }}" class="member-img">
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="member-header-info">
+                                <h4 class="member-name">{{ member.title }}</h4>
+                                <div class="member-role">{{ member.role }}</div>
+                            </div>
+                            <div class="member-bio">
+                                {{ member.content }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
             </div>
         </div>
     </div>
-</div>
+    <!--Alumni-->
+    <div class="section-header">
+        <h2 class="section-title"><a id="Alumni"></a>Alumni</h2>
+    </div>
 
-{% endfor %}
+    <div class="container">
+        <div class="row g-3"> {% assign members = site.posts | where: 'category', 'Alumni' | sort: 'date' | reverse %}
+            
+            {% if members.size > 0 %}
+                {% for member in members %}
+                <div class="col-6 col-md-4 col-lg-3"> <div class="alumni-box">
+                        <div>
+                            <div class="alumni-name">{{ member.title }}</div>
+                            </div>
+                    </div>
+                </div>
+                {% endfor %}
+            {% else %}
+                <div class="col-12 text-center text-muted">
+                    <p>No alumni information currently available.</p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>

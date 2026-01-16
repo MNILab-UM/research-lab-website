@@ -1,0 +1,408 @@
+---
+title: "Research"
+layout: default
+excerpt: "Research interests and projects of Li Lab"
+sitemap: true
+permalink: /research/
+---
+
+<style>
+    /* --- Hero Section --- */
+    .page-hero {
+        background: linear-gradient(135deg, #ffffff 0%, #f0f7ff 100%);
+        padding: 3rem 0;
+        text-align: center;
+        margin-bottom: 3rem;
+        border-bottom: 1px solid rgba(74,144,226,0.1);
+        animation: fadeInUp 0.8s ease forwards;
+    }
+    
+    .page-title {
+        font-family: 'Crimson Text', Georgia, serif;
+        font-size: 3rem;
+        color: var(--dark-blue);
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+    /* --- Research Summary Box --- */
+    .summary-box {
+        background: white;
+        border-left: 5px solid var(--primary-blue);
+        box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        padding: 2rem;
+        border-radius: 0 12px 12px 0;
+        margin-bottom: 4rem;
+        font-size: 1.1rem;
+        color: var(--text-dark);
+    }
+    .summary-list {
+        margin-top: 1rem;
+        padding-left: 1.5rem;
+    }
+    .summary-list li {
+        margin-bottom: 0.5rem;
+    }
+
+    /* --- Detailed Research Sections (Stacked for Wide Images) --- */
+    /* --- Research Section 布局 --- */
+    .research-section {
+        padding: 4rem 0;
+        border-bottom: 1px solid #eee; /* 保留底部分割线，区分不同方向 */
+    }
+    .research-section:last-of-type {
+        border-bottom: none;
+    }
+
+    /* --- 图片容器 (静态、无装饰) --- */
+    .res-img-container {
+        width: 100%;
+        text-align: center; /* 让图片居中显示 */
+        margin-bottom: 2rem; /* 图片和下方文字的距离 */
+    }
+
+    /* --- 图片本体 --- */
+    .res-img-static {
+        width: 100%; /* 宽度最大不超过容器 */
+        height: auto;    /* 【关键】高度自动，保持原始比例，不裁切，不变形 */
+        display: inline-block;
+    }
+
+    /* --- 下方文本容器 (限宽居中) --- */
+    .res-content-container {
+        
+        margin: 0 auto;
+    }
+
+    .res-title {
+        font-family: 'Crimson Text', serif;
+        font-size: 2.2rem;
+        font-weight: 600;
+        color: var(--dark-blue);
+        margin-bottom: 1rem;
+    }
+
+    .res-text {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: var(--text-dark);
+        margin-bottom: 1.5rem;
+        text-align: justify;
+    }
+
+    /* 参考文献 (保持原样) */
+    .ref-box {
+        background: #f9fcff;
+        border-radius: 8px;
+        padding: 1.5rem;
+        font-size: 0.95rem;
+        color: var(--text-light);
+        border: 1px solid #eef4fa;
+    }
+    /* ... (ref-title 和 ref-list 的样式可以复用之前的) ... */
+    
+    .res-title {
+        font-family: 'Crimson Text', serif;
+        font-size: 2rem;
+        font-weight: 600;
+        color: var(--dark-blue);
+        margin-bottom: 1.5rem;
+        position: relative;
+        display: inline-block;
+    }
+    .res-title::after {
+        content: '';
+        display: block;
+        width: 40px;
+        height: 3px;
+        background: var(--accent-blue);
+        margin-top: 8px;
+    }
+
+    .res-text {
+        font-size: 1.05rem;
+        line-height: 1.8;
+        color: var(--text-dark);
+        margin-bottom: 1.5rem;
+        text-align: justify;
+    }
+
+    /* 图片容器 */
+    .res-img-wrapper {
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 8px 30px rgba(74, 144, 226, 0.15);
+        border: 1px solid rgba(74,144,226,0.1);
+        background: white;
+        /* 这里的 aspect-ratio 可以根据你的实际图片调整，或者删掉让图片自适应 */
+        aspect-ratio: 4/3; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .res-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* 如果是示意图，可能用 contain 更好 */
+        transition: transform 0.5s ease;
+    }
+    .res-img-wrapper:hover .res-img {
+        transform: scale(1.03);
+    }
+
+    /* 参考文献块 */
+    .ref-box {
+        background: #f8fafc;
+        border-radius: 8px;
+        padding: 1rem 1.5rem;
+        font-size: 0.9rem;
+        color: var(--text-light);
+        border: 1px solid #eef2f7;
+    }
+    .ref-title {
+        font-weight: 700;
+        color: var(--dark-blue);
+        margin-bottom: 0.5rem;
+        font-size: 0.95rem;
+        text-transform: uppercase;
+    }
+    .ref-list {
+        list-style-type: none; /* 去掉默认圆点，用自定义的 */
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    .ref-list li {
+        position: relative;
+        padding-left: 1.2rem;
+        margin-bottom: 0.5rem;
+        line-height: 1.4;
+    }
+    .ref-list li::before {
+        content: '\f02d'; /* Book icon */
+        font-family: 'Font Awesome 6 Free';
+        font-weight: 900;
+        position: absolute;
+        left: 0;
+        color: var(--accent-blue);
+        font-size: 0.8rem;
+        top: 3px;
+    }
+
+    /* --- Grants List --- */
+    .grant-item {
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px dashed #eee;
+    }
+    .grant-year {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        color: var(--primary-blue);
+        width: 120px;
+        flex-shrink: 0;
+    }
+    .grant-info {
+        color: var(--text-dark);
+    }
+    .grant-role {
+        font-weight: 600;
+        font-size: 0.9rem;
+        color: var(--text-light);
+        margin-left: 8px;
+        background: #e8f2ff;
+        padding: 2px 8px;
+        border-radius: 10px;
+    }
+
+    /* --- Collaborators Grid --- */
+    .collab-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+    .collab-card {
+        background: white;
+        border: 1px solid #eee;
+        border-radius: 8px;
+        padding: 1.5rem;
+        text-align: center;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px; /* 固定高度确保整齐 */
+        font-weight: 600;
+        color: var(--text-light);
+        box-shadow: 0 2px 10px rgba(0,0,0,0.02);
+    }
+    .collab-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(74, 144, 226, 0.15);
+        color: var(--primary-blue);
+        border-color: var(--light-blue);
+    }
+
+    /* Section Header (复用) */
+    .section-header {
+        background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
+        color: white;
+        padding: 1.5rem 0;
+        margin: 4rem 0 2rem 0;
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+    }
+    .section-title {
+        font-family: 'Crimson Text', serif;
+        font-size: 2rem;
+        text-align: center;
+        margin: 0;
+        z-index: 2;
+        position: relative;
+    }
+
+    /* 移动端适配 */
+    @media (max-width: 768px) {
+        .research-section .row {
+            flex-direction: column !important; /* 强制单列 */
+        }
+        .res-img-wrapper {
+            margin-bottom: 1.5rem;
+            order: -1; /* 图片永远在文字上面 */
+        }
+        .grant-item {
+            flex-direction: column;
+        }
+        .grant-year {
+            margin-bottom: 0.2rem;
+        }
+    }
+</style>
+
+<div class="page-hero">
+    <div class="container">
+        <h1 class="page-title">Research</h1>
+        <p class="text-muted lead mb-0">Multimodal Brain Imaging & Computational Neuroscience</p>
+    </div>
+</div>
+
+<div class="container pb-5">
+    <div class="container">
+        <div class="summary-box">
+            <p class="mb-0">
+                Our research aims to enhance our knowledge of the neural processes behind typical and atypical human behaviors through a combination of multimodal brain imaging techniques and computational methods. Specifically, we are interested in:
+            </p>
+            <ul class="summary-list">
+                <li>Development of integrated multimodal brain imaging algorithms (fNIRS, DOT, EEG, fMRI) for advanced brain imaging with high spatiotemporal resolution.</li>
+                <li>Establish computational models to elucidate the brain-physiology-behavior association of human brain disorders (neuropsychiatric, neurodegenerative, and neurodevelopmental disorders).</li>
+                <li>Static and dynamic human brain network analyses to decode the process of human behaviors (social interaction, team collaboration).</li>
+            </ul>
+        </div>
+    
+
+        <section class="research-section">
+        <div class="res-img-container">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/research/research1.png" alt="Multimodal Framework" class="res-img-static">
+        </div>
+        
+        <div class="res-content-container">
+            <h2 class="res-title">Multimodal Brain Imaging</h2>
+            <div class="res-text">
+                <p>Electroencephalography (EEG) and functional near-infrared spectroscopy (fNIRS) stand as state-of-the-art techniques for non-invasive functional neuroimaging. On a unimodal basis, EEG suffers from poor spatial resolution while presenting high temporal resolution. In contrast, fNIRS offers better spatial resolution though it is constrained by its poor temporal resolution. One important merit shared by the EEG and fNIRS is that, both modalities have favorable portability and could be integrated into a compatible experimental setup, providing a compelling ground for the development of a multimodal EEG-fNIRS integration analysis approach. The main goal of this research is to develop and implement multimodal EEG/fNIRS integration methods for brain research.</p>
+                <p>Leveraging the high spatial resolution of fNIRS and high temporal resolution of EEG, we have explored feasible approaches to study the human brain dynamics related to various clinically-seen brain disorders. We developed an fNIRS-informed EEG source localization approach to investigate the brain network alterations induced by Alzheimer’s disease (Li, R., et al. 2019). We then demonstrated how the proposed fNIRS-informed EEG source localization approach can be used to characterize brain plasticity during longitudinal post-stroke rehabilitation (Li, R., et al. 2020). On the other hand, we also proposed a framework showing how EEG signals may help to enhance the fNIRS-based general linear model analysis (Li, R., et al. 2020).</p>
+            </div>
+            
+            <div class="ref-box">
+                <div class="ref-title">References</div>
+                <ul class="ref-list">
+                    <li>Li, R., et al. "Dynamic cortical connectivity alterations associated with Alzheimer's disease: An EEG and fNIRS integration study." <em>NeuroImage: Clinical</em> (2019).</li>
+                    <li>Li, R., et al. "Multimodal neuroimaging using concurrent EEG/fNIRS for poststroke recovery assessment." <em>Neurorehabilitation and Neural Repair</em> (2020).</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="research-section">
+        <div class="res-img-container">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/research/research2.png" alt="Computational Psychiatry" class="res-img-static">
+        </div>
+        
+        <div class="res-content-container">
+            <h2 class="res-title">Computational Psychiatry</h2>
+            <div class="res-text">
+                <p>Traditionally, psychiatric disorders have been defined around behavioral symptoms that are often imprecise. The advanced neuroimaging techniques developed over the past decades have drastically improved our understanding of brain-physiology-behavior association in psychiatric individuals. Our group is one of the pioneers in conducting multimodal computational research in psychiatry. Specifically, we aim to establish computational models that combine multimodal data (e.g., brain, eye tracking, heart rate)  to provide sensitive and specific tools for symptom assessment and evaluation of intervention response in clinical trials.</p>
+                <p>Currently, the main focus of our psychiatric research is Autism spectrum disorder. A series of works have been conducted using multimodal techniques (e.g., fNIRS, fMRI, eye tracking) to elucidate the brain-physiology-behavior association in children with Fragile X syndrome, the most common cause of Autism spectrum disorder (Li, R., et al. 2021, 2022, 2023). </p>
+            </div>
+            <div class="ref-box">
+                <div class="ref-title">References</div>
+                <ul class="ref-list">
+                    <li>Li, R., et al. "Aberrant neural response during face processing in girls with fragile X syndrome." <em>Biological Psychiatry: CNNI</em> (2021).</li>
+                    <li>Li, R., et al. "Aberrant brain network and eye gaze patterns during natural social interaction." <em>Molecular Psychiatry</em> (2022).</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="research-section">
+        <div class="res-img-container">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/research/research3.png" alt="Social Brain" class="res-img-static">
+        </div>
+        
+        <div class="res-content-container">
+            <h2 class="res-title">Brain Dynamic Networks during Social Interaction</h2>
+            <div class="res-text">
+                <p>Understanding how the brain adapts and organizes in a dynamic manner is critical for elucidating the neural basis of social interaction. Among various brain imaging techniques, fNIRS offers various potential advantages; it is highly portable, low cost, and more resilient to motion artifacts which, together, permit assessment of real-time brain dynamics and inter-brain synchrony (IBS) in naturalistic settings. Our group is interested in developing novel approaches to capture the static and dynamic natures of IBS during naturalistic social interaction. In a pilot study (Li, R., et al. 2021), we proposed a dynamic IBS approach to distill complex inter-brain dynamics associated with social interaction into a set of representative brain states with more fine-grained temporal resolution. Our findings demonstrate that the nature of social cooperation can potentially be characterized using a more dynamic and modular approach. That is, the process of social interaction is not only modulated by time-varying IBS networks, but also via inter-brain communication between key regions within different dynamic IBS networks. This approach allows us to gain a better understanding of the dynamic process of naturalistic social interaction.</p>
+            </div>
+            <div class="ref-box">
+                <div class="ref-title">References</div>
+                <ul class="ref-list">
+                    <li>Li, R., et al. "Dynamic inter-brain synchrony in real-life inter-personal cooperation: A functional near-infrared spectroscopy hyperscanning study." <em>NeuroImage</em> (2021).</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    </div>
+    <div class="section-header">
+        <h2 class="section-title">Awarded Grants</h2>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+                <div class="grant-item">
+                    <div class="grant-year">2025 - 2027</div>
+                    <div class="grant-info">The Science and Technology Development Fund (FDCT) of Macau-Scientific Research and Innovation <span class="grant-role">PI</span></div>
+                </div>
+                <div class="grant-item">
+                    <div class="grant-year">2025 - 2026</div>
+                    <div class="grant-info">Multi-Year Research Grant-General Research Grant (GRG), University of Macau <span class="grant-role">PI</span></div>
+                </div>
+                <div class="grant-item">
+                    <div class="grant-year">2025 - 2026</div>
+                    <div class="grant-info">Multi-Year Research Grant-Collaborative Research Grant (CRG), University of Macau <span class="grant-role">PI</span></div>
+                </div>
+                <div class="grant-item">
+                    <div class="grant-year">2024 - 2026</div>
+                    <div class="grant-info">National Natural Science Foundation of China (NSFC)-Young Scientists Fund <span class="grant-role">PI</span></div>
+                </div>
+                <div class="grant-item">
+                    <div class="grant-year">2024 - 2025</div>
+                    <div class="grant-info">FDCT of Macau-Innovation and Technology Promotion Fund <span class="grant-role">PI</span></div>
+                </div>
+                <div class="grant-item">
+                    <div class="grant-year">2023 - 2025</div>
+                    <div class="grant-info">Start-up Research Grant (SRG), University of Macau <span class="grant-role">PI</span></div>
+                </div>
+            </div>
+    </div>
+    <div class="section-header">
+        <h2 class="section-title">Collaborators</h2>
+    </div>
+    
+    <div class="container">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/research/research4.png" class="img-fluid">
+    </div>
+
+</div>

@@ -1,79 +1,3459 @@
 [
-  {"id":"pop00001","author":[{"family":"Zhou","given":"Y"},{"family":"Yu","given":"X"},{"family":"Lin","given":"H"},{"family":"Li","given":"R"},{"family":"Liang","given":"J"},{"family":"Shi","given":"X"},{"family":"Luo","given":"Y"}],"citation-key":"pop00001","container-title":"Biomedical Signal Processing and Control","issued":{"date-parts":[["2026"]]},"page":"109397–109397","title":"A shallow 2D self-attention-CNN framework for depression severity identification using EEG functional connectivity network","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:8AbLer7MMksC","volume":"115"},
-  {"id":"pop00002","author":[{"family":"Gao","given":"Y"},{"family":"Li","given":"R"},{"family":"Ma","given":"Q"},{"family":"Bartholomay","given":"KL"},{"family":"Lightbody","given":"AA"},{"family":"Reiss","given":"AL"}],"citation-key":"pop00002","container-title":"Biological Psychiatry","issue":"5","issued":{"date-parts":[["2025"]]},"page":"499–506","title":"Longitudinal changes in functional neural activation and sensitization during face processing in fragile X syndrome","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:_xSYboBqXhAC","volume":"97"},
-  {"id":"pop00003","author":[{"family":"Li","given":"R"},{"family":"Foland-Ross","given":"LC"},{"family":"Jordan","given":"T"},{"family":"Marzelli","given":"MJ"},{"family":"Ross","given":"JL"},{"family":"Reiss","given":"AL"}],"citation-key":"pop00003","container-title":"European Child &Adolescent Psychiatry","issue":"2","issued":{"date-parts":[["2025"]]},"page":"585–597","title":"Associations between brain network, puberty, and behaviors in boys with Klinefelter syndrome","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:f2IySw72cVMC","volume":"34"},
-  {"id":"pop00004","author":[{"family":"Guan","given":"S"},{"family":"Li","given":"Y"},{"family":"Gao","given":"Y"},{"family":"Luo","given":"Y"},{"family":"Zhao","given":"H"},{"family":"Yang","given":"D"},{"family":"Li","given":"R"}],"citation-key":"pop00004","container-title":"Sensors","issue":"7","issued":{"date-parts":[["2025"]]},"page":"2040–2040","title":"Continuous wave-diffuse optical tomography (CW-DOT) in human brain mapping: A review","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:OU6Ihb5iCvQC","volume":"25"},
-  {"id":"pop00005","author":[{"family":"Li","given":"D"},{"family":"Feng","given":"D"},{"family":"Hu","given":"C"},{"family":"Tian","given":"Y"},{"family":"Reiss","given":"AL"},{"family":"Hagerman","given":"RJ"},{"family":"Xu","given":"X"},{"family":"Qiao","given":"Z"},{"family":"Li","given":"R"},{"literal":"..."}],"citation-key":"pop00005","container-title":"Molecular Psychiatry","issue":"11","issued":{"date-parts":[["2025"]]},"page":"5255–5263","title":"Distinct and shared intrinsic resting-state functional networks in children with idiopathic autism spectrum disorder and fragile X syndrome","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:738O_yMBCRsC","volume":"30"},
-  {"id":"pop00006","author":[{"family":"Li","given":"Y"},{"family":"Guan","given":"S"},{"family":"Yang","given":"D"},{"family":"Li","given":"D"},{"family":"Xu","given":"Q"},{"family":"Zhang","given":"Y"},{"family":"Li","given":"R"}],"citation-key":"pop00006","container-title":"Psychoradiology 5, kkaf","issued":{"date-parts":[["2025"]]},"title":"Inter-brain synchrony to delineate the social impairment in autism spectrum disorder: a systematic review on hyperscanning studies","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:08ZZubdj9fEC","volume":"25"},
-  {"id":"pop00007","author":[{"family":"Guan","given":"S"},{"family":"Li","given":"Y"},{"family":"Geng","given":"Y"},{"family":"Li","given":"D"},{"family":"Xu","given":"Q"},{"family":"Yang","given":"D"},{"family":"Zhang","given":"Y"},{"family":"Li","given":"R"}],"citation-key":"pop00007","container-title":"bioRxiv, 2025.07. 02.","issued":{"date-parts":[["2025"]]},"title":"Advancing inter-brain synchrony measurement: A comparative hyperscanning study of high-density diffuse optical tomography and functional near-infrared spectroscopy","type":"Preprint","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:u9iWguZQMMsC","volume":"662877"},
-  {"id":"pop00008","author":[{"family":"Guan","given":"S"},{"family":"Li","given":"Y"},{"family":"Geng","given":"Y"},{"family":"Li","given":"D"},{"family":"Xu","given":"Q"},{"family":"Niu","given":"P"},{"family":"Yang","given":"D"},{"family":"Eggebrecht","given":"A"},{"family":"Zhang","given":"Y"},{"literal":"..."}],"citation-key":"pop00008","container-title":"NeuroImage","issued":{"date-parts":[["2025"]]},"title":"Advancing inter-brain synchrony measurement: a comparative hyperscanning study of diffuse optical tomography and functional near-infrared spectroscopy","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:geHnlv5EZngC","volume":"121663"},
-  {"id":"pop00009","author":[{"family":"Feng","given":"D"},{"family":"Li","given":"D"},{"family":"Hu","given":"C"},{"family":"Tian","given":"Y"},{"family":"Xu","given":"X"},{"family":"Hagerman","given":"RJ"},{"family":"Xu","given":"Q"},{"family":"Li","given":"R"}],"citation-key":"pop00009","container-title":"Molecular Psychiatry","issued":{"date-parts":[["2025"]]},"page":"1–11","title":"Age-varying distinct neuroanatomy in young children with autism spectrum disorder and fragile X syndrome","type":"Book chapter","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:sSrBHYA8nusC"},
-  {"id":"pop00010","author":[{"family":"Li","given":"J"},{"family":"Li","given":"Y"},{"family":"Wang","given":"H"},{"family":"Chen","given":"J"},{"family":"Li","given":"R"},{"family":"Zhang","given":"H"}],"citation-key":"pop00010","container-title":"Language Learning","issued":{"date-parts":[["2025"]]},"title":"Effect of teacher–student interaction on language learning under anxiety: An fNIRS‐based hyperscanning study","type":"article-journal","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:B3FOqHPlNUQC"},
-  {"id":"pop00011","author":[{"family":"Li","given":"R"},{"family":"Dybvik","given":"H"},{"family":"Feng","given":"D"},{"family":"Eng","given":"C"},{"family":"Lee","given":"CH"},{"family":"Bartholomay","given":"KL"},{"family":"Zhang","given":"Y"},{"literal":"..."}],"citation-key":"pop00011","issued":{"date-parts":[["2025"]]},"title":"Atypical inter-brain synchrony and social communication deficits in girls with fragile X syndrome: Evidence from functional near-infrared spectroscopy hyperscanning","type":"document","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:4fKUyHm3Qg0C"},
-  {"id":"pop00012","author":[{"family":"Li","given":"Y"},{"family":"Sarah","given":"G"},{"family":"Chen","given":"C"},{"family":"Jiang","given":"L"},{"family":"Chen","given":"B"},{"family":"Li","given":"R"},{"family":"Liang","given":"Z"},{"family":"Yu","given":"J"},{"family":"Dong","given":"D"},{"literal":"..."}],"citation-key":"pop00012","container-title":"NeuroImage","issued":{"date-parts":[["2025"]]},"title":"ERP-based interbrain causal model reveals closed-loop information interaction in interpersonal negotiations","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:tS2w5q8j5-wC","volume":"121541"},
-  {"id":"pop00013","author":[{"family":"Wang","given":"G"},{"family":"Tao","given":"Y"},{"family":"Wu","given":"N"},{"family":"Li","given":"R"},{"family":"Lee","given":"WH"},{"family":"Cao","given":"Z"},{"family":"Yan","given":"X"},{"family":"Chen","given":"B"},{"family":"Wang","given":"G"}],"citation-key":"pop00013","container-title":"IEEE Transactions on Affective Computing","issued":{"date-parts":[["2025"]]},"title":"The diagnosis method of major depressive disorder using wavelet coherence and state-pathology separation network","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:tOudhMTPpwUC"},
-  {"id":"pop00014","author":[{"family":"Li","given":"R"},{"family":"Feng","given":"D"},{"family":"Li","given":"D"},{"family":"Hu","given":"C"},{"family":"Tian","given":"Y"},{"family":"Xu","given":"X"},{"family":"Xu","given":"Q"}],"citation-key":"pop00014","issued":{"date-parts":[["2025"]]},"title":"Age-varying distinct neuroanatomy in young children with autism spectrum disorder and fragile X syndrome","type":"document","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:vRqMK49ujn8C"},
-  {"id":"pop00015","author":[{"family":"Gao","given":"Y"},{"family":"Li","given":"R"},{"family":"Ma","given":"Q"},{"family":"Bartholomay","given":"KL"},{"family":"Lightbody","given":"AA"},{"family":"Reiss","given":"AL"}],"citation-key":"pop00015","container-title":"Cerebral Cortex 35 (7), bhaf","issued":{"date-parts":[["2025"]]},"title":"Aberrant neural activation during inhibitory control in girls with fragile X syndrome","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:Tiz5es2fbqcC","volume":"124"},
-  {"id":"pop00016","author":[{"family":"Li","given":"Y"},{"family":"Zhu","given":"Y"},{"family":"Geng","given":"Y"},{"family":"Feng","given":"D"},{"family":"Guan","given":"S"},{"family":"Li","given":"D"},{"family":"Mei","given":"L"},{"family":"Ding","given":"X"},{"family":"Ying","given":"Y"},{"family":"Tang","given":"J"},{"literal":"..."}],"citation-key":"pop00016","container-title":"bioRxiv, 2025.06. 18.","issued":{"date-parts":[["2025"]]},"title":"Modular inter-brain synchrony network associated with social difficulty in autism spectrum disorder: a graph neural network-driven hyperscanning study","type":"Preprint","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:p2g8aNsByqUC","volume":"660087"},
-  {"id":"pop00017","author":[{"family":"Gao","given":"Y"},{"family":"Li","given":"R"},{"family":"Ma","given":"Q"},{"family":"Bartholomay","given":"KL"},{"family":"Lightbody","given":"AA"},{"family":"Reiss","given":"AL"}],"citation-key":"pop00017","container-title":"Elsevier","issued":{"date-parts":[["2025"]]},"title":"Longitudinal changes in functional brain activation and habituation during face processing in Fragile X syndrome","type":"article-journal","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:WbkHhVStYXYC"},
-  {"id":"pop00018","author":[{"family":"Chen","given":"H"},{"family":"Lei","given":"Y"},{"family":"Li","given":"R"},{"family":"Xia","given":"X"},{"family":"Cui","given":"N"},{"family":"Chen","given":"X"},{"family":"Liu","given":"J"},{"family":"Tang","given":"H"},{"family":"Zhou","given":"J"},{"family":"Huang","given":"Y"},{"literal":"..."}],"citation-key":"pop00018","container-title":"Molecular Psychiatry","issue":"4","issued":{"date-parts":[["2024"]]},"page":"1088–1098","title":"Resting-state EEG dynamic functional connectivity distinguishes non-psychotic major depression, psychotic major depression and schizophrenia","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:cFHS6HbyZ2cC","volume":"29"},
-  {"id":"pop00019","author":[{"family":"Liu","given":"J"},{"family":"Li","given":"K"},{"family":"Huang","given":"C"},{"family":"Dong","given":"H"},{"family":"Song","given":"Y"},{"family":"Li","given":"R"}],"citation-key":"pop00019","container-title":"IEEE Transactions on Instrumentation and Measurement","issued":{"date-parts":[["2024"]]},"title":"MixFormer: a mixed CNN-transformer backbone for medical image segmentation","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:SP6oXDckpogC"},
-  {"id":"pop00020","author":[{"family":"Wan","given":"L"},{"family":"Li","given":"Y"},{"family":"Zhu","given":"G"},{"family":"Yang","given":"D"},{"family":"Li","given":"F"},{"family":"Wang","given":"W"},{"family":"Chen","given":"J"},{"family":"Yang","given":"G"},{"family":"Li","given":"R"}],"citation-key":"pop00020","container-title":"NeuroImage","issued":{"date-parts":[["2024"]]},"page":"120895–120895","title":"Multimodal investigation of dynamic brain network alterations in autism spectrum disorder: Linking connectivity dynamics to symptoms and developmental trajectories","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:EUQCXRtRnyEC","volume":"302"},
-  {"id":"pop00021","author":[{"family":"Fang","given":"F"},{"family":"Teixeira","given":"AL"},{"family":"Li","given":"R"},{"family":"Zou","given":"L"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00021","container-title":"Cerebral Cortex 34 (2), bhad","issued":{"date-parts":[["2024"]]},"title":"The control patterns of affective processing and cognitive reappraisal: insights from brain controllability analysis","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:dfsIfKJdRG4C","volume":"500"},
-  {"id":"pop00022","author":[{"family":"Gao","given":"Y"},{"family":"Li","given":"R"},{"family":"Ma","given":"Q"},{"family":"Baker","given":"JM"},{"family":"Rauch","given":"S"},{"family":"Gunier","given":"RB"},{"family":"Mora","given":"AM"},{"family":"Kogut","given":"K"},{"literal":"..."}],"citation-key":"pop00022","container-title":"NeuroToxicology","issued":{"date-parts":[["2024"]]},"page":"206–214","title":"Childhood exposure to organophosphate pesticides: Functional connectivity and working memory in adolescents","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:bFI3QPDXJZMC","volume":"103"},
-  {"id":"pop00023","author":[{"family":"Zhu","given":"G"},{"family":"Li","given":"Y"},{"family":"Wan","given":"L"},{"family":"Sun","given":"C"},{"family":"Liu","given":"X"},{"family":"Zhang","given":"J"},{"family":"Liang","given":"Y"},{"family":"Liu","given":"G"},{"family":"Yan","given":"H"},{"family":"Li","given":"R"},{"literal":"..."}],"citation-key":"pop00023","container-title":"Cerebral Cortex 34 (1), bhad","issued":{"date-parts":[["2024"]]},"title":"Divergent electroencephalogram resting-state functional network alterations in subgroups of autism spectrum disorder: a symptom-based clustering analysis","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:u_35RYKgDlwC","volume":"413"},
-  {"id":"pop00024","author":[{"family":"Liu","given":"J"},{"family":"Li","given":"K"},{"family":"Dong","given":"H"},{"family":"Han","given":"Y"},{"family":"Li","given":"R"}],"citation-key":"pop00024","container-title":"Bentham Science Publishers","issue":"1","issued":{"date-parts":[["2024"]]},"page":"2147483647","title":"Medical image processing based on generative adversarial networks: a systematic review","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:zA6iFVUQeVQC","volume":"20"},
-  {"id":"pop00025","author":[{"family":"She","given":"Q"},{"family":"Sun","given":"S"},{"family":"Ma","given":"Y"},{"family":"Li","given":"R"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00025","container-title":"IEEE Journal of Biomedical and Health Informatics","issued":{"date-parts":[["2024"]]},"title":"LUCF-Net: Lightweight U-shaped cascade fusion network for medical image segmentation","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:yD5IFk8b50cC"},
-  {"id":"pop00026","author":[{"family":"Zhu","given":"R"},{"family":"She","given":"Q"},{"family":"Li","given":"R"},{"family":"Tan","given":"T"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00026","container-title":"IEEE transactions on neural systems and rehabilitation engineering: a …","issued":{"date-parts":[["2024"]]},"title":"Neurovascular coupling analysis based on multivariate variational gaussian process convergent cross-mapping","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:D03iK_w7-QYC"},
-  {"id":"pop00027","author":[{"family":"Guan","given":"S"},{"family":"Li","given":"Y"},{"family":"Luo","given":"Y"},{"family":"Niu","given":"H"},{"family":"Gao","given":"Y"},{"family":"Yang","given":"D"},{"family":"Li","given":"R"}],"citation-key":"pop00027","container-title":"Neurophotonics","issue":"4","issued":{"date-parts":[["2024"]]},"page":"45006–45006","title":"Disentangling the impact of motion artifact correction algorithms on functional near-infrared spectroscopy–based brain network analysis","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:b0M2c_1WBrUC","volume":"11"},
-  {"id":"pop00028","author":[{"family":"Miller","given":"JG"},{"family":"Sharifi","given":"R"},{"family":"Piccirilli","given":"A"},{"family":"Li","given":"R"},{"family":"Lee","given":"CH"},{"family":"Bartholomay","given":"KL"},{"family":"Jordan","given":"TL"},{"literal":"..."}],"citation-key":"pop00028","container-title":"Development and Psychopathology","issue":"3","issued":{"date-parts":[["2024"]]},"page":"1154–1165","title":"Social gaze behavior and hyperarousal in young females with fragile X syndrome: A within-person approach","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:SeFeTyx0c_EC","volume":"36"},
-  {"id":"pop00029","author":[{"family":"Jiao","given":"B"},{"family":"Li","given":"R"},{"family":"Zhou","given":"H"},{"family":"Qing","given":"K"},{"family":"Liu","given":"H"},{"family":"Pan","given":"H"},{"family":"Lei","given":"Y"},{"family":"Fu","given":"W"},{"family":"Wang","given":"X"},{"family":"Xiao","given":"X"},{"literal":"..."}],"citation-key":"pop00029","container-title":"Alzheimer's research &therapy","issue":"1","issued":{"date-parts":[["2023"]]},"page":"32–32","title":"Neural biomarker diagnosis and prediction to mild cognitive impairment and Alzheimer’s disease using EEG technology","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:ldfaerwXgEUC","volume":"15"},
-  {"id":"pop00030","author":[{"family":"Balters","given":"S"},{"family":"Miller","given":"JG"},{"family":"Li","given":"R"},{"family":"Hawthorne","given":"G"},{"family":"Reiss","given":"AL"}],"citation-key":"pop00030","container-title":"Journal of Neuroscience","issue":"14","issued":{"date-parts":[["2023"]]},"page":"2568–2578","title":"Virtual (Zoom) interactions alter conversational behavior and interbrain coherence","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:M05iB0D1s5AC","volume":"43"},
-  {"id":"pop00031","author":[{"family":"Li","given":"R"},{"family":"Hosseini","given":"H"},{"family":"Saggar","given":"M"},{"family":"Balters","given":"SC"},{"family":"Reiss","given":"AL"}],"citation-key":"pop00031","container-title":"Neurophotonics","issue":"1","issued":{"date-parts":[["2023"]]},"page":"13505–13505","title":"Current opinions on the present and future use of functional near-infrared spectroscopy in psychiatry","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:2P1L_qKh6hAC","volume":"10"},
-  {"id":"pop00032","author":[{"family":"Li","given":"R"},{"family":"Bruno","given":"JL"},{"family":"Jordan","given":"T"},{"family":"Miller","given":"JG"},{"family":"Lee","given":"CH"},{"family":"Bartholomay","given":"KL"},{"family":"Marzelli","given":"MJ"},{"literal":"..."}],"citation-key":"pop00032","container-title":"Biological Psychiatry: Cognitive Neuroscience and Neuroimaging","issue":"3","issued":{"date-parts":[["2023"]]},"page":"311–319","title":"Aberrant neural response during face processing in girls with fragile X syndrome: defining potential brain biomarkers for treatment studies","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:hMod-77fHWUC","volume":"8"},
-  {"id":"pop00033","author":[{"family":"Li","given":"R"},{"family":"Lightbody","given":"AA"},{"family":"Lee","given":"CH"},{"family":"Bartholomay","given":"KL"},{"family":"Marzelli","given":"MJ"},{"family":"Reiss","given":"AL"}],"citation-key":"pop00033","container-title":"Biological psychiatry","issue":"10","issued":{"date-parts":[["2023"]]},"page":"814–822","title":"Association of intrinsic functional brain network and longitudinal development of cognitive behavioral symptoms in young girls with fragile X syndrome","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:HoB7MX3m0LUC","volume":"94"},
-  {"id":"pop00034","author":[{"family":"Li","given":"R"},{"family":"Hosseini","given":"H"},{"family":"Saggar","given":"M"},{"family":"Balters","given":"SC"},{"family":"Reiss","given":"AL"}],"citation-key":"pop00034","issued":{"date-parts":[["2023"]]},"title":"Current opinions on the present and future use of functional near-infrared spectroscopy in psychiatry. Neurophotonics, 10 (1): 013505","type":"document","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:K3LRdlH-MEoC"},
-  {"id":"pop00035","author":[{"family":"Fang","given":"F"},{"family":"Cammon","given":"J"},{"family":"Li","given":"R"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00035","container-title":"Frontiers in Neuroscience","issued":{"date-parts":[["2023"]]},"page":"1153786–1153786","title":"Test and re-test reliability of optimal stimulation targets and parameters for personalized neuromodulation","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:ZHo1McVdvXMC","volume":"17"},
-  {"id":"pop00036","author":[{"family":"Lei","given":"Y"},{"family":"Chen","given":"H"},{"family":"Li","given":"R"},{"family":"Zhou","given":"J"},{"family":"Cui","given":"N"}],"citation-key":"pop00036","container-title":"2023 45th Annual International Conference of the IEEE Engineering in …","issued":{"date-parts":[["2023"]]},"title":"Dynamic cortical connectivity alterations associated with Major Depressive Disorder: an EEG study","type":"Conference paper","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:fPk4N6BV_jEC"},
-  {"id":"pop00037","author":[{"family":"Li","given":"R"},{"family":"Yang","given":"D"},{"family":"Fang","given":"F"},{"family":"Hong","given":"KS"},{"family":"Reiss","given":"AL"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00037","container-title":"Sensors","issue":"15","issued":{"date-parts":[["2022"]]},"page":"5865–5865","title":"Concurrent fNIRS and EEG for brain function investigation: a systematic, methodology-focused review","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:lSLTfruPkqcC","volume":"22"},
-  {"id":"pop00038","author":[{"family":"Li","given":"X"},{"family":"Fang","given":"F"},{"family":"Li","given":"R"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00038","container-title":"Frontiers in Bioengineering and Biotechnology","issued":{"date-parts":[["2022"]]},"page":"925970–925970","title":"Functional brain controllability alterations in stroke","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:RYcK_YlVTxYC","volume":"10"},
-  {"id":"pop00039","author":[{"family":"Liu","given":"J"},{"family":"Sun","given":"L"},{"family":"Liu","given":"J"},{"family":"Huang","given":"M"},{"family":"Xu","given":"Y"},{"family":"Li","given":"R"}],"citation-key":"pop00039","container-title":"Frontiers in Neuroscience","issued":{"date-parts":[["2022"]]},"page":"884475–884475","title":"Enhancing emotion recognition using region-specific electroencephalogram data and dynamic functional connectivity","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:BqipwSGYUEgC","volume":"16"},
-  {"id":"pop00040","author":[{"family":"Li","given":"R"},{"family":"Bruno","given":"JL"},{"family":"Lee","given":"CH"},{"family":"Bartholomay","given":"KL"},{"family":"Sundstrom","given":"J"},{"family":"Piccirilli","given":"A"},{"literal":"..."}],"citation-key":"pop00040","container-title":"Molecular psychiatry","issue":"9","issued":{"date-parts":[["2022"]]},"page":"3768–3776","title":"Aberrant brain network and eye gaze patterns during natural social interaction predict multi-domain social-cognitive behaviors in girls with fragile X syndrome","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:GnPB-g6toBAC","volume":"27"},
-  {"id":"pop00041","author":[{"family":"Liu","given":"H"},{"family":"Gao","given":"Y"},{"family":"Huang","given":"W"},{"family":"Li","given":"R"},{"family":"Houston","given":"M"},{"family":"Benoit","given":"JS"},{"family":"Roh","given":"J"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00041","container-title-short":"Math. Biosci. Eng","issued":{"date-parts":[["2022"]]},"page":"4506–4525","title":"Inter-muscular coherence and functional coordination in the human upper extremity after stroke","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:YFjsv_pBGBYC","volume":"19"},
-  {"id":"pop00042","author":[{"family":"Espil","given":"FM"},{"family":"Balters","given":"S"},{"family":"Li","given":"R"},{"family":"McCurdy","given":"BH"},{"family":"Kletter","given":"H"},{"family":"Piccirilli","given":"A"},{"family":"Cohen","given":"JA"},{"literal":"..."}],"citation-key":"pop00042","container-title":"Journal of Psychiatric Research","issued":{"date-parts":[["2022"]]},"page":"25–35","title":"Cortical activation predicts posttraumatic improvement in youth treated with TF-CBT or CCT","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:70eg2SAEIzsC","volume":"156"},
-  {"id":"pop00043","author":[{"family":"Liu","given":"J"},{"family":"Sun","given":"X"},{"family":"Li","given":"R"},{"family":"Peng","given":"Y"}],"citation-key":"pop00043","container-title":"Current Medical Imaging Reviews","issue":"11","issued":{"date-parts":[["2022"]]},"page":"1204–1213","title":"Recognition of cervical precancerous lesions based on probability distribution feature guidance","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:vV6vV6tmYwMC","volume":"18"},
-  {"id":"pop00044","author":[{"family":"Li","given":"R"},{"family":"Mayseless","given":"N"},{"family":"Balters","given":"S"},{"family":"Reiss","given":"AL"}],"citation-key":"pop00044","container-title":"NeuroImage","issued":{"date-parts":[["2021"]]},"page":"118263–118263","title":"Dynamic inter-brain synchrony in real-life inter-personal cooperation: A functional near-infrared spectroscopy hyperscanning study","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:blknAaTinKkC","volume":"238"},
-  {"id":"pop00045","author":[{"family":"Ren","given":"Z"},{"family":"Li","given":"R"},{"family":"Chen","given":"B"},{"family":"Zhang","given":"H"},{"family":"Ma","given":"Y"},{"family":"Wang","given":"C"},{"family":"Lin","given":"Y"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00045","container-title":"Frontiers in Neurorobotics","issued":{"date-parts":[["2021"]]},"page":"618408–618408","title":"EEG-based driving fatigue detection using a two-level learning hierarchy radial basis function","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:JV2RwH3_ST0C","volume":"15"},
-  {"id":"pop00046","author":[{"family":"Balters","given":"S"},{"family":"Li","given":"R"},{"family":"Espil","given":"FM"},{"family":"Piccirilli","given":"A"},{"family":"Liu","given":"N"},{"family":"Gundran","given":"A"},{"family":"Carrion","given":"VG"},{"literal":"..."}],"citation-key":"pop00046","container-title":"Journal of psychiatric research","issued":{"date-parts":[["2021"]]},"page":"494–502","title":"Functional near-infrared spectroscopy brain imaging predicts symptom severity in youth exposed to traumatic stress","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:NMxIlDl6LWMC","volume":"144"},
-  {"id":"pop00047","author":[{"family":"Cicalese","given":"PA"},{"family":"Li","given":"R"},{"family":"Ahmadi","given":"MB"},{"family":"Wang","given":"C"},{"family":"Francis","given":"JT"},{"family":"Selvaraj","given":"S"},{"family":"Schulz","given":"PE"},{"literal":"..."}],"citation-key":"pop00047","container-title":"Journal of neuroscience methods","issued":{"date-parts":[["2020"]]},"page":"108618–108618","title":"An EEG-fNIRS hybridization technique in the four-class classification of alzheimer’s disease","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:iH-uZ7U-co4C","volume":"336"},
-  {"id":"pop00048","author":[{"family":"Li","given":"R"},{"family":"Li","given":"S"},{"family":"Roh","given":"J"},{"family":"Wang","given":"C"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00048","container-title":"Neurorehabilitation and Neural Repair","issue":"12","issued":{"date-parts":[["2020"]]},"page":"1099–1110","title":"Multimodal neuroimaging using concurrent EEG/fNIRS for poststroke recovery assessment: an exploratory study","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:maZDTaKrznsC","volume":"34"},
-  {"id":"pop00049","author":[{"family":"Li","given":"R"},{"family":"Zhao","given":"C"},{"family":"Wang","given":"C"},{"family":"Wang","given":"J"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00049","container-title":"IEEE Transactions on Biomedical Engineering","issue":"10","issued":{"date-parts":[["2020"]]},"page":"2789–2797","title":"Enhancing fNIRS analysis using EEG rhythmic signatures: an EEG-informed fNIRS analysis study","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:bEWYMUwI8FkC","volume":"67"},
-  {"id":"pop00050","author":[{"family":"Zhang","given":"Q"},{"family":"Hu","given":"Y"},{"family":"Potter","given":"T"},{"family":"Li","given":"R"},{"family":"Quach","given":"M"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00050","container-title":"Journal of neuroscience methods","issued":{"date-parts":[["2020"]]},"page":"108447–108447","title":"Establishing functional brain networks using a nonlinear partial directed coherence method to predict epileptic seizures","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:4JMBOYKVnBMC","volume":"329"},
-  {"id":"pop00051","author":[{"family":"Ma","given":"Y"},{"family":"Zhang","given":"S"},{"family":"Qi","given":"D"},{"family":"Luo","given":"Z"},{"family":"Li","given":"R"},{"family":"Potter","given":"T"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00051","container-title":"Electronics","issue":"5","issued":{"date-parts":[["2020"]]},"page":"775–775","title":"Driving drowsiness detection with EEG using a modified hierarchical extreme learning machine algorithm with particle swarm optimization: A pilot study","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:TFP_iSt0sucC","volume":"9"},
-  {"id":"pop00052","author":[{"family":"She","given":"Q"},{"family":"Zou","given":"J"},{"family":"Luo","given":"Z"},{"family":"Nguyen","given":"T"},{"family":"Li","given":"R"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00052","container-title":"Medical &biological engineering &computing","issue":"9","issued":{"date-parts":[["2020"]]},"page":"2119–2130","title":"Multi-class motor imagery EEG classification using collaborative representation-based semi-supervised extreme learning machine","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:isC4tDSrTZIC","volume":"58"},
-  {"id":"pop00053","author":[{"family":"Houston","given":"M"},{"family":"Li","given":"R"},{"family":"Roh","given":"J"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00053","container-title":"2020 42nd Annual International Conference of the IEEE Engineering in …","issued":{"date-parts":[["2020"]]},"title":"Altered muscle networks in post-stroke survivors","type":"Conference paper","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:k_IJM867U9cC"},
-  {"id":"pop00054","author":[{"family":"Li","given":"R"}],"citation-key":"pop00054","container-title":"University of Houston","issued":{"date-parts":[["2020"]]},"title":"Cortical reorganization characterization using multimodal EEG− FNIRS integration analysis","type":"article-journal","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:RGFaLdJalmkC"},
-  {"id":"pop00055","author":[{"family":"Li","given":"R"},{"family":"Nguyen","given":"T"},{"family":"Potter","given":"T"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00055","container-title":"NeuroImage: Clinical","issued":{"date-parts":[["2019"]]},"page":"101622–101622","title":"Dynamic cortical connectivity alterations associated with Alzheimer's disease: An EEG and fNIRS integration study","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:-f6ydRqryjwC","volume":"21"},
-  {"id":"pop00056","author":[{"family":"Ma","given":"Y"},{"family":"Chen","given":"B"},{"family":"Li","given":"R"},{"family":"Wang","given":"C"},{"family":"Wang","given":"J"},{"family":"She","given":"Q"},{"family":"Luo","given":"Z"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00056","container-title":"Computational intelligence and neuroscience","issue":"1","issued":{"date-parts":[["2019"]]},"page":"4721863–4721863","title":"Driving fatigue detection from EEG using a modified PCANet method","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:e5wmG9Sq2KIC","volume":"2019"},
-  {"id":"pop00057","author":[{"family":"Li","given":"R"},{"family":"Rui","given":"G"},{"family":"Zhao","given":"C"},{"family":"Wang","given":"C"},{"family":"Fang","given":"F"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00057","container-title":"IEEE Transactions on Neural Systems and Rehabilitation Engineering 28 (1 …","issued":{"date-parts":[["2019"]]},"title":"Functional network alterations in patients with amnestic mild cognitive impairment characterized using functional near-infrared spectroscopy","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:r0BpntZqJG4C"},
-  {"id":"pop00058","author":[{"family":"Li","given":"Y"},{"family":"Peng","given":"Y"},{"family":"Yang","given":"X"},{"family":"Lu","given":"S"},{"family":"Gao","given":"J"},{"family":"Lin","given":"C"},{"family":"Li","given":"R"}],"citation-key":"pop00058","container-title":"Biomedical engineering online","issue":"1","issued":{"date-parts":[["2019"]]},"page":"34–34","title":"Analysis of measurement electrode location in bladder urine monitoring using electrical impedance","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:HDshCWvjkbEC","volume":"18"},
-  {"id":"pop00059","author":[{"family":"Gao","given":"Y"},{"family":"Su","given":"H"},{"family":"Li","given":"R"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00059","container-title":"Computers in Biology and Medicine","issued":{"date-parts":[["2019"]]},"page":"272–279","title":"Synchronous analysis of brain regions based on multi-scale permutation transfer entropy","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:R3hNpaxXUhUC","volume":"109"},
-  {"id":"pop00060","author":[{"family":"Li","given":"R"},{"family":"Potter","given":"T"},{"family":"Wang","given":"J"},{"family":"Shi","given":"Z"},{"family":"Wang","given":"C"},{"family":"Yang","given":"L"},{"family":"Chan","given":"R"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00060","container-title":"Frontiers in Human Neuroscience","issued":{"date-parts":[["2019"]]},"page":"90–90","title":"Cortical hemodynamic response and connectivity modulated by sub-threshold high-frequency repetitive transcranial magnetic stimulation","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:mB3voiENLucC","volume":"13"},
-  {"id":"pop00061","author":[{"family":"Deng","given":"Z"},{"family":"Wu","given":"W"},{"family":"Wang","given":"N"},{"family":"Arafat","given":"W"},{"family":"Li","given":"Z"},{"family":"Wang","given":"J"},{"family":"Ren","given":"C"},{"family":"Li","given":"R"},{"family":"Wang","given":"T"},{"literal":"..."}],"citation-key":"pop00061","container-title":"Clinical Neurology and Neurosurgery","issued":{"date-parts":[["2019"]]},"page":"11–16","title":"Emergency glioma resection but not hours of operation predicts perioperative complications: a single center study","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:_Qo2XoVZTnwC","volume":"182"},
-  {"id":"pop00062","author":[{"family":"Hu","given":"Y"},{"family":"Zhang","given":"Q"},{"family":"Li","given":"R"},{"family":"Potter","given":"T"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00062","container-title":"2019 9th International IEEE/EMBS Conference on Neural Engineering (NER)","issued":{"date-parts":[["2019"]]},"page":"130–133","title":"Graph-based brain network analysis in epilepsy: An EEG study","type":"Conference paper","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:TQgYirikUcIC"},
-  {"id":"pop00063","author":[{"family":"Zhao","given":"C"},{"family":"Li","given":"R"},{"family":"Wang","given":"C"},{"family":"Huang","given":"W"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00063","container-title":"2019 9th International IEEE/EMBS Conference on Neural Engineering (NER)","issued":{"date-parts":[["2019"]]},"page":"887–890","title":"EEG-based brain network analysis in stroke patients during a motor execution task","type":"Conference paper","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:RHpTSmoSYBkC"},
-  {"id":"pop00064","author":[{"family":"Li","given":"R"},{"family":"Rui","given":"G"},{"family":"Chen","given":"W"},{"family":"Li","given":"S"},{"family":"Schulz","given":"PE"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00064","container-title":"Frontiers in aging neuroscience","issued":{"date-parts":[["2018"]]},"page":"366–366","title":"Early detection of Alzheimer’s disease using non-invasive near-infrared spectroscopy","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:qUcmZB5y_30C","volume":"10"},
-  {"id":"pop00065","author":[{"family":"Gao","given":"Y"},{"family":"Ren","given":"L"},{"family":"Li","given":"R"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00065","container-title":"Frontiers in neurology","issued":{"date-parts":[["2018"]]},"page":"716–716","title":"Electroencephalogram–electromyography coupling analysis in stroke based on symbolic transfer entropy","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:ZeXyd9-uunAC","volume":"8"},
-  {"id":"pop00066","author":[{"family":"Zhang","given":"T"},{"family":"Li","given":"R"},{"family":"Potter","given":"T"},{"family":"Seo","given":"JK"},{"family":"Li","given":"G"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00066","container-title":"International Journal for Numerical Methods in Biomedical Engineering 34 (7 …","issued":{"date-parts":[["2018"]]},"title":"Frequency‐dependent anisotropic modeling and analysis using mfEIT: A computer simulation study","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:IWHjjKOFINEC"},
-  {"id":"pop00067","author":[{"family":"Li","given":"R"},{"family":"Potter","given":"T"},{"family":"Huang","given":"W"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00067","container-title":"Frontiers in human neuroscience","issued":{"date-parts":[["2017"]]},"page":"462–462","title":"Enhancing performance of a hybrid EEG-fNIRS system using channel selection and early temporal features","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:dhFuZR0502QC","volume":"11"},
-  {"id":"pop00068","author":[{"family":"Zhu","given":"G"},{"family":"Li","given":"R"},{"family":"Zhang","given":"T"},{"family":"Lou","given":"D"},{"family":"Wang","given":"R"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00068","container-title":"2017 8th International IEEE/EMBS Conference on Neural Engineering (NER)","issued":{"date-parts":[["2017"]]},"page":"134–137","title":"A simplified hybrid EEG-fNIRS Brain-Computer Interface for motor task classification","type":"Conference paper","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:mVmsd5A6BfQC"},
-  {"id":"pop00069","author":[{"family":"Li","given":"R"},{"family":"Huang","given":"W"},{"family":"Lou","given":"D"},{"family":"Zhu","given":"G"},{"family":"Zhang","given":"T"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00069","container-title":"2017 8th International IEEE/EMBS Conference on Neural Engineering (NER)","issued":{"date-parts":[["2017"]]},"page":"1–4","title":"The feasibility of utilizing EEG-fNIRS to characterize the cortical activation difference between healthy subjects and post-stroke patients","type":"Conference paper","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:7PzlFSSx8tAC"},
-  {"id":"pop00070","author":[{"family":"Li","given":"R"},{"family":"Wang","given":"C"},{"family":"Huang","given":"K"},{"family":"Shi","given":"Z"},{"family":"Wang","given":"J"},{"family":"Zhang","given":"Y"}],"citation-key":"pop00070","container-title":"2017 39th Annual International Conference of the IEEE Engineering in …","issued":{"date-parts":[["2017"]]},"title":"Blood oxygenation changes resulting from subthreshold high frequency repetitive transcranial magnetic stimulation","type":"Conference paper","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:L8Ckcad2t8MC"},
-  {"id":"pop00071","author":[{"family":"Wu","given":"J"},{"family":"Gao","given":"J"},{"family":"Song","given":"R"},{"family":"Li","given":"R"},{"family":"Li","given":"Y"},{"family":"Jiang","given":"L"}],"citation-key":"pop00071","container-title":"Mechatronics","issued":{"date-parts":[["2016"]]},"page":"13–22","title":"The design and control of a 3DOF lower limb rehabilitation robot","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:Tyk-4Ss8FVUC","volume":"33"},
-  {"id":"pop00072","author":[{"family":"Li","given":"R"},{"family":"Gao","given":"J"},{"family":"Li","given":"Y"},{"family":"Wu","given":"J"},{"family":"Zhao","given":"Z"},{"family":"Liu","given":"Y"}],"citation-key":"pop00072","container-title":"Journal of Medical and Biological Engineering","issue":"1","issued":{"date-parts":[["2016"]]},"page":"71–79","title":"Preliminary study of assessing bladder urinary volume using electrical impedance tomography","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:4DMP91E08xMC","volume":"36"},
-  {"id":"pop00073","author":[{"family":"Wu","given":"J"},{"family":"Gao","given":"J"},{"family":"Li","given":"R"},{"family":"Li","given":"Y"}],"citation-key":"pop00073","container-title":"Proceeding of the 11th World Congress on Intelligent Control and Automation …","issued":{"date-parts":[["2014"]]},"title":"An anlde rehabilitation device and its control strategy","type":"Conference paper","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:hFOr9nPyWt4C"},
-  {"id":"pop00076","author":[{"family":"Li","given":"R"},{"family":"Gao","given":"J"},{"family":"Wang","given":"H"},{"family":"Jiang","given":"Q"}],"citation-key":"pop00076","container-title":"Engineering","issue":"10","issued":{"date-parts":[["2013"]]},"page":"321–325","title":"Design of a noninvasive bladder urinary volume monitoring system based on bio-impedance","type":"Journal article","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:2osOgNQ5qMEC","volume":"5"},
-  {"id":"pop00077","author":[{"family":"Chan","given":"GHL"},{"family":"Chuk","given":"T"},{"family":"Gao","given":"J"},{"family":"Wong","given":"AYL"},{"family":"Fong","given":"GCH"},{"family":"Privitera","given":"AJ"},{"family":"Lee","given":"JLC"},{"literal":"..."}],"citation-key":"pop00077","container-title":"Available at SSRN 5286628,","title":"Eeglabeler: a novel machine learning-based system for automated eeg component labeling","type":"article-journal","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:XiSMed-E-HIC"},
-  {"id":"pop00078","author":[{"family":"Zhou","given":"Y"},{"family":"Yu","given":"X"},{"family":"Lin","given":"H"},{"family":"Li","given":"R"},{"family":"Liang","given":"J"},{"family":"Shi","given":"X"},{"family":"Luo","given":"Y"}],"citation-key":"pop00078","container-title":"Available at SSRN 4945098,","title":"Depression severity identification based on shallow 2d self-attention-cnn using eeg functional connectivity network","type":"article-journal","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:uWQEDVKXjbEC"},
-  {"id":"pop00079","author":[{"family":"Wu","given":"J"},{"family":"Gao","given":"J"},{"family":"Li","given":"R"},{"family":"Li","given":"Y"}],"citation-key":"pop00079","title":"An ankle rehabilitation device and its control","type":"document","URL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&pagesize=100&citation_for_view=vfaP4OQAAAAJ:qjMakFHDy7sC"}
+	{
+		"id": "zhou2026shallow",
+		"type": "article-journal",
+		"container-title": "Biomedical Signal Processing and Control",
+		"DOI": "10.1016/j.bspc.2025.109397",
+		"note": "publisher: Elsevier",
+		"page": "109397",
+		"title": "A shallow 2D self-attention-CNN framework for depression severity identification using EEG functional connectivity network",
+		"volume": "115",
+		"author": [
+			{
+				"family": "Zhou",
+				"given": "Yihan"
+			},
+			{
+				"family": "Yu",
+				"given": "Xiaokang"
+			},
+			{
+				"family": "Lin",
+				"given": "Huiping"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Liang",
+				"given": "Jiuxing"
+			},
+			{
+				"family": "Shi",
+				"given": "Xue"
+			},
+			{
+				"family": "Luo",
+				"given": "Yuxi"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2026"
+				]
+			]
+		}
+	},
+	{
+		"id": "guan2025advancing",
+		"type": "article-journal",
+		"container-title": "NeuroImage",
+		"note": "publisher: Elsevier",
+		"page": "121663",
+		"title": "Advancing inter-brain synchrony measurement: A comparative hyperscanning study of diffuse optical tomography and functional near-infrared spectroscopy",
+		"author": [
+			{
+				"family": "Guan",
+				"given": "Shuo"
+			},
+			{
+				"family": "Li",
+				"given": "Yuhang"
+			},
+			{
+				"family": "Geng",
+				"given": "Yingbo"
+			},
+			{
+				"family": "Li",
+				"given": "Dongyun"
+			},
+			{
+				"family": "Xu",
+				"given": "Qiong"
+			},
+			{
+				"family": "Niu",
+				"given": "Peisong"
+			},
+			{
+				"family": "Yang",
+				"given": "Dalin"
+			},
+			{
+				"family": "Eggebrecht",
+				"given": "Adam"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025"
+				]
+			]
+		}
+	},
+	{
+		"id": "feng2025age",
+		"type": "article-journal",
+		"container-title": "Molecular Psychiatry",
+		"note": "publisher: Nature Publishing Group UK London",
+		"page": "1–11",
+		"title": "Age-varying distinct neuroanatomy in young children with autism spectrum disorder and fragile X syndrome",
+		"author": [
+			{
+				"family": "Feng",
+				"given": "Danyong"
+			},
+			{
+				"family": "Li",
+				"given": "Dongyun"
+			},
+			{
+				"family": "Hu",
+				"given": "Chunchun"
+			},
+			{
+				"family": "Tian",
+				"given": "Yuxin"
+			},
+			{
+				"family": "Xu",
+				"given": "Xiu"
+			},
+			{
+				"family": "Hagerman",
+				"given": "Randi Jenssen"
+			},
+			{
+				"family": "Xu",
+				"given": "Qiong"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2025distinct",
+		"type": "article-journal",
+		"container-title": "Molecular Psychiatry",
+		"issue": "11",
+		"note": "publisher: Nature Publishing Group UK London",
+		"page": "5255–5263",
+		"title": "Distinct and shared intrinsic resting-state functional networks in children with idiopathic autism spectrum disorder and fragile X syndrome",
+		"volume": "30",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Dongyun"
+			},
+			{
+				"family": "Feng",
+				"given": "Danyong"
+			},
+			{
+				"family": "Hu",
+				"given": "Chunchun"
+			},
+			{
+				"family": "Tian",
+				"given": "Yuxin"
+			},
+			{
+				"family": "Reiss",
+				"given": "Allan L"
+			},
+			{
+				"family": "Hagerman",
+				"given": "Randi J"
+			},
+			{
+				"family": "Xu",
+				"given": "Xiu"
+			},
+			{
+				"family": "Qiao",
+				"given": "Zhongwei"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Xu",
+				"given": "Qiong"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2025effect",
+		"type": "article-journal",
+		"container-title": "Language Learning",
+		"note": "publisher: Wiley Online Library",
+		"title": "Effect of teacher–student interaction on language learning under anxiety: An fNIRS-Based hyperscanning study",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Jiaze"
+			},
+			{
+				"family": "Li",
+				"given": "Yuhang"
+			},
+			{
+				"family": "Wang",
+				"given": "Hanyu"
+			},
+			{
+				"family": "Chen",
+				"given": "Jielu"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Zhang",
+				"given": "Haoyun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2025atypical",
+		"type": "article-journal",
+		"title": "Atypical inter-brain synchrony and social communication deficits in girls with fragile X syndrome: Evidence from functional near-infrared spectroscopy hyperscanning",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Dybvik",
+				"given": "Henrikke"
+			},
+			{
+				"family": "Feng",
+				"given": "Danyong"
+			},
+			{
+				"family": "Eng",
+				"given": "Cassie"
+			},
+			{
+				"family": "Lee",
+				"given": "Cindy H"
+			},
+			{
+				"family": "Bartholomay",
+				"given": "Kristi L"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			},
+			{
+				"family": "Lightbody",
+				"given": "Amy A"
+			},
+			{
+				"family": "Reiss",
+				"given": "Allan L"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2025erp",
+		"type": "article-journal",
+		"container-title": "NeuroImage",
+		"DOI": "10.1016/j.neuroimage.2025.121541",
+		"note": "publisher: Elsevier",
+		"page": "121541",
+		"title": "ERP-based interbrain causal model reveals closed-loop information interaction in interpersonal negotiations",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Yuqin"
+			},
+			{
+				"family": "Sarah",
+				"given": "Genon"
+			},
+			{
+				"family": "Chen",
+				"given": "Chunli"
+			},
+			{
+				"family": "Jiang",
+				"given": "Lin"
+			},
+			{
+				"family": "Chen",
+				"given": "Baodan"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Liang",
+				"given": "Zhen"
+			},
+			{
+				"family": "Yu",
+				"given": "Jing"
+			},
+			{
+				"family": "Dong",
+				"given": "Debo"
+			},
+			{
+				"family": "Wan",
+				"given": "Fen"
+			},
+			{
+				"family": "Becker",
+				"given": "Benjamin"
+			},
+      {
+				"family": "Yao",
+				"given": "Dezhong"
+			},
+      {
+				"family": "Li",
+				"given": "Fali"
+			},
+      {
+				"family": "Zhang",
+				"given": "Dandan"
+			},{
+				"family": "Xu",
+				"given": "Peng"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025"
+				]
+			]
+		}
+	},
+	{
+		"id": "wang2025diagnosis",
+		"type": "article-journal",
+		"container-title": "IEEE Transactions on Affective Computing",
+		"note": "publisher: IEEE",
+		"title": "The diagnosis method of major depressive disorder using wavelet coherence and state-pathology separation network",
+		"author": [
+			{
+				"family": "Wang",
+				"given": "Guangming"
+			},
+			{
+				"family": "Tao",
+				"given": "Yi"
+			},
+			{
+				"family": "Wu",
+				"given": "Ning"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Lee",
+				"given": "Won Hee"
+			},
+			{
+				"family": "Cao",
+				"given": "Zehong"
+			},
+			{
+				"family": "Yan",
+				"given": "Xiangguo"
+			},
+			{
+				"family": "Chen",
+				"given": "Badong"
+			},
+			{
+				"family": "Wang",
+				"given": "Gang"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025"
+				]
+			]
+		}
+	},
+	{
+		"id": "guan2025advancing",
+		"type": "article-journal",
+		"container-title": "bioRxiv : the preprint server for biology",
+		"journalAbbreviation": "bioRxiv",
+		"note": "publisher: Cold Spring Harbor Laboratory",
+		"page": "2025–07",
+		"title": "Advancing inter-brain synchrony measurement: A comparative hyperscanning study of high-density diffuse optical tomography and functional near-infrared spectroscopy",
+		"author": [
+			{
+				"family": "Guan",
+				"given": "Shuo"
+			},
+			{
+				"family": "Li",
+				"given": "Yuhang"
+			},
+			{
+				"family": "Geng",
+				"given": "Yingbo"
+			},
+			{
+				"family": "Li",
+				"given": "Dongyun"
+			},
+			{
+				"family": "Xu",
+				"given": "Qiong"
+			},
+			{
+				"family": "Yang",
+				"given": "Dalin"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025"
+				]
+			]
+		}
+	},
+	{
+		"id": "gao2025aberrant",
+		"type": "article-journal",
+		"container-title": "Cerebral Cortex",
+		"issue": "7",
+		"note": "publisher: Oxford University Press",
+		"page": "bhaf124",
+		"title": "Aberrant neural activation during inhibitory control in girls with fragile X syndrome",
+		"volume": "35",
+		"author": [
+			{
+				"family": "Gao",
+				"given": "Yuanyuan"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Ma",
+				"given": "Qianheng"
+			},
+			{
+				"family": "Bartholomay",
+				"given": "Kristi L"
+			},
+			{
+				"family": "Lightbody",
+				"given": "Amy A"
+			},
+			{
+				"family": "Reiss",
+				"given": "Allan L"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2025modular",
+		"type": "article-journal",
+		"container-title": "bioRxiv : the preprint server for biology",
+		"journalAbbreviation": "bioRxiv",
+		"note": "publisher: Cold Spring Harbor Laboratory",
+		"page": "2025–06",
+		"title": "Modular inter-brain synchrony network associated with social difficulty in autism spectrum disorder: a graph neural network-driven hyperscanning study",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Yuhang"
+			},
+			{
+				"family": "Zhu",
+				"given": "Yiting"
+			},
+			{
+				"family": "Geng",
+				"given": "Yingbo"
+			},
+			{
+				"family": "Feng",
+				"given": "Danyong"
+			},
+			{
+				"family": "Guan",
+				"given": "Shuo"
+			},
+			{
+				"family": "Li",
+				"given": "Dongyun"
+			},
+			{
+				"family": "Mei",
+				"given": "Lianni"
+			},
+			{
+				"family": "Ding",
+				"given": "Xingyu"
+			},
+			{
+				"family": "Ying",
+				"given": "Yupeng"
+			},
+			{
+				"family": "Tang",
+				"given": "Jiaxuan"
+			},
+			{
+				"family":"Liang",
+        "given":"Jiacheng"
+			},
+      {
+        "family":"Su",
+        "given": "Yueting"
+      },
+      {
+        "family": "Zhang",
+        "given": "Yingchun"
+      },
+      {
+        "family": "Xu",
+        "given": "Qiong"
+      },
+      {
+        "family": "Li",
+        "given": "Rihui"
+      }
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025"
+				]
+			]
+		}
+	},
+	{
+		"id": "guan2025continuous",
+		"type": "article-journal",
+		"container-title": "Sensors",
+		"DOI": "10.3390/s25072040",
+		"issue": "7",
+		"note": "publisher: MDPI",
+		"page": "2040",
+		"title": "Continuous wave-diffuse optical tomography (CW-DOT) in human brain mapping: a review",
+		"volume": "25",
+		"author": [
+			{
+				"family": "Guan",
+				"given": "Shuo"
+			},
+			{
+				"family": "Li",
+				"given": "Yuhang"
+			},
+			{
+				"family": "Gao",
+				"given": "Yuanyuan"
+			},
+			{
+				"family": "Luo",
+				"given": "Yuxi"
+			},
+			{
+				"family": "Zhao",
+				"given": "Hubin"
+			},
+			{
+				"family": "Yang",
+				"given": "Dalin"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025"
+				]
+			]
+		}
+	},
+	
+	{
+		"id": "gao2025longitudinal",
+		"type": "article-journal",
+		"container-title": "Biological Psychiatry",
+		"DOI": "10.1016/j.biopsych.2024.06.020",
+		"issue": "5",
+		"note": "publisher: Elsevier",
+		"page": "499–506",
+		"title": "Longitudinal changes in functional neural activation and sensitization during face processing in fragile X syndrome",
+		"volume": "97",
+		"author": [
+			{
+				"family": "Gao",
+				"given": "Yuanyuan"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Ma",
+				"given": "Qianheng"
+			},
+			{
+				"family": "Bartholomay",
+				"given": "Kristi L"
+			},
+			{
+				"family": "Lightbody",
+				"given": "Amy A"
+			},
+			{
+				"family": "Reiss",
+				"given": "Allan L"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2025associations",
+		"type": "article-journal",
+		"container-title": "European Child & Adolescent Psychiatry",
+		"issue": "2",
+		"note": "publisher: Springer",
+		"page": "585–597",
+		"title": "Associations between brain network, puberty, and behaviors in boys with Klinefelter syndrome",
+		"volume": "34",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Foland-Ross",
+				"given": "Lara C"
+			},
+			{
+				"family": "Jordan",
+				"given": "Tracy"
+			},
+			{
+				"family": "Marzelli",
+				"given": "Matthew J"
+			},
+			{
+				"family": "Ross",
+				"given": "Judith L"
+			},
+			{
+				"family": "Reiss",
+				"given": "Allan L"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2025inter",
+		"type": "article-journal",
+		"container-title": "Psychoradiology",
+		"note": "publisher: Oxford University Press",
+		"page": "kkaf025",
+		"title": "Inter-brain synchrony to delineate the social impairment in autism spectrum disorder: a systematic review on hyperscanning studies",
+		"volume": "5",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Yuhang"
+			},
+			{
+				"family": "Guan",
+				"given": "Shuo"
+			},
+			{
+				"family": "Yang",
+				"given": "Dalin"
+			},
+			{
+				"family": "Li",
+				"given": "Dongyun"
+			},
+			{
+				"family": "Xu",
+				"given": "Qiong"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025"
+				]
+			]
+		}
+	},
+	{
+		"id": "she2024lucf",
+		"type": "article-journal",
+		"container-title": "IEEE Journal of Biomedical and Health Informatics",
+		"note": "publisher: IEEE",
+		"title": "LUCF-Net: Lightweight U-shaped cascade fusion network for medical image segmentation",
+		"author": [
+			{
+				"family": "She",
+				"given": "Qingshan"
+			},
+			{
+				"family": "Sun",
+				"given": "Songkai"
+			},
+			{
+				"family": "Ma",
+				"given": "Yuliang"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "wan2024multimodal",
+		"type": "article-journal",
+		"abstract": "Background: Autism spectrum disorder (ASD) has been associated with disrupted brain connectivity, yet a comprehensive understanding of the dynamic neural underpinnings remains lacking. This study employed concurrent electroencephalography (EEG) and functional near-infrared spectroscopy (fNIRS) techniques to investigate dynamic functional connectivity (dFC) patterns and neurovascular characteristics in children with ASD. We also explored associations between neurovascular characteristics and the developmental trajectory of adaptive behavior in individuals with ASD. Methods: Resting-state EEG and fNIRS data were simultaneously recorded from 58 ASD and 63 TD children. We implemented a k-means clustering approach to extract the dFC states for each modality. In addition, a multimodal covariance network (MCN) was constructed from the EEG and fNIRS dFC features to capture the neurovascular characteristics linked to ASD. Results: EEG analyses revealed atypical properties of dFC states in the beta and gamma bands in children with ASD compared to TD children. For fNIRS, the ASD group exhibited atypical properties of dFC states such as duration and transitions relative to the TD group. The MCN analysis revealed significantly suppressed functional covariance between right superior temporal and left Broca's areas, alongside enhanced right dorsolateral prefrontal-left Broca covariance in ASD. Notably, we found that early neurovascular characteristics can predict the developmental progress of adaptive functioning in ASD. Conclusion: The multimodal investigation revealed distinct dFC patterns and neurovascular characteristics associated with ASD, elucidating potential neural mechanisms underlying core symptoms and their developmental trajectories. Our study highlights that integrating complementary neuroimaging modalities may aid in unraveling the complex neurobiology of ASD. © 2024 The Author(s)",
+		"archive": "Scopus",
+		"archive_location": "WOS:001343799400001",
+		"container-title": "NeuroImage",
+		"DOI": "10.1016/j.neuroimage.2024.120895",
+		"ISSN": "10538119 (ISSN)",
+		"journalAbbreviation": "NeuroImage",
+		"language": "English",
+		"note": "publisher: Elsevier",
+		"page": "120895",
+		"title": "Multimodal investigation of dynamic brain network alterations in autism spectrum disorder: Linking connectivity dynamics to symptoms and developmental trajectories",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85207151253&doi=10.1016%2fj.neuroimage.2024.120895&partnerID=40&md5=08b0ae31be48804f18122835550387f5",
+		"volume": "302",
+		"author": [
+			{
+				"family": "Wan",
+				"given": "Lin"
+			},
+			{
+				"family": "Li",
+				"given": "Yuhang"
+			},
+			{
+				"family": "Zhu",
+				"given": "Gang"
+			},
+			{
+				"family": "Yang",
+				"given": "Dalin"
+			},
+			{
+				"family": "Li",
+				"given": "Fali"
+			},
+			{
+				"family": "Wang",
+				"given": "Wen"
+			},
+			{
+				"family": "Chen",
+				"given": "Jian"
+			},
+			{
+				"family": "Yang",
+				"given": "Guang"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					11,
+					8
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "liu2024mixformer",
+		"type": "article-journal",
+		"container-title": "IEEE Transactions on Instrumentation and Measurement",
+		"note": "publisher: IEEE",
+		"title": "MixFormer: a mixed CNN-transformer backbone for medical image segmentation",
+		"author": [
+			{
+				"family": "Liu",
+				"given": "Jun"
+			},
+			{
+				"family": "Li",
+				"given": "Kunqi"
+			},
+			{
+				"family": "Huang",
+				"given": "Chun"
+			},
+			{
+				"family": "Dong",
+				"given": "Hua"
+			},
+			{
+				"family": "Song",
+				"given": "Yusheng"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "guan2024disentangling",
+		"type": "article-journal",
+		"container-title": "Neurophotonics",
+		"issue": "4",
+		"note": "publisher: Society of Photo-Optical Instrumentation Engineers",
+		"page": "045006–045006",
+		"title": "Disentangling the impact of motion artifact correction algorithms on functional near-infrared spectroscopy–based brain network analysis",
+		"volume": "11",
+		"author": [
+			{
+				"family": "Guan",
+				"given": "Shuo"
+			},
+			{
+				"family": "Li",
+				"given": "Yuhang"
+			},
+			{
+				"family": "Luo",
+				"given": "Yuxi"
+			},
+			{
+				"family": "Niu",
+				"given": "Haijing"
+			},
+			{
+				"family": "Gao",
+				"given": "Yuanyuan"
+			},
+			{
+				"family": "Yang",
+				"given": "Dalin"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "miller2024social",
+		"type": "article-journal",
+		"container-title": "Development and Psychopathology",
+		"DOI": "10.1017/S095457942300038X",
+		"issue": "3",
+		"note": "publisher: Cambridge University Press",
+		"page": "1154–1165",
+		"title": "Social gaze behavior and hyperarousal in young females with fragile X syndrome: A within-person approach",
+		"volume": "36",
+		"author": [
+			{
+				"family": "Miller",
+				"given": "Jonas G"
+			},
+			{
+				"family": "Sharifi",
+				"given": "Roxanna"
+			},
+			{
+				"family": "Piccirilli",
+				"given": "Aaron"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Lee",
+				"given": "Cindy H"
+			},
+			{
+				"family": "Bartholomay",
+				"given": "Kristi L"
+			},
+			{
+				"family": "Jordan",
+				"given": "Tracy L"
+			},
+			{
+				"family": "Marzelli",
+				"given": "Matthew J"
+			},
+			{
+				"family": "Bruno",
+				"given": "Jennifer L"
+			},
+			{
+				"family": "Lightbody",
+				"given": "Amy A"
+			},
+			{
+				"family": "Reiss",
+        "given": "Allan L"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "gao2024childhood",
+		"type": "article-journal",
+		"container-title": "NeuroToxicology",
+		"DOI": "10.1016/j.neuro.2024.06.011",
+		"note": "publisher: Elsevier",
+		"page": "206–214",
+		"title": "Childhood exposure to organophosphate pesticides: Functional connectivity and working memory in adolescents",
+		"volume": "103",
+		"author": [
+			{
+				"family": "Gao",
+				"given": "Yuanyuan"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Ma",
+				"given": "Qianheng"
+			},
+			{
+				"family": "Baker",
+				"given": "Joseph M"
+			},
+			{
+				"family": "Rauch",
+				"given": "Stephen"
+			},
+			{
+				"family": "Gunier",
+				"given": "Robert B"
+			},
+			{
+				"family": "Mora",
+				"given": "Ana M"
+			},
+			{
+				"family": "Kogut",
+				"given": "Katherine"
+			},
+			{
+				"family": "Bradman",
+				"given": "Asa"
+			},
+			{
+				"family": "Eskenazi",
+				"given": "Brenda"
+			},
+			{
+				"family": "Reiss",
+        "given": "Allan L"
+			},
+      {
+        "family": "Sagiv",
+        "given": "Sharon K"
+      }
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "chen2024resting",
+		"type": "article-journal",
+		"container-title": "Molecular Psychiatry",
+		"DOI": "10.1038/s41380-023-02395-3",
+		"issue": "4",
+		"note": "publisher: Nature Publishing Group UK London",
+		"page": "1088–1098",
+		"title": "Resting-state EEG dynamic functional connectivity distinguishes non-psychotic major depression, psychotic major depression and schizophrenia",
+		"volume": "29",
+		"author": [
+			{
+				"family": "Chen",
+				"given": "Hui"
+			},
+			{
+				"family": "Lei",
+				"given": "Yanqin"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Xia",
+				"given": "Xinxin"
+			},
+			{
+				"family": "Cui",
+				"given": "Nanyi"
+			},
+			{
+				"family": "Chen",
+				"given": "Xianliang"
+			},
+			{
+				"family": "Liu",
+				"given": "Jiali"
+			},
+			{
+				"family": "Tang",
+				"given": "Huajia"
+			},
+			{
+				"family": "Zhou",
+				"given": "Jiawei"
+			},
+			{
+				"family": "Huang",
+				"given": "Ying"
+			},
+			{
+				"family": "Tian",
+        "given": "Yusheng"
+			},
+      {
+        "family": "Wang",
+        "given": "Xiaoping"
+      },
+      {
+        "family": "Zhou",
+        "given": "Jiansong"
+      }
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "fang2024control",
+		"type": "article-journal",
+		"abstract": "Perceiving and modulating emotions is vital for cognitive function and is often impaired in neuropsychiatric conditions. Current tools for evaluating emotional dysregulation suffer from subjectivity and lack of precision, especially when it comes to understanding emotion from a regulatory or control-based perspective. To address these limitations, this study leverages an advanced methodology known as functional brain controllability analysis. We simultaneously recorded electroencephalography (EEG) and functional magnetic resonance imaging (fMRI) data from 17 healthy subjects engaged in emotion processing and regulation tasks. We then employed a novel EEG/fMRI integration technique to reconstruct cortical activity in a high spatiotemporal resolution manner. Subsequently, we conducted functional brain controllability analysis to explore the neural network control patterns underlying different emotion conditions. Our findings demonstrated that the dorsolateral and ventrolateral prefrontal cortex exhibited increased controllability during the processing and regulation of negative emotions compared to processing of neutral emotion. Besides, the anterior cingulate cortex was notably more active in managing negative emotion than in either controlling neutral emotion or regulating negative emotion. Finally, the posterior parietal cortex emerged as a central network controller for the regulation of negative emotion. This study offers valuable insights into the cortical control mechanisms that support emotion perception and regulation. © The Author(s) 2024. Published by Oxford University Press. All rights reserved.",
+		"archive": "Scopus",
+		"container-title": "Cerebral Cortex",
+		"DOI": "10.1093/cercor/bhad500",
+		"ISSN": "10473211 (ISSN)",
+		"issue": "2",
+		"journalAbbreviation": "Cereb. Cortex",
+		"language": "en-US",
+		"note": "publisher: Oxford University Press",
+		"page": "bhad500",
+		"title": "The control patterns of affective processing and cognitive reappraisal: insights from brain controllability analysis",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85183978686&doi=10.1093%2fcercor%2fbhad500&partnerID=40&md5=d82e3a93911f944489e45f563807a47e",
+		"volume": "34",
+		"author": [
+			{
+				"family": "Fang",
+				"given": "Feng"
+			},
+			{
+				"family": "Teixeira",
+				"given": "Antonio L"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Zou",
+				"given": "Ling"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "zhu2024neurovascular",
+		"type": "article-journal",
+		"container-title": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+		"note": "publisher: IEEE",
+		"page": "1873–1883",
+		"title": "Neurovascular coupling analysis based on multivariate variational Gaussian process convergent cross-mapping",
+		"volume": "32",
+		"author": [
+			{
+				"family": "Zhu",
+				"given": "Renfei"
+			},
+			{
+				"family": "She",
+				"given": "Qingshan"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Tan",
+				"given": "Tongcai"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "zhu2024divergent",
+		"type": "article-journal",
+		"container-title": "Cerebral Cortex",
+		"DOI": "10.1093/cercor/bhad413",
+		"issue": "1",
+		"note": "publisher: Oxford University Press",
+		"page": "bhad413",
+		"title": "Divergent electroencephalogram resting-state functional network alterations in subgroups of autism spectrum disorder: a symptom-based clustering analysis",
+		"volume": "34",
+		"author": [
+			{
+				"family": "Zhu",
+				"given": "Gang"
+			},
+			{
+				"family": "Li",
+				"given": "Yuhang"
+			},
+			{
+				"family": "Wan",
+				"given": "Lin"
+			},
+			{
+				"family": "Sun",
+				"given": "Chunhua"
+			},
+			{
+				"family": "Liu",
+				"given": "Xinting"
+			},
+			{
+				"family": "Zhang",
+				"given": "Jing"
+			},
+			{
+				"family": "Liang",
+				"given": "Yan"
+			},
+			{
+				"family": "Liu",
+				"given": "Guoyin"
+			},
+			{
+				"family": "Yan",
+				"given": "Huimin"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Yang",
+				"given": "Guang"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "liu2024medical",
+		"type": "article-journal",
+		"note": "publisher: Bentham Science Publishers",
+		"title": "Medical image processing based on generative adversarial networks: a systematic review",
+		"author": [
+			{
+				"family": "Liu",
+				"given": "Jun"
+			},
+			{
+				"family": "Li",
+				"given": "Kunqi"
+			},
+			{
+				"family": "Dong",
+				"given": "Hua"
+			},
+			{
+				"family": "Han",
+				"given": "Yuanyuan"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2023association",
+		"type": "article-journal",
+		"container-title": "Biological psychiatry",
+		"issue": "10",
+		"note": "publisher: Elsevier",
+		"page": "814–822",
+		"title": "Association of intrinsic functional brain network and longitudinal development of cognitive behavioral symptoms in young girls with fragile X syndrome",
+		"volume": "94",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Lightbody",
+				"given": "Amy A"
+			},
+			{
+				"family": "Lee",
+				"given": "Cindy H"
+			},
+			{
+				"family": "Bartholomay",
+				"given": "Kristi L"
+			},
+			{
+				"family": "Marzelli",
+				"given": "Matthew J"
+			},
+			{
+				"family": "Reiss",
+				"given": "Allan L"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "lei2023dynamic",
+		"type": "paper-conference",
+		"container-title": "2023 45th annual international conference of the IEEE engineering in medicine & biology society (EMBC)",
+		"page": "1–4",
+		"publisher": "IEEE",
+		"title": "Dynamic cortical connectivity alterations associated with Major Depressive Disorder: an EEG study",
+		"author": [
+			{
+				"family": "Lei",
+				"given": "Yanqin"
+			},
+			{
+				"family": "Chen",
+				"given": "Hui"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Zhou",
+				"given": "Jiansong"
+			},
+			{
+				"family": "Cui",
+				"given": "Nanyi"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "fang2023test",
+		"type": "article-journal",
+		"container-title": "Frontiers in Neuroscience",
+		"DOI": "10.3389/fnins.2023.1153786",
+		"note": "publisher: Frontiers Media SA",
+		"page": "1153786",
+		"title": "Test and re-test reliability of optimal stimulation targets and parameters for personalized neuromodulation",
+		"volume": "17",
+		"author": [
+			{
+				"family": "Fang",
+				"given": "Feng"
+			},
+			{
+				"family": "Cammon",
+				"given": "Jared"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "balters2023virtual",
+		"type": "article-journal",
+		"container-title": "Journal of Neuroscience",
+		"DOI": "10.1523/JNEUROSCI.1401-22.2023",
+		"issue": "14",
+		"note": "publisher: Society for Neuroscience",
+		"page": "2568–2578",
+		"title": "Virtual (Zoom) interactions alter conversational behavior and interbrain coherence",
+		"volume": "43",
+		"author": [
+			{
+				"family": "Balters",
+				"given": "Stephanie"
+			},
+			{
+				"family": "Miller",
+				"given": "Jonas G"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Hawthorne",
+				"given": "Grace"
+			},
+			{
+				"family": "Reiss",
+				"given": "Allan L"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2023aberrant",
+		"type": "article-journal",
+		"container-title": "Biological Psychiatry: Cognitive Neuroscience and Neuroimaging",
+		"issue": "3",
+		"note": "publisher: Elsevier",
+		"page": "311–319",
+		"title": "Aberrant neural response during face processing in girls with fragile X syndrome: defining potential brain biomarkers for treatment studies",
+		"volume": "8",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Bruno",
+				"given": "Jennifer L"
+			},
+			{
+				"family": "Jordan",
+				"given": "Tracy"
+			},
+			{
+				"family": "Miller",
+				"given": "Jonas G"
+			},
+			{
+				"family": "Lee",
+				"given": "Cindy H"
+			},
+			{
+				"family": "Bartholomay",
+				"given": "Kristi L"
+			},
+			{
+				"family": "Marzelli",
+				"given": "Matthew J"
+			},
+			{
+				"family": "Piccirilli",
+				"given": "Aaron"
+			},
+			{
+				"family": "Lightbody",
+				"given": "Amy A"
+			},
+			{
+				"family": "Reiss",
+				"given": "Allan L"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "jiao2023neural",
+		"type": "article-journal",
+		"container-title": "Alzheimer's research & therapy",
+		"issue": "1",
+		"note": "publisher: Springer",
+		"page": "32",
+		"title": "Neural biomarker diagnosis and prediction to mild cognitive impairment and Alzheimer’s disease using EEG technology",
+		"volume": "15",
+		"author": [
+			{
+				"family": "Jiao",
+				"given": "Bin"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Zhou",
+				"given": "Hui"
+			},
+			{
+				"family": "Qing",
+				"given": "Kunqiang"
+			},
+			{
+				"family": "Liu",
+				"given": "Hui"
+			},
+			{
+				"family": "Pan",
+				"given": "Hefu"
+			},
+			{
+				"family": "Lei",
+				"given": "Yanqin"
+			},
+			{
+				"family": "Fu",
+				"given": "Wenjin"
+			},
+			{
+				"family": "Wang",
+				"given": "Xiaoan"
+			},
+			{
+				"family": "Xiao",
+				"given": "Xuewen"
+			},
+			{
+				"family": "Liu",
+				"given": "Xixi"
+			},
+      {
+        "family": "Liao",
+        "given": "Xinxin"
+      },
+      {
+        "family": "Zhou",
+        "given": "Yafang"
+      },
+      {
+        "family": "Fang",
+        "given": "Liangjuan"
+      },
+      {
+        "family": "Dong",
+        "given": "Yanbin"
+      },
+      {
+        "family": "Yang",
+        "given": "Yuanhao"
+      },
+      {
+        "family": "Jiang",
+        "given": "Haiyan"
+      },
+      {
+        "family": "Huang",
+        "given": "Sha"
+      },
+      {
+        "family": "Shen",
+        "given": "Lu"
+      }
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2023current",
+		"type": "article-journal",
+		"container-title": "Neurophotonics",
+		"DOI": "10.1117/1.NPh.10.1.013505",
+		"issue": "1",
+		"note": "publisher: Society of Photo-Optical Instrumentation Engineers",
+		"page": "013505–013505",
+		"title": "Current opinions on the present and future use of functional near-infrared spectroscopy in psychiatry",
+		"volume": "10",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Hosseini",
+				"given": "Hadi"
+			},
+			{
+				"family": "Saggar",
+				"given": "Manish"
+			},
+			{
+				"family": "Balters",
+				"given": "Stephanie Christina"
+			},
+			{
+				"family": "Reiss",
+				"given": "Allan L"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2023current",
+		"type": "document",
+		"title": "Current opinions on the present and future use of functional near-infrared spectroscopy in psychiatry. Neurophotonics, 10 (1): 013505",
+		"author": [
+			{
+				"family": "Li",
+				"given": "R"
+			},
+			{
+				"family": "Hosseini",
+				"given": "H"
+			},
+			{
+				"family": "Saggar",
+				"given": "M"
+			},
+			{
+				"family": "Balters",
+				"given": "SC"
+			},
+			{
+				"family": "Reiss",
+				"given": "AL"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "espil2022cortical",
+		"type": "article-journal",
+		"container-title": "Journal of Psychiatric Research",
+		"DOI": "10.1016/j.jpsychires.2022.10.002",
+		"note": "publisher: Elsevier",
+		"page": "25–35",
+		"title": "Cortical activation predicts posttraumatic improvement in youth treated with TF-CBT or CCT",
+		"volume": "156",
+		"author": [
+			{
+				"family": "Espil",
+				"given": "Flint M"
+			},
+			{
+				"family": "Balters",
+				"given": "Stephanie"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "McCurdy",
+				"given": "Bethany H"
+			},
+			{
+				"family": "Kletter",
+				"given": "Hilit"
+			},
+			{
+				"family": "Piccirilli",
+				"given": "Aaron"
+			},
+			{
+				"family": "Cohen",
+				"given": "Judith A"
+			},
+			{
+				"family": "Weems",
+				"given": "Carl F"
+			},
+			{
+				"family": "Reiss",
+				"given": "Allan L"
+			},
+			{
+				"family": "Carrion",
+				"given": "Victor G"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "liu2022recognition",
+		"type": "article-journal",
+		"container-title": "Current Medical Imaging Reviews",
+		"issue": "11",
+		"note": "publisher: Bentham Science Publishers direct",
+		"page": "1204–1213",
+		"title": "Recognition of cervical precancerous lesions based on probability distribution feature guidance",
+		"volume": "18",
+		"author": [
+			{
+				"family": "Liu",
+				"given": "Jun"
+			},
+			{
+				"family": "Sun",
+				"given": "Xiaoxue"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Peng",
+				"given": "Yuanxiu"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2022aberrant",
+		"type": "article-journal",
+		"container-title": "Molecular psychiatry",
+		"issue": "9",
+		"note": "publisher: Nature Publishing Group UK London",
+		"page": "3768–3776",
+		"title": "Aberrant brain network and eye gaze patterns during natural social interaction predict multi-domain social-cognitive behaviors in girls with fragile X syndrome",
+		"volume": "27",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Bruno",
+				"given": "Jennifer L"
+			},
+			{
+				"family": "Lee",
+				"given": "Cindy H"
+			},
+			{
+				"family": "Bartholomay",
+				"given": "Kristi L"
+			},
+			{
+				"family": "Sundstrom",
+				"given": "Jamie"
+			},
+			{
+				"family": "Piccirilli",
+				"given": "Aaron"
+			},
+			{
+				"family": "Jordan",
+				"given": "Tracy"
+			},
+			{
+				"family": "Miller",
+				"given": "Jonas G"
+			},
+			{
+				"family": "Lightbody",
+				"given": "Amy A"
+			},
+			{
+				"family": "Reiss",
+				"given": "Allan L"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2022concurrent",
+		"type": "article-journal",
+		"container-title": "Sensors",
+		"DOI": "10.3390/s22155865",
+		"issue": "15",
+		"note": "publisher: MDPI",
+		"page": "5865",
+		"title": "Concurrent fNIRS and EEG for brain function investigation: a systematic, methodology-focused review",
+		"volume": "22",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Yang",
+				"given": "Dalin"
+			},
+			{
+				"family": "Fang",
+				"given": "Feng"
+			},
+			{
+				"family": "Hong",
+				"given": "Keum-Shik"
+			},
+			{
+				"family": "Reiss",
+				"given": "Allan L"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2022functional",
+		"type": "article-journal",
+		"container-title": "Frontiers in Bioengineering and Biotechnology",
+		"note": "publisher: Frontiers Media SA",
+		"page": "925970",
+		"title": "Functional brain controllability alterations in stroke",
+		"volume": "10",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Xuhong"
+			},
+			{
+				"family": "Fang",
+				"given": "Feng"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "liu2022enhancing",
+		"type": "article-journal",
+		"container-title": "Frontiers in Neuroscience",
+		"note": "publisher: Frontiers Media SA",
+		"page": "884475",
+		"title": "Enhancing emotion recognition using region-specific electroencephalogram data and dynamic functional connectivity",
+		"volume": "16",
+		"author": [
+			{
+				"family": "Liu",
+				"given": "Jun"
+			},
+			{
+				"family": "Sun",
+				"given": "Lechan"
+			},
+			{
+				"family": "Liu",
+				"given": "Jun"
+			},
+			{
+				"family": "Huang",
+				"given": "Min"
+			},
+			{
+				"family": "Xu",
+				"given": "Yichen"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "liu2022inter",
+		"type": "article-journal",
+    "container-title": "Mathematical Biosciences and Engineering",
+		"journalAbbreviation": "Math. Biosci. Eng",
+		"page": "4506–4525",
+		"title": "Inter-muscular coherence and functional coordination in the human upper extremity after stroke",
+		"volume": "19",
+		"author": [
+			{
+				"family": "Liu",
+				"given": "Hongming"
+			},
+			{
+				"family": "Gao",
+				"given": "Yunyuan"
+			},
+			{
+				"family": "Huang",
+				"given": "Wei"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Houston",
+				"given": "Michael"
+			},
+			{
+				"family": "Benoit",
+				"given": "Julia S"
+			},
+			{
+				"family": "Roh",
+				"given": "Jinsook"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "balters2021functional",
+		"type": "article-journal",
+		"container-title": "Journal of psychiatric research",
+		"DOI": "10.1016/j.jpsychires.2021.10.020",
+		"note": "publisher: Elsevier",
+		"page": "494–502",
+		"title": "Functional near-infrared spectroscopy brain imaging predicts symptom severity in youth exposed to traumatic stress",
+		"volume": "144",
+		"author": [
+			{
+				"family": "Balters",
+				"given": "Stephanie"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Espil",
+				"given": "Flint M"
+			},
+			{
+				"family": "Piccirilli",
+				"given": "Aaron"
+			},
+			{
+				"family": "Liu",
+				"given": "Ning"
+			},
+			{
+				"family": "Gundran",
+				"given": "Andrew"
+			},
+			{
+				"family": "Carrion",
+				"given": "Victor G"
+			},
+			{
+				"family": "Weems",
+				"given": "Carl F"
+			},
+			{
+				"family": "Cohen",
+				"given": "Judith A"
+			},
+			{
+				"family": "Reiss",
+				"given": "Allan L"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2021dynamic",
+		"type": "article-journal",
+		"container-title": "NeuroImage",
+		"DOI": "10.1016/j.neuroimage.2021.118263",
+		"note": "publisher: Elsevier",
+		"page": "118263",
+		"title": "Dynamic inter-brain synchrony in real-life inter-personal cooperation: A functional near-infrared spectroscopy hyperscanning study",
+		"volume": "238",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Mayseless",
+				"given": "Naama"
+			},
+			{
+				"family": "Balters",
+				"given": "Stephanie"
+			},
+			{
+				"family": "Reiss",
+				"given": "Allan L"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "ren2021eeg",
+		"type": "article-journal",
+		"container-title": "Frontiers in Neurorobotics",
+		"DOI": "10.3389/fnbot.2021.618408",
+		"note": "publisher: Frontiers Media SA",
+		"page": "618408",
+		"title": "EEG-based driving fatigue detection using a two-level learning hierarchy radial basis function",
+		"volume": "15",
+		"author": [
+			{
+				"family": "Ren",
+				"given": "Ziwu"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Chen",
+				"given": "Bin"
+			},
+			{
+				"family": "Zhang",
+				"given": "Hongmiao"
+			},
+			{
+				"family": "Ma",
+				"given": "Yuliang"
+			},
+			{
+				"family": "Wang",
+				"given": "Chushan"
+			},
+			{
+				"family": "Lin",
+				"given": "Ying"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2020multimodal",
+		"type": "article-journal",
+		"container-title": "Neurorehabilitation and Neural Repair",
+		"DOI": "10.1177/1545968320969937",
+		"issue": "12",
+		"note": "publisher: SAGE Publications Sage CA: Los Angeles, CA",
+		"page": "1099–1110",
+		"title": "Multimodal neuroimaging using concurrent EEG/fNIRS for poststroke recovery assessment: an exploratory study",
+		"volume": "34",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Li",
+				"given": "Sheng"
+			},
+			{
+				"family": "Roh",
+				"given": "Jinsook"
+			},
+			{
+				"family": "Wang",
+				"given": "Chushan"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "she2020multi",
+		"type": "article-journal",
+		"container-title": "Medical & biological engineering & computing",
+		"issue": "9",
+		"note": "publisher: Springer",
+		"page": "2119–2130",
+		"title": "Multi-class motor imagery EEG classification using collaborative representation-based semi-supervised extreme learning machine",
+		"volume": "58",
+		"author": [
+			{
+				"family": "She",
+				"given": "Qingshan"
+			},
+			{
+				"family": "Zou",
+				"given": "Jie"
+			},
+			{
+				"family": "Luo",
+				"given": "Zhizeng"
+			},
+			{
+				"family": "Nguyen",
+				"given": "Thinh"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "houston2020altered",
+		"type": "paper-conference",
+		"container-title": "2020 42nd annual international conference of the IEEE engineering in medicine & biology society (EMBC)",
+		"page": "3771–3774",
+		"publisher": "IEEE",
+		"title": "Altered muscle networks in post-stroke survivors",
+		"author": [
+			{
+				"family": "Houston",
+				"given": "Michael"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Roh",
+				"given": "Jinsook"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "ma2020driving",
+		"type": "article-journal",
+		"container-title": "Electronics",
+		"DOI": "10.3390/electronics9050775",
+		"issue": "5",
+		"note": "publisher: MDPI",
+		"page": "775",
+		"title": "Driving drowsiness detection with EEG using a modified hierarchical extreme learning machine algorithm with particle swarm optimization: A pilot study",
+		"volume": "9",
+		"author": [
+			{
+				"family": "Ma",
+				"given": "Yuliang"
+			},
+			{
+				"family": "Zhang",
+				"given": "Songjie"
+			},
+			{
+				"family": "Qi",
+				"given": "Donglian"
+			},
+			{
+				"family": "Luo",
+				"given": "Zhizeng"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Potter",
+				"given": "Thomas"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "cicalese2020eeg",
+		"type": "article-journal",
+		"container-title": "Journal of neuroscience methods",
+		"DOI": "10.1016/j.jneumeth.2020.108618",
+		"note": "publisher: Elsevier",
+		"page": "108618",
+		"title": "An EEG-fNIRS hybridization technique in the four-class classification of alzheimer’s disease",
+		"volume": "336",
+		"author": [
+			{
+				"family": "Cicalese",
+				"given": "Pietro A"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Ahmadi",
+				"given": "Mohammad B"
+			},
+			{
+				"family": "Wang",
+				"given": "Chushan"
+			},
+			{
+				"family": "Francis",
+				"given": "Joseph T"
+			},
+			{
+				"family": "Selvaraj",
+				"given": "Sudhakar"
+			},
+			{
+				"family": "Schulz",
+				"given": "Paul E"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2020enhancing",
+		"type": "article-journal",
+		"container-title": "IEEE Transactions on Biomedical Engineering",
+		"DOI": "10.1109/TBME.2020.2971679",
+		"issue": "10",
+		"note": "publisher: IEEE",
+		"page": "2789–2797",
+		"title": "Enhancing fNIRS analysis using EEG rhythmic signatures: an EEG-informed fNIRS analysis study",
+		"volume": "67",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Zhao",
+				"given": "Chunli"
+			},
+			{
+				"family": "Wang",
+				"given": "Chushan"
+			},
+			{
+				"family": "Wang",
+				"given": "Jun"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2020cortical",
+		"type": "thesis",
+		"genre": "phd",
+		"publisher": "University of Houston",
+		"title": "Cortical reorganization characterization using multimodal EEG- FNIRS integration analysis",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "zhang2020establishing",
+		"type": "article-journal",
+		"container-title": "Journal of neuroscience methods",
+		"DOI": "10.1016/j.jneumeth.2019.108447",
+		"note": "publisher: Elsevier",
+		"page": "108447",
+		"title": "Establishing functional brain networks using a nonlinear partial directed coherence method to predict epileptic seizures",
+		"volume": "329",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Qizhong"
+			},
+			{
+				"family": "Hu",
+				"given": "Yuejing"
+			},
+			{
+				"family": "Potter",
+				"given": "Thomas"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Quach",
+				"given": "Michael"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2019functional",
+		"type": "article-journal",
+		"container-title": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+		"DOI": "10.1109/TNSRE.2019.2956464",
+		"issue": "1",
+		"note": "publisher: IEEE",
+		"page": "123–132",
+		"title": "Functional network alterations in patients with amnestic mild cognitive impairment characterized using functional near-infrared spectroscopy",
+		"volume": "28",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Rui",
+				"given": "Guoxing"
+			},
+			{
+				"family": "Zhao",
+				"given": "Chunli"
+			},
+			{
+				"family": "Wang",
+				"given": "Chushan"
+			},
+			{
+				"family": "Fang",
+				"given": "Feng"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "deng2019emergency",
+		"type": "article-journal",
+		"container-title": "Clinical Neurology and Neurosurgery",
+		"DOI": "10.1016/j.clineuro.2019.04.010",
+		"note": "publisher: Elsevier",
+		"page": "11–16",
+		"title": "Emergency glioma resection but not hours of operation predicts perioperative complications: a single center study",
+		"volume": "182",
+		"author": [
+			{
+				"family": "Deng",
+				"given": "Zhong"
+			},
+			{
+				"family": "Wu",
+				"given": "Wei"
+			},
+			{
+				"family": "Wang",
+				"given": "Ning"
+			},
+			{
+				"family": "Arafat",
+				"given": "Wahap"
+			},
+			{
+				"family": "Li",
+				"given": "Zhijin"
+			},
+			{
+				"family": "Wang",
+				"given": "Jia"
+			},
+			{
+				"family": "Ren",
+				"given": "Chunying"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Wang",
+				"given": "Tuo"
+			},
+			{
+				"family": "Du",
+				"given": "Changwang"
+			},
+			{
+				"family": "Wang",
+        "given": "Maode"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "gao2019synchronous",
+		"type": "article-journal",
+		"container-title": "Computers in Biology and Medicine",
+		"note": "publisher: Elsevier",
+		"page": "272–279",
+		"title": "Synchronous analysis of brain regions based on multi-scale permutation transfer entropy",
+		"volume": "109",
+		"author": [
+			{
+				"family": "Gao",
+				"given": "Yunyuan"
+			},
+			{
+				"family": "Su",
+				"given": "Huixu"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2019analysis",
+		"type": "article-journal",
+		"container-title": "Biomedical engineering online",
+		"DOI": "10.1186/s12938-019-0651-4",
+		"issue": "1",
+		"note": "publisher: Springer",
+		"page": "34",
+		"title": "Analysis of measurement electrode location in bladder urine monitoring using electrical impedance",
+		"volume": "18",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Yaning"
+			},
+			{
+				"family": "Peng",
+				"given": "Yinglin"
+			},
+			{
+				"family": "Yang",
+				"given": "Xin"
+			},
+			{
+				"family": "Lu",
+				"given": "Shipei"
+			},
+			{
+				"family": "Gao",
+				"given": "Jinwu"
+			},
+			{
+				"family": "Lin",
+				"given": "Chengguang"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "zhao2019eeg",
+		"type": "paper-conference",
+		"container-title": "2019 9th international IEEE/EMBS conference on neural engineering (NER)",
+		"DOI": "10.1109/NER.2019.8716954",
+		"page": "887–890",
+		"publisher": "IEEE",
+		"title": "EEG-based brain network analysis in stroke patients during a motor execution task",
+		"author": [
+			{
+				"family": "Zhao",
+				"given": "Chunli"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Wang",
+				"given": "Chushan"
+			},
+			{
+				"family": "Huang",
+				"given": "Weitian"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "hu2019graph",
+		"type": "paper-conference",
+		"container-title": "2019 9th international IEEE/EMBS conference on neural engineering (NER)",
+		"DOI": "10.1109/NER.2019.8716929",
+		"page": "130–133",
+		"publisher": "IEEE",
+		"title": "Graph-based brain network analysis in epilepsy: An EEG study",
+		"author": [
+			{
+				"family": "Hu",
+				"given": "Yuejing"
+			},
+			{
+				"family": "Zhang",
+				"given": "Qizhong"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Potter",
+				"given": "Thomas"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2019cortical",
+		"type": "article-journal",
+		"container-title": "Frontiers in Human Neuroscience",
+		"note": "publisher: Frontiers Media SA",
+		"page": "90",
+		"title": "Cortical hemodynamic response and connectivity modulated by sub-threshold high-frequency repetitive transcranial magnetic stimulation",
+		"volume": "13",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Potter",
+				"given": "Thomas"
+			},
+			{
+				"family": "Wang",
+				"given": "Jun"
+			},
+			{
+				"family": "Shi",
+				"given": "Zhixi"
+			},
+			{
+				"family": "Wang",
+				"given": "Chushan"
+			},
+			{
+				"family": "Yang",
+				"given": "Lingling"
+			},
+			{
+				"family": "Chan",
+				"given": "Rosa"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "ma2019driving",
+		"type": "article-journal",
+		"container-title": "Computational intelligence and neuroscience",
+		"issue": "1",
+		"note": "publisher: Wiley Online Library",
+		"page": "4721863",
+		"title": "Driving fatigue detection from EEG using a modified PCANet method",
+		"volume": "2019",
+		"author": [
+			{
+				"family": "Ma",
+				"given": "Yuliang"
+			},
+			{
+				"family": "Chen",
+				"given": "Bin"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Wang",
+				"given": "Chushan"
+			},
+			{
+				"family": "Wang",
+				"given": "Jun"
+			},
+			{
+				"family": "She",
+				"given": "Qingshan"
+			},
+			{
+				"family": "Luo",
+				"given": "Zhizeng"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2019dynamic",
+		"type": "article-journal",
+		"container-title": "NeuroImage: Clinical",
+		"DOI": "10.1016/j.nicl.2018.101622",
+		"note": "publisher: Elsevier",
+		"page": "101622",
+		"title": "Dynamic cortical connectivity alterations associated with Alzheimer's disease: An EEG and fNIRS integration study",
+		"volume": "21",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Nguyen",
+				"given": "Thinh"
+			},
+			{
+				"family": "Potter",
+				"given": "Thomas"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2018early",
+		"type": "article-journal",
+		"container-title": "Frontiers in aging neuroscience",
+		"DOI": "10.3389/fnagi.2018.00366",
+		"note": "publisher: Frontiers Media SA",
+		"page": "366",
+		"title": "Early detection of Alzheimer’s disease using non-invasive near-infrared spectroscopy",
+		"volume": "10",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Rui",
+				"given": "Guoxing"
+			},
+			{
+				"family": "Chen",
+				"given": "Wei"
+			},
+			{
+				"family": "Li",
+				"given": "Sheng"
+			},
+			{
+				"family": "Schulz",
+				"given": "Paul E"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "zhang2018frequency",
+		"type": "article-journal",
+		"container-title": "International Journal for Numerical Methods in Biomedical Engineering",
+		"DOI": "10.1002/cnm.2980",
+		"issue": "7",
+		"note": "publisher: Wiley Online Library",
+		"page": "e2980",
+		"title": "Frequency-dependent anisotropic modeling and analysis using mfEIT: A computer simulation study",
+		"volume": "34",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Tingting"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Potter",
+				"given": "Thomas"
+			},
+			{
+				"family": "Seo",
+				"given": "Jin Keun"
+			},
+			{
+				"family": "Li",
+				"given": "Guanglin"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "gao2018electroencephalogram",
+		"type": "article-journal",
+		"container-title": "Frontiers in neurology",
+		"DOI": "10.3389/fneur.2017.00716",
+		"note": "publisher: Frontiers Media SA",
+		"page": "716",
+		"title": "Electroencephalogram–electromyography coupling analysis in stroke based on symbolic transfer entropy",
+		"volume": "8",
+		"author": [
+			{
+				"family": "Gao",
+				"given": "Yunyuan"
+			},
+			{
+				"family": "Ren",
+				"given": "Leilei"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2017enhancing",
+		"type": "article-journal",
+		"container-title": "Frontiers in human neuroscience",
+		"DOI": "10.3389/fnhum.2017.00462",
+		"note": "publisher: Frontiers Media SA",
+		"page": "462",
+		"title": "Enhancing performance of a hybrid EEG-fNIRS system using channel selection and early temporal features",
+		"volume": "11",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Potter",
+				"given": "Thomas"
+			},
+			{
+				"family": "Huang",
+				"given": "Weitian"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2017blood",
+		"type": "paper-conference",
+		"container-title": "2017 39th annual international conference of the IEEE engineering in medicine and biology society (EMBC)",
+		"DOI": "10.1109/EMBC.2017.8037123",
+		"page": "1513–1516",
+		"publisher": "IEEE",
+		"title": "Blood oxygenation changes resulting from subthreshold high frequency repetitive transcranial magnetic stimulation",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Wang",
+				"given": "Chushan"
+			},
+			{
+				"family": "Huang",
+				"given": "Kairong"
+			},
+			{
+				"family": "Shi",
+				"given": "Zhixi"
+			},
+			{
+				"family": "Wang",
+				"given": "Jun"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2017feasibility",
+		"type": "paper-conference",
+		"container-title": "2017 8th international IEEE/EMBS conference on neural engineering (NER)",
+		"page": "1–4",
+		"publisher": "IEEE",
+		"title": "The feasibility of utilizing EEG-fNIRS to characterize the cortical activation difference between healthy subjects and post-stroke patients",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Huang",
+				"given": "Weitian"
+			},
+			{
+				"family": "Lou",
+				"given": "Dandan"
+			},
+			{
+				"family": "Zhu",
+				"given": "Guangming"
+			},
+			{
+				"family": "Zhang",
+				"given": "Tingting"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "zhu2017simplified",
+		"type": "paper-conference",
+		"container-title": "2017 8th international IEEE/EMBS conference on neural engineering (NER)",
+		"DOI": "10.1109/NER.2017.8008310",
+		"page": "134–137",
+		"publisher": "IEEE",
+		"title": "A simplified hybrid EEG-fNIRS Brain-Computer Interface for motor task classification",
+		"author": [
+			{
+				"family": "Zhu",
+				"given": "Guangming"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Zhang",
+				"given": "Tingting"
+			},
+			{
+				"family": "Lou",
+				"given": "Dandan"
+			},
+			{
+				"family": "Wang",
+				"given": "Ruirong"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2016preliminary",
+		"type": "article-journal",
+		"container-title": "Journal of Medical and Biological Engineering",
+		"DOI": "10.1007/s40846-016-0108-1",
+		"issue": "1",
+		"note": "publisher: Springer",
+		"page": "71–79",
+		"title": "Preliminary study of assessing bladder urinary volume using electrical impedance tomography",
+		"volume": "36",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Gao",
+				"given": "Jinwu"
+			},
+			{
+				"family": "Li",
+				"given": "Yaning"
+			},
+			{
+				"family": "Wu",
+				"given": "Junpeng"
+			},
+			{
+				"family": "Zhao",
+				"given": "Zhanqi"
+			},
+			{
+				"family": "Liu",
+				"given": "Yang"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	},
+	{
+		"id": "wu2016design",
+		"type": "article-journal",
+		"container-title": "Mechatronics",
+		"note": "publisher: Elsevier",
+		"page": "13–22",
+		"title": "The design and control of a 3DOF lower limb rehabilitation robot",
+		"volume": "33",
+		"author": [
+			{
+				"family": "Wu",
+				"given": "Junpeng"
+			},
+			{
+				"family": "Gao",
+				"given": "Jinwu"
+			},
+			{
+				"family": "Song",
+				"given": "Rong"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Li",
+				"given": "Yaning"
+			},
+			{
+				"family": "Jiang",
+				"given": "Lelun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	},
+	{
+		"id": "wu2014anlde",
+		"type": "paper-conference",
+		"container-title": "Proceeding of the 11th world congress on intelligent control and automation",
+		"page": "3267–3272",
+		"publisher": "IEEE",
+		"title": "An anlde rehabilitation device and its control strategy",
+		"author": [
+			{
+				"family": "Wu",
+				"given": "Junpeng"
+			},
+			{
+				"family": "Gao",
+				"given": "Jinwu"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Li",
+				"given": "Yaning"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2013design",
+		"type": "article-journal",
+		"container-title": "Engineering",
+		"issue": "10",
+		"note": "publisher: Scientific Research Publishing",
+		"page": "321–325",
+		"title": "Design of a noninvasive bladder urinary volume monitoring system based on bio-impedance",
+		"volume": "5",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Gao",
+				"given": "Jinwu"
+			},
+			{
+				"family": "Wang",
+				"given": "Hongbin"
+			},
+			{
+				"family": "Jiang",
+				"given": "Qing"
+			},
+			{
+				"literal": "others"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013"
+				]
+			]
+		}
+	},
+	{
+		"id": "chan5286628eeglabeler",
+		"type": "article-journal",
+		"container-title": "Available at SSRN 5286628",
+		"title": "Eeglabeler: a novel machine learning-based system for automated eeg component labeling",
+		"author": [
+			{
+				"family": "Chan",
+				"given": "Gary HL"
+			},
+			{
+				"family": "Chuk",
+				"given": "Tim"
+			},
+			{
+				"family": "Gao",
+				"given": "Junling"
+			},
+			{
+				"family": "Wong",
+				"given": "Arnold Yu Lok"
+			},
+			{
+				"family": "Fong",
+				"given": "Gabriel CH"
+			},
+			{
+				"family": "Privitera",
+				"given": "Adam J"
+			},
+			{
+				"family": "Lee",
+				"given": "Janet Lok Chun"
+			},
+			{
+				"family": "Bao",
+				"given": "Shi-Chun"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Sun",
+				"given": "Eliza R"
+			}
+		]
+	},
+	{
+		"id": "zhou4945098depression",
+		"type": "article-journal",
+		"container-title": "Available at SSRN 4945098",
+		"title": "Depression severity identification based on shallow 2d self-attention-cnn using eeg functional connectivity network",
+		"author": [
+			{
+				"family": "Zhou",
+				"given": "Yihan"
+			},
+			{
+				"family": "Yu",
+				"given": "Xiaokang"
+			},
+			{
+				"family": "Lin",
+				"given": "Huiping"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Liang",
+				"given": "Jiuxing"
+			},
+			{
+				"family": "Shi",
+				"given": "Xue"
+			},
+			{
+				"family": "Luo",
+				"given": "Yuxi"
+			}
+		]
+	}
 ]

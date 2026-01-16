@@ -1,130 +1,298 @@
 ---
 title: "Publications"
 layout: default
-excerpt: "RT2 Lab -- Publications."
-sitemap: false
+excerpt: "RT2 Lab: Publications"
+sitemap: true
 permalink: /publications/
 ---
 
-<h1>{{page.title}}</h1>
+<style>
+    /* Hero Section */
+    .page-hero {
+        background: linear-gradient(135deg, #ffffff 0%, #f0f7ff 100%);
+        padding: 3rem 0;
+        text-align: center;
+        margin-bottom: 3rem;
+        border-bottom: 1px solid rgba(74,144,226,0.1);
+        animation: fadeInUp 0.8s ease forwards;
+    }
+    .page-title {
+        font-family: 'Crimson Text', Georgia, serif;
+        font-size: 3rem;
+        color: var(--dark-blue);
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
 
-<div class="panel-group" id="accordion">
-    <div class="panel panel-default">
+    /* Legend (图例) */
+    .pub-legend {
+        font-size: 0.9rem;
+        color: var(--text-light);
+        margin-bottom: 2rem;
+        padding: 0.5rem 1rem;
+        background: #fff;
+        border: 1px solid #eef2f7;
+        border-radius: 20px;
+        display: inline-block;
+    }
+    .legend-item { margin: 0 10px; }
+    .legend-symbol { color: var(--primary-blue); font-weight: bold; }
 
-    {% for publi in site.data.publications %}
-        <div class="panel-heading">
-            <a data-toggle="collapse" data-parent="#accordion"
-               href="#collapse{{forloop.index}}"
-               style="color: inherit;">
-            <!-- authors -->
-            {%- assign apa_authors = "" | split:"|" -%}
+    /* Timeline Layout */
+    .year-group {
+        display: flex;
+        margin-bottom: 2rem;
+        position: relative;
+    }
 
-            {%- for a in publi.author -%}
-            {%- assign family = a.family | strip -%}
-            {%- assign given  = a.given  | default: "" | replace: ".", "" | strip -%}
-            {%- assign initials = "" -%}
+    /* Left Column: Year */
+    .year-label {
+        flex: 0 0 80px;
+        font-family: 'Crimson Text', serif;
+        font-size: 2rem;
+        font-weight: 600;
+        color: var(--primary-blue);
+        opacity: 0.8;
+        padding-top: 0.5rem;
+        position: sticky;
+        top: 20px;
+        height: fit-content;
+    }
 
-            {%- if given == "" -%}
-                {%- assign initials = "" -%}
+    /* Right Column: Papers */
+    .paper-list {
+        flex: 1;
+        border-left: 2px solid var(--light-blue);
+        padding-left: 2rem;
+    }
 
-            {%- elsif given contains " " -%}
-                {%- assign parts = given | split: " " -%}
-                {%- for p in parts -%}
-                {%- assign p = p | strip -%}
-                {%- if p != "" -%}
-                    {%- assign first = p | slice: 0, 1 | upcase -%}
-                    {%- assign initials = initials | append: first | append: ". " -%}
-                {%- endif -%}
-                {%- endfor -%}
+    /* Individual Paper Item */
+    .pub-item {
+        margin-bottom: 1.5rem;
+        font-size: 1.05rem;
+        color: var(--text-dark);
+        line-height: 1.6;
+    }
 
-            {%- elsif given contains "-" -%}
-                {%- assign parts = given | split: "-" -%}
-                {%- for p in parts -%}
-                {%- assign p = p | strip -%}
-                {%- if p != "" -%}
-                    {%- assign first = p | slice: 0, 1 | upcase -%}
-                    {%- assign initials = initials | append: first | append: "." -%}
-                {%- endif -%}
-                {%- unless forloop.last -%}
-                    {%- assign initials = initials | append: "-" -%}
-                {%- endunless -%}
-                {%- endfor -%}
-                {%- assign initials = initials | append: " " -%}
+    .pub-title {
+        font-weight: 600;
+        font-size: 1.15rem;
+        color: var(--dark-blue);
+        display: block;
+        margin-bottom: 0.3rem;
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+    .pub-title:hover {
+        color: var(--primary-blue);
+        text-decoration: underline;
+    }
 
-            {%- else -%}
-                {%- assign gsize = given | size -%}
-                {%- if gsize > 1 -%}
-                {%- for i in (0..gsize-1) -%}
-                    {%- assign ch = given | slice: i, 1 -%}
-                    {%- assign ch = ch | strip -%}
-                    {%- if ch != "" -%}
-                    {%- assign ch_up = ch | upcase -%}
-                    {%- assign initials = initials | append: ch_up | append: ". " -%}
-                    {%- endif -%}
-                {%- endfor -%}
-                {%- else -%}
-                {%- assign first = given | slice: 0, 1 | upcase -%}
-                {%- assign initials = initials | append: first | append: ". " -%}
-                {%- endif -%}
-            {%- endif -%}
+    /* Author Styles */
+    .author-list { margin-bottom: 0.2rem; }
+    .author-name.me { 
+        font-weight: 700; 
+        color: #000; 
+        border-bottom: 2px solid var(--light-blue); /* 导师名字加个下划线强调 */
+    }
+    .author-note {
+        color: var(--primary-blue);
+        font-weight: bold;
+        font-size: 0.8em;
+        vertical-align: super;
+        margin-left: 1px;
+    }
 
-            {%- assign initials = initials | strip -%}
+    /* Journal Info */
+    .journal-info {
+        font-family: 'Crimson Text', serif;
+        font-style: italic;
+        color: var(--text-light);
+    }
+    .journal-name { font-weight: 600; color: var(--text-dark); }
 
-            {%- if initials != "" -%}
-                {%- assign formatted = family | append: ", " | append: initials -%}
-            {%- else -%}
-                {%- assign formatted = family -%}
-            {%- endif -%}
+    /* Links Buttons */
+    .pub-links { margin-top: 0.5rem; }
+    .btn-pub {
+        display: inline-block;
+        font-size: 0.8rem;
+        padding: 2px 10px;
+        border-radius: 12px;
+        border: 1px solid var(--primary-blue);
+        color: var(--primary-blue);
+        text-decoration: none;
+        transition: all 0.2s;
+        margin-right: 5px;
+    }
+    .btn-pub:hover {
+        background: var(--primary-blue);
+        color: white;
+    }
+    .btn-pub i { margin-right: 4px; }
 
-            {%- assign apa_authors = apa_authors | push: formatted -%}
-            {%- endfor -%}
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+        .year-group { flex-direction: column; }
+        .year-label { margin-bottom: 1rem; border-bottom: 1px solid var(--light-blue); width: 100%; }
+        .paper-list { border-left: none; padding-left: 0; }
+    }
+</style>
 
-            {%- for name in apa_authors -%}
-            {%- if forloop.first -%}
-                {{ name }}
-            {%- elsif forloop.last -%}
-                , & {{ name }}
-            {%- else -%}
-                , {{ name }}
-            {%- endif -%}
-            {%- endfor -%}
+<div class="page-hero">
+    <div class="container">
+        <h1 class="page-title">Publications</h1>
+        <p class="text-muted lead mb-3">Selected papers and conference proceedings</p>
+        
+        <!-- <div class="pub-legend shadow-sm">
+            <span class="legend-item"><span class="legend-symbol">+</span> Co-first author</span>
+            <span class="legend-item"><span class="legend-symbol">#</span> Corresponding author</span>
+        </div> -->
+    </div>
+</div>
 
-            
+<div class="container">
+    <div class="container pb-5">
+        
+        {% capture all_years %}
+            {% for pub in site.data.publications %}
+                {{ pub.issued.date-parts[0][0] }}
+            {% endfor %}
+        {% endcapture %}
 
-            <!-- title with link -->
-            "{{ publi.title }}",
+        {% assign year_array = all_years | split: ' ' | uniq | sort | reverse %}
 
-            <!-- container -->
-            <b>{{ publi.container-title }}</b>
+        {% for year in year_array %}
+            {% if year != blank %}
+            <div class="year-group">
+                <div class="year-label">{{ year }}</div>
+                <div class="paper-list">
+                    
+                    {% assign current_year_pubs = site.data.publications | where_exp: "item", "item.issued.date-parts[0][0] contains year" %}
+                    
+                    {% for pub in current_year_pubs %}
+                    <div class="pub-item">
+                        {% if pub.URL %}
+                            <a href="{{ pub.URL }}" target="_blank" class="pub-title">{{ pub.title }}</a>
+                        {% else %}
+                            <span class="pub-title">{{ pub.title }}</span>
+                        {% endif %}
 
-            <!-- issued date -->
-            ({{ publi.issued.date-parts | jsonify | slice: 3,4 }}),
+                        <div class="author-list">
+                            {%- assign apa_authors = "" | split:"|" -%}
 
-            {% assign link_url = nil %}
+                            {%- for a in pub.author -%}
+                                {%- assign family = a.family | strip -%}
+                                {%- assign given  = a.given  | default: "" | replace: ".", "" | strip -%}
+                                {%- assign initials = "" -%}
 
-            {% if publi.URL %}
-            {% assign link_url = publi.URL %}
-            {% elsif publi.DOI %}
-            {% assign link_url = "https://doi.org/" | append: publi.DOI %}
-            {% endif %}
-            
+                                {%- if given == "" -%}
+                                    {%- assign initials = "" -%}
+                                {%- elsif given contains " " -%}
+                                    {%- assign parts = given | split: " " -%}
+                                    {%- for p in parts -%}
+                                        {%- assign p = p | strip -%}
+                                        {%- if p != "" -%}
+                                            {%- assign first = p | slice: 0, 1 | upcase -%}
+                                            {%- assign initials = initials | append: first | append: ". " -%}
+                                        {%- endif -%}
+                                    {%- endfor -%}
+                                {%- elsif given contains "-" -%}
+                                    {%- assign parts = given | split: "-" -%}
+                                    {%- for p in parts -%}
+                                        {%- assign p = p | strip -%}
+                                        {%- if p != "" -%}
+                                            {%- assign first = p | slice: 0, 1 | upcase -%}
+                                            {%- assign initials = initials | append: first | append: "." -%}
+                                        {%- endif -%}
+                                        {%- unless forloop.last -%}
+                                            {%- assign initials = initials | append: "-" -%}
+                                        {%- endunless -%}
+                                    {%- endfor -%}
+                                    {%- assign initials = initials | append: " " -%}
+                                {%- else -%}
+                                    {%- assign gsize = given | size -%}
+                                    {%- if gsize > 1 -%}
+                                        {%- for i in (0..gsize-1) -%}
+                                            {%- assign ch = given | slice: i, 1 -%}
+                                            {%- assign ch = ch | strip -%}
+                                            {%- if ch != "" -%}
+                                                {%- assign ch_up = ch | upcase -%}
+                                                {%- assign initials = initials | append: ch_up | append: ". " -%}
+                                            {%- endif -%}
+                                        {%- endfor -%}
+                                    {%- else -%}
+                                        {%- assign first = given | slice: 0, 1 | upcase -%}
+                                        {%- assign initials = initials | append: first | append: ". " -%}
+                                    {%- endif -%}
+                                {%- endif -%}
 
-            </a>
-        </div>
+                                {%- assign initials = initials | strip -%}
 
-        <div id="collapse{{forloop.index}}" class="panel-collapse collapse">
-            <div class="panel-body">
-                <p>{{ publi.abstract }}</p>
+                                {%- if initials != "" -%}
+                                    {%- assign formatted = family | append: ", " | append: initials -%}
+                                {%- else -%}
+                                    {%- assign formatted = family -%}
+                                {%- endif -%}
+                                
+                                {%- assign is_pi = false -%}
+                                {%- assign first_initial = initials | slice: 0, 1 -%} 
+                                {%- if family == "Li" and first_initial == "R" -%}
+                                    {%- assign is_pi = true -%}
+                                {%- endif -%}
 
-                {% if link_url %}
-                    <a class="btn btn-outline-primary"
-                        href="{{ link_url }}"
-                        role="button" target="_blank" rel="noopener">
-                        Link
-                    </a>
-                    {% endif %}
+                                {%- assign note_marker = "" -%}
+                                {%- if a.note -%}
+                                    {%- capture note_marker -%}<sup style="color:var(--primary-blue); margin-left:1px;">{{ a.note }}</sup>{%- endcapture -%}
+                                {%- endif -%}
+
+                                {%- capture final_name_html -%}
+                                    {%- if is_pi -%}
+                                        <strong>{{ formatted }}</strong>{{ note_marker }}
+                                    {%- else -%}
+                                        {{ formatted }}{{ note_marker }}
+                                    {%- endif -%}
+                                {%- endcapture -%}
+
+                                {%- assign apa_authors = apa_authors | push: final_name_html -%}
+                            {%- endfor -%}
+
+                            {%- for name in apa_authors -%}
+                                {%- if forloop.first -%}
+                                    {{ name }}
+                                {%- elsif forloop.last -%}
+                                    <span style="margin-right: 3px;">, &</span> {{ name }}
+                                {%- else -%}
+                                    <span style="margin-right: 3px;">,</span> {{ name }}
+                                {%- endif -%}
+                            {%- endfor -%}
+                        </div>
+
+                        <div class="journal-info">
+                            <span class="journal-name">{{ pub.container-title }}</span>
+                            {% if pub.volume %}, Vol. {{ pub.volume }}{% endif %}
+                            {% if pub.issue %}({{ pub.issue }}){% endif %}
+                            {% if pub.page %}: {{ pub.page }}{% endif %}
+                        </div>
+
+                        <div class="pub-links">
+                            {% if pub.URL %}
+                            <a href="{{ pub.DOI }}" class="btn-pub" target="_blank">
+                                DOI
+                            </a>
+                            {% endif %}
+                            {% if pub.pdf %}
+                            <a href="{{ pub.pdf }}" class="btn-pub" target="_blank">
+                                <i class="fas fa-file-pdf"></i> PDF
+                            </a>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                    
+                </div>
             </div>
-        </div>
-    {% endfor %}
+            {% endif %}
+        {% endfor %}
+
     </div>
 </div>

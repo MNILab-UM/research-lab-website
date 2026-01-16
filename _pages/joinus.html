@@ -1,0 +1,299 @@
+---
+title: "Join Us"
+layout: default
+excerpt: "Join Li Lab at University of Macau"
+sitemap: true
+permalink: /join-us/
+---
+
+<style>
+    /* --- Hero Section (复用风格) --- */
+    .page-hero {
+        background: linear-gradient(135deg, #ffffff 0%, #f0f7ff 100%);
+        padding: 3rem 0;
+        text-align: center;
+        margin-bottom: 2rem;
+        border-bottom: 1px solid rgba(74,144,226,0.1);
+        animation: fadeInUp 0.8s ease forwards;
+    }
+    
+    .page-title {
+        font-family: 'Crimson Text', Georgia, serif;
+        font-size: 3rem;
+        color: var(--dark-blue);
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+    .page-subtitle {
+        font-size: 1.2rem;
+        color: var(--text-light);
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    /* --- Job Cards --- */
+    .job-card {
+        background: white;
+        border: 1px solid rgba(74, 144, 226, 0.15);
+        border-radius: 12px;
+        padding: 2.5rem;
+        margin-bottom: 2.5rem;
+        box-shadow: 0 5px 20px rgba(74, 144, 226, 0.05);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .job-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 30px rgba(74, 144, 226, 0.12);
+        border-color: var(--accent-blue);
+    }
+
+    /* 左侧强调条 */
+    .job-card::before {
+        content: '';
+        position: absolute;
+        left: 0; top: 0; bottom: 0;
+        width: 5px;
+        background: var(--primary-blue);
+    }
+
+    /* 职位标题 */
+    .job-title {
+        font-family: 'Crimson Text', serif;
+        font-size: 2rem;
+        font-weight: 600;
+        color: var(--dark-blue);
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    /* 状态标签 (Available immediately etc.) */
+    .job-badge {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 0.8rem;
+        background: var(--light-blue);
+        color: var(--primary-blue);
+        padding: 4px 12px;
+        border-radius: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        vertical-align: middle;
+    }
+
+    /* 正文排版 */
+    .job-description {
+        color: var(--text-dark);
+        margin-bottom: 1.5rem;
+    }
+
+    h4.job-section-header {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: var(--dark-blue);
+        margin-top: 1.5rem;
+        margin-bottom: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    /* 列表样式 */
+    .req-list {
+        list-style: none;
+        padding-left: 0;
+    }
+    .req-list li {
+        position: relative;
+        padding-left: 1.5rem;
+        margin-bottom: 0.5rem;
+        color: var(--text-dark);
+    }
+    .req-list li::before {
+        content: '\f00c'; /* Check icon */
+        font-family: 'Font Awesome 6 Free';
+        font-weight: 900;
+        position: absolute;
+        left: 0;
+        color: var(--primary-blue);
+        font-size: 0.9rem;
+        top: 3px;
+    }
+
+    /* 薪资高亮框 */
+    .salary-box {
+        background: linear-gradient(to right, #f8fbff, #fff);
+        border: 1px dashed var(--accent-blue);
+        border-radius: 8px;
+        padding: 1rem 1.5rem;
+        margin: 1.5rem 0;
+    }
+    .salary-highlight {
+        color: var(--dark-blue);
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
+
+    /* 申请按钮/链接 */
+    .apply-section {
+        margin-top: 2rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid #eee;
+    }
+    .email-link {
+        color: var(--primary-blue);
+        font-weight: 600;
+        text-decoration: none;
+        border-bottom: 1px dotted var(--primary-blue);
+    }
+    .email-link:hover {
+        border-bottom-style: solid;
+    }
+    .detail-btn {
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 0.9rem;
+        color: var(--text-light);
+        text-decoration: underline;
+    }
+
+</style>
+
+<div class="page-hero">
+    <div class="container">
+        <h1 class="page-title">Join Us</h1>
+        <p class="page-subtitle">
+            We are always looking for talented individuals to join our interdisciplinary team.<br>
+            Please feel free to contact Dr. Li for further information.
+        </p>
+        <div class="mt-3">
+            <a href="mailto:rihuili@um.edu.mo" class="btn btn-outline-primary rounded-pill px-4">
+                <i class="far fa-envelope me-2"></i>rihuili@um.edu.mo
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+<div class="container pb-5">
+
+    <div class="job-card">
+        <div class="d-flex flex-wrap align-items-center justify-content-between mb-3">
+            <h2 class="job-title mb-0">Postdoc Position</h2>
+            <span class="job-badge">Available Immediately</span>
+        </div>
+        
+        <div class="job-description">
+            <p>
+                The postdoc position is available immediately with a flexible start date. As our research is highly interdisciplinary, we welcome applicants from all backgrounds (e.g., <strong>BME, ECE, Psychology, Neuroscience, Computer Science</strong>).
+                <a href="#" class="detail-btn" target="_blank"><i class="fas fa-external-link-alt small"></i> UM Official Details</a>
+            </p>
+
+            <h4 class="job-section-header">Requirements</h4>
+            <ul class="req-list">
+                <li>A track record of excellent academic achievements, including publications, patents, presentations, and academic awards.</li>
+                <li>Have proficient experience in the processing of brain imaging data such as <strong>EEG, fNIRS, fMRI, DTI, MEG</strong>, etc. (one or more of these).</li>
+                <li>Self-motivated, able to work independently, strong written and interpersonal communication skills.</li>
+            </ul>
+
+            <div class="salary-box">
+                <div class="row align-items-center">
+                    <div class="col-md-1 text-center text-primary fs-2">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <div class="col-md-11">
+                        <p class="salary-highlight mb-1">Annual Salary: 336,000 - 480,000 MOP (~$41,480 - $59,250 USD)</p>
+                        <p class="small text-muted mb-0">
+                            Commensurate with qualifications. Local income tax rate is approx. 5% - 7%. 
+                            Includes annual conference allowances to support networking.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="apply-section">
+                <p class="mb-0">
+                    <strong>To Apply:</strong> Please send 1) a cover letter and 2) a personal CV to 
+                    <a href="mailto:rihuili@um.edu.mo" class="email-link">rihuili@um.edu.mo</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="job-card">
+        <div class="d-flex flex-wrap align-items-center justify-content-between mb-3">
+            <h2 class="job-title mb-0">Ph.D. Students</h2>
+            <span class="job-badge">Fall 2025 Intake</span>
+        </div>
+
+        <div class="job-description">
+            <p>
+                We are now accepting applications for Ph.D. programs for <strong>Fall 2025</strong>. 
+                Undergraduate and graduate students in <strong>BME, ECE, Psychology, Neuroscience, Computer Science</strong>, and related backgrounds are encouraged to apply.
+                <a href="#" class="detail-btn" target="_blank"><i class="fas fa-external-link-alt small"></i> Program Details</a>
+            </p>
+
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <h4 class="job-section-header">Program & Funding</h4>
+                    <ul class="req-list">
+                        <li><strong>Duration:</strong> Generally 4-5 years.</li>
+                        <li><strong>Scholarship:</strong> Monthly stipend of <strong>12,500 or 20,000 MOP</strong> provided based on individual abilities.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="job-section-header">Minimum English Requirements</h4>
+                    <ul class="req-list">
+                        <li><strong>CET-6:</strong> Score of 430</li>
+                        <li><strong>IELTS:</strong> Score of 6.0 (no sub-score lower than 5.5)</li>
+                        <li><strong>TOEFL:</strong> 550 (paper-based) or 80 (internet-based)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="apply-section">
+                <p class="mb-0">
+                    For prospective students, please contact Dr. Rihui Li (<a href="mailto:rihuili@um.edu.mo" class="email-link">rihuili@um.edu.mo</a>) for further information.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="job-card">
+        <div class="d-flex flex-wrap align-items-center justify-content-between mb-3">
+            <h2 class="job-title mb-0">Research Assistants / Interns</h2>
+            <span class="job-badge">Part-time / Internship</span>
+        </div>
+
+        <div class="job-description">
+            <p>
+                We are recruiting part-time research assistants and intern students. These positions are ideal for UM undergraduate and graduate students who want to gain research experience or pursue a research career and plan to apply for Ph.D. and/or M.D. programs.
+            </p>
+
+            <h4 class="job-section-header">Responsibilities & Benefits</h4>
+            <ul class="req-list">
+                <li>Assist in study design, data acquisition, data analysis, and manuscript drafting.</li>
+                <li><strong>Mentoring:</strong> One-on-one weekly meetings and career development support.</li>
+                <li><strong>Opportunities:</strong> Lead independent projects, publish first-authored papers, and attend workshops/conferences.</li>
+            </ul>
+
+            <h4 class="job-section-header">Requirements</h4>
+            <ul class="req-list">
+                <li><strong>Commitment:</strong> Minimum of 10 hours per week (on-site) for at least one quarter.</li>
+                <li>For non-UM students, work forms will be determined on a case-by-case basis.</li>
+            </ul>
+
+            <div class="apply-section">
+                <p class="mb-0">
+                    Interested? Please contact Dr. Rihui Li (<a href="mailto:rihuili@um.edu.mo" class="email-link">rihuili@um.edu.mo</a>).
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>

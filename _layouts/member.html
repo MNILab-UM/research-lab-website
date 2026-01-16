@@ -16,7 +16,7 @@ layout: default
         <!-- Avatar -->
         <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ page.image }}"
              class="img-circle"
-             style="filter: grayscale(100%); max-width: 200px;"/>
+             style="max-width: 200px;"/>
 
         <!-- Name & Role -->
         <h1>{{ page.title }}</h1>
@@ -52,16 +52,6 @@ layout: default
             {% if page.social.research-gate %}
                 <li><a target="blank" href="{{page.social.research-gate}}"><i class="fab fa-researchgate"></i></a></li>
             {% endif %}
-        </ul>
-    </div>
-
-    <!-- Education -->
-    <div class="row">
-        <h3>Education</h3>
-        <ul class="list-unstyled">
-            {% for education in page.education %}
-                <li>{{education}}</li>
-            {% endfor %}
         </ul>
     </div>
 
