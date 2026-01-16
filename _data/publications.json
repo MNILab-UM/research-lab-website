@@ -1712,40 +1712,7 @@
 			]
 		}
 	},
-	{
-		"id": "li2023current",
-		"type": "document",
-		"title": "Current opinions on the present and future use of functional near-infrared spectroscopy in psychiatry. Neurophotonics, 10 (1): 013505",
-		"author": [
-			{
-				"family": "Li",
-				"given": "R"
-			},
-			{
-				"family": "Hosseini",
-				"given": "H"
-			},
-			{
-				"family": "Saggar",
-				"given": "M"
-			},
-			{
-				"family": "Balters",
-				"given": "SC"
-			},
-			{
-				"family": "Reiss",
-				"given": "AL"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2023"
-				]
-			]
-		}
-	},
+	
 	{
 		"id": "espil2022cortical",
 		"type": "article-journal",
