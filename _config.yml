@@ -11,14 +11,14 @@ email: rihuili@um.edu.mo
 description: > # this means to ignore newlines until "baseurl:"
   "Led by Prof. Rihui Li at the University of Macau, bridging Biomedical Engineering and Cognitive Neuroscience."
 baseurl: ""
-url: ""
+url: "http://www.mnilab.com"
 
 include:
   - .htaccess
   - _pages
 
-sass:
-  sass_dir: _sass
+#sass:
+#  sass_dir: _sass
 
 # Conversion
 markdown: kramdown
