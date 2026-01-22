@@ -1332,6 +1332,9 @@
 		"id": "liu2024medical",
 		"type": "article-journal",
 		"note": "publisher: Bentham Science Publishers",
+		"container-title":"Current Medical Imaging",
+		"volume": "20",
+		"issue": "1",
 		"title": "Medical image processing based on generative adversarial networks: a systematic review",
 		"author": [
 			{
