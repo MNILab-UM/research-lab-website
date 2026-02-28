@@ -1,9 +1,10 @@
 <!-- Footer -->
     <footer class="footer-section">
         <div class="container">
+            <!-- 现有的图片和联系方式 -->
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="{{ site.url }}{{ site.baseurl }}/images/footer/footer1.png" height="196" width="526">
+                    <img src="{{ site.url }}{{ site.baseurl }}/images/footer/footer1.png" height="196" width="526" style="max-width: 100%; height: auto;">
                 </div>
                 <div class="col-lg-6">
                     <div class="contact-info">
@@ -14,6 +15,20 @@
                         Innovation, University of Macau<br>
                         Avenida da Universidade, Taipa, Macau SAR</p>
                     </div>
+                </div>
+            </div>
+
+            <!-- 新增：版权信息与备案号 -->
+            <div class="row mt-4 pt-3" style="border-top: 1px solid rgba(0,0,0,0.1);">
+                <div class="col-12 text-center">
+                    <p style="font-size: 0.9rem; color: #6c757d; margin-bottom: 0;">
+                        &copy; 2024 MNI Lab. All rights reserved. 
+                        <span class="mx-2">|</span>
+                        <!-- ICP 备案号 (必须链接到工信部) -->
+                        <a href="https://beian.miit.gov.cn/" target="_blank" style="color: #6c757d; text-decoration: none;">
+                            粤ICP备2025365697号
+                        </a>
+                    </p>
                 </div>
             </div>
         </div>
