@@ -1,5 +1,62 @@
 [
 	{
+		"id": "zhang2026making",
+		"type": "article-journal",
+		"container-title": "Water Research",
+		"DOI": "10.1016/j.watres.2026.125957",
+		"note": "publisher: Elsevier",
+		"page": "125957",
+		"title": "Making waves: Harnessing the disinfection byproduct chlorite as an oxidant precursor for micropollutant abatement",
+		"volume": "300",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xi"
+			},
+			{
+				"family": "Ma",
+				"given": "Yimeng"
+			},
+			{
+				"family": "Jia",
+				"given": "Mingkai"
+			},
+			{
+				"family": "Li",
+				"given": "Wanxin"
+			},
+			{
+				"family": "Han",
+				"given": "Jiarui"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Yang",
+				"given": "Xin"
+			},
+			{
+				"family": "Yin",
+				"given": "Ran"
+			},
+			{
+				"family": "Ren",
+				"given": "Hongqiang"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					8
+				]
+			]
+		},
+		"URL": "https://doi.org/10.1016/j.watres.2026.125957"
+	},
+	{
 		"id": "zhou2026shallow",
 		"type": "article-journal",
 		"container-title": "Biomedical Signal Processing and Control",
@@ -44,7 +101,203 @@
 					"2026"
 				]
 			]
+		},
+		"URL": "https://doi.org/10.1016/j.bspc.2025.109397"
+	},
+	{
+		"id": "li2026atypical",
+		"type": "article-journal",
+		"title": "Atypical inter-brain synchrony and social communication deficits in girls with fragile X syndrome: Evidence from functional near-infrared spectroscopy hyperscanning",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Dybvik",
+				"given": "Henrikke"
+			},
+			{
+				"family": "Feng",
+				"given": "Danyong"
+			},
+			{
+				"family": "Eng",
+				"given": "Cassondra M"
+			},
+			{
+				"family": "Lee",
+				"given": "Cindy H"
+			},
+			{
+				"family": "Bartholomay",
+				"given": "Kristi L"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			},
+			{
+				"family": "Lightbody",
+				"given": "Amy A"
+			},
+			{
+				"family": "Reiss",
+				"given": "Allan L"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2026"
+				]
+			]
+		},
+		"container-title": "European Child & Adolescent Psychiatry",
+		"DOI": "10.1007/s00787-026-03024-4",
+		"URL": "https://doi.org/10.1007/s00787-026-03024-4",
+		"note": "publisher: Springer"
+	},
+	{
+		"id": "guan2026enhanced",
+		"type": "article-journal",
+		"container-title": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+		"DOI": "10.1109/TNSRE.2026.3652812",
+		"URL": "https://doi.org/10.1109/TNSRE.2026.3652812",
+		"note": "publisher: IEEE",
+		"page": "617",
+		"title": "Enhanced mapping of finger movement representations using diffuse optical tomography: A systematic comparison with fNIRS",
+		"volume": "34",
+		"author": [
+			{
+				"family": "Guan",
+				"given": "Shuo"
+			},
+			{
+				"family": "Li",
+				"given": "Yuhang"
+			},
+			{
+				"family": "Gao",
+				"given": "Yuanyuan"
+			},
+			{
+				"family": "Yin",
+				"given": "Ran"
+			},
+			{
+				"family": "Luo",
+				"given": "Yuxi"
+			},
+			{
+				"family": "Liang",
+				"given": "Jiuxing"
+			},
+			{
+				"family": "Zhang",
+				"given": "Juan"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2026"
+				]
+			]
 		}
+	},
+	{
+		"id": "chan2025eeglabeler",
+		"type": "article-journal",
+		"container-title": "Available at SSRN 5286628",
+		"title": "Eeglabeler: a novel machine learning-based system for automated eeg component labeling",
+		"author": [
+			{
+				"family": "Chan",
+				"given": "Gary HL"
+			},
+			{
+				"family": "Chuk",
+				"given": "Tim"
+			},
+			{
+				"family": "Gao",
+				"given": "Junling"
+			},
+			{
+				"family": "Wong",
+				"given": "Arnold Yu Lok"
+			},
+			{
+				"family": "Fong",
+				"given": "Gabriel CH"
+			},
+			{
+				"family": "Privitera",
+				"given": "Adam J"
+			},
+			{
+				"family": "Lee",
+				"given": "Janet Lok Chun"
+			},
+			{
+				"family": "Bao",
+				"given": "Shi-Chun"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Sun",
+				"given": "Eliza R"
+			}
+		],
+		"URL": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5286628",
+		"note": "publisher: SSRN",
+		"issued": {
+			"date-parts": [
+				[
+					"2025"
+				]
+			]
+		}
+	},
+	{
+		"id": "li2025dynamic_creative",
+		"type": "paper-conference",
+		"container-title": "Proceedings of the Annual Meeting of the Cognitive Science Society",
+		"note": "publisher: eScholarship, University of California",
+		"title": "Dynamic Inter-brain Synchrony in Real-life Creative Problem Solving in Teams: an fNIRS-based Hyperscanning Study",
+		"URL": "https://escholarship.org/uc/item/33k753zc",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Yuhang"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025"
+				]
+			]
+		},
+		"volume": "47",
+		"issue": "0",
+		"pdf": "https://escholarship.org/content/qt33k753zc/qt33k753zc.pdf"
 	},
 	{
 		"id": "guan2025advancing",
@@ -252,56 +505,6 @@
 		}
 	},
 	{
-		"id": "li2025atypical",
-		"type": "article-journal",
-		"title": "Atypical inter-brain synchrony and social communication deficits in girls with fragile X syndrome: Evidence from functional near-infrared spectroscopy hyperscanning",
-		"author": [
-			{
-				"family": "Li",
-				"given": "Rihui"
-			},
-			{
-				"family": "Dybvik",
-				"given": "Henrikke"
-			},
-			{
-				"family": "Feng",
-				"given": "Danyong"
-			},
-			{
-				"family": "Eng",
-				"given": "Cassie"
-			},
-			{
-				"family": "Lee",
-				"given": "Cindy H"
-			},
-			{
-				"family": "Bartholomay",
-				"given": "Kristi L"
-			},
-			{
-				"family": "Zhang",
-				"given": "Yingchun"
-			},
-			{
-				"family": "Lightbody",
-				"given": "Amy A"
-			},
-			{
-				"family": "Reiss",
-				"given": "Allan L"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2025"
-				]
-			]
-		}
-	},
-	{
 		"id": "li2025erp",
 		"type": "article-journal",
 		"container-title": "NeuroImage",
@@ -354,18 +557,19 @@
 				"family": "Becker",
 				"given": "Benjamin"
 			},
-      {
+			{
 				"family": "Yao",
 				"given": "Dezhong"
 			},
-      {
+			{
 				"family": "Li",
 				"given": "Fali"
 			},
-      {
+			{
 				"family": "Zhang",
 				"given": "Dandan"
-			},{
+			},
+			{
 				"family": "Xu",
 				"given": "Peng"
 			}
@@ -573,25 +777,25 @@
 				"given": "Jiaxuan"
 			},
 			{
-				"family":"Liang",
-        "given":"Jiacheng"
+				"family": "Liang",
+				"given": "Jiacheng"
 			},
-      {
-        "family":"Su",
-        "given": "Yueting"
-      },
-      {
-        "family": "Zhang",
-        "given": "Yingchun"
-      },
-      {
-        "family": "Xu",
-        "given": "Qiong"
-      },
-      {
-        "family": "Li",
-        "given": "Rihui"
-      }
+			{
+				"family": "Su",
+				"given": "Yueting"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			},
+			{
+				"family": "Xu",
+				"given": "Qiong"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			}
 		],
 		"issued": {
 			"date-parts": [
@@ -649,7 +853,6 @@
 			]
 		}
 	},
-	
 	{
 		"id": "gao2025longitudinal",
 		"type": "article-journal",
@@ -1030,7 +1233,7 @@
 			},
 			{
 				"family": "Reiss",
-        "given": "Allan L"
+				"given": "Allan L"
 			}
 		],
 		"issued": {
@@ -1093,12 +1296,12 @@
 			},
 			{
 				"family": "Reiss",
-        "given": "Allan L"
+				"given": "Allan L"
 			},
-      {
-        "family": "Sagiv",
-        "given": "Sharon K"
-      }
+			{
+				"family": "Sagiv",
+				"given": "Sharon K"
+			}
 		],
 		"issued": {
 			"date-parts": [
@@ -1161,16 +1364,16 @@
 			},
 			{
 				"family": "Tian",
-        "given": "Yusheng"
+				"given": "Yusheng"
 			},
-      {
-        "family": "Wang",
-        "given": "Xiaoping"
-      },
-      {
-        "family": "Zhou",
-        "given": "Jiansong"
-      }
+			{
+				"family": "Wang",
+				"given": "Xiaoping"
+			},
+			{
+				"family": "Zhou",
+				"given": "Jiansong"
+			}
 		],
 		"issued": {
 			"date-parts": [
@@ -1332,7 +1535,7 @@
 		"id": "liu2024medical",
 		"type": "article-journal",
 		"note": "publisher: Bentham Science Publishers",
-		"container-title":"Current Medical Imaging",
+		"container-title": "Current Medical Imaging",
 		"volume": "20",
 		"issue": "1",
 		"title": "Medical image processing based on generative adversarial networks: a systematic review",
@@ -1634,38 +1837,38 @@
 				"family": "Liu",
 				"given": "Xixi"
 			},
-      {
-        "family": "Liao",
-        "given": "Xinxin"
-      },
-      {
-        "family": "Zhou",
-        "given": "Yafang"
-      },
-      {
-        "family": "Fang",
-        "given": "Liangjuan"
-      },
-      {
-        "family": "Dong",
-        "given": "Yanbin"
-      },
-      {
-        "family": "Yang",
-        "given": "Yuanhao"
-      },
-      {
-        "family": "Jiang",
-        "given": "Haiyan"
-      },
-      {
-        "family": "Huang",
-        "given": "Sha"
-      },
-      {
-        "family": "Shen",
-        "given": "Lu"
-      }
+			{
+				"family": "Liao",
+				"given": "Xinxin"
+			},
+			{
+				"family": "Zhou",
+				"given": "Yafang"
+			},
+			{
+				"family": "Fang",
+				"given": "Liangjuan"
+			},
+			{
+				"family": "Dong",
+				"given": "Yanbin"
+			},
+			{
+				"family": "Yang",
+				"given": "Yuanhao"
+			},
+			{
+				"family": "Jiang",
+				"given": "Haiyan"
+			},
+			{
+				"family": "Huang",
+				"given": "Sha"
+			},
+			{
+				"family": "Shen",
+				"given": "Lu"
+			}
 		],
 		"issued": {
 			"date-parts": [
@@ -1715,7 +1918,6 @@
 			]
 		}
 	},
-	
 	{
 		"id": "espil2022cortical",
 		"type": "article-journal",
@@ -1992,7 +2194,7 @@
 	{
 		"id": "liu2022inter",
 		"type": "article-journal",
-    "container-title": "Mathematical Biosciences and Engineering",
+		"container-title": "Mathematical Biosciences and Engineering",
 		"journalAbbreviation": "Math. Biosci. Eng",
 		"page": "4506–4525",
 		"title": "Inter-muscular coherence and functional coordination in the human upper extremity after stroke",
@@ -2598,7 +2800,7 @@
 			},
 			{
 				"family": "Wang",
-        "given": "Maode"
+				"given": "Maode"
 			}
 		],
 		"issued": {
@@ -3341,54 +3543,6 @@
 				]
 			]
 		}
-	},
-	{
-		"id": "chan5286628eeglabeler",
-		"type": "article-journal",
-		"container-title": "Available at SSRN 5286628",
-		"title": "Eeglabeler: a novel machine learning-based system for automated eeg component labeling",
-		"author": [
-			{
-				"family": "Chan",
-				"given": "Gary HL"
-			},
-			{
-				"family": "Chuk",
-				"given": "Tim"
-			},
-			{
-				"family": "Gao",
-				"given": "Junling"
-			},
-			{
-				"family": "Wong",
-				"given": "Arnold Yu Lok"
-			},
-			{
-				"family": "Fong",
-				"given": "Gabriel CH"
-			},
-			{
-				"family": "Privitera",
-				"given": "Adam J"
-			},
-			{
-				"family": "Lee",
-				"given": "Janet Lok Chun"
-			},
-			{
-				"family": "Bao",
-				"given": "Shi-Chun"
-			},
-			{
-				"family": "Li",
-				"given": "Rihui"
-			},
-			{
-				"family": "Sun",
-				"given": "Eliza R"
-			}
-		]
 	},
 	{
 		"id": "zhou4945098depression",

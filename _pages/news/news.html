@@ -32,7 +32,6 @@ permalink: /news/
 
     /* News Card */
     .news-card {
-        display: flex;
         background: white;
         border: 1px solid rgba(74, 144, 226, 0.1);
         border-radius: 12px;
@@ -43,6 +42,11 @@ permalink: /news/
         overflow: hidden;
         /* 默认让卡片有淡入动画 */
         animation: fadeIn 0.5s ease;
+    }
+    .news-card-main {
+        display: flex;
+        align-items: flex-start;
+        gap: 1.5rem;
     }
 
     /* Date Badge */
@@ -57,21 +61,20 @@ permalink: /news/
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-right: 1.5rem;
         box-shadow: 0 4px 10px rgba(74, 144, 226, 0.3);
     }
     .news-month { font-size: 1.4rem; text-transform: uppercase; font-weight: 700; line-height: 1.1; font-family: 'Source Sans Pro', sans-serif; }
     .news-year { font-size: 0.85rem; opacity: 0.9; font-weight: 400; }
 
     /* Content */
-    .news-content { flex-grow: 1; display: flex; flex-direction: column; justify-content: center; }
+    .news-content { flex-grow: 1; min-width: 0; display: flex; flex-direction: column; justify-content: flex-start; }
     .news-title {
         font-family: 'Crimson Text', serif;
         font-size: 1.4rem; font-weight: 600; color: var(--dark-blue);
         margin-bottom: 0.8rem; line-height: 1.3;
         border-bottom: 1px dashed #eee; padding-bottom: 0.5rem;
     }
-    .news-body { color: var(--text-dark); font-size: 1.05rem; line-height: 1.6; }
+    .news-body { color: var(--text-dark); font-size: 1.05rem; line-height: 1.6; padding: 0; }
     .news-body p { margin-bottom: 0.5rem; }
     .news-body p:last-child { margin-bottom: 0; }
     .news-body a { color: var(--primary-blue); text-decoration: underline; }
@@ -86,12 +89,107 @@ permalink: /news/
 
 
 
-    /* Thumbnail */
-    .news-img-wrapper {
-        flex-shrink: 0; max-width: 562px; height: auto; margin-left: 1.5rem;
-        border-radius: 8px; overflow: hidden; display: none;
+    /* Adaptive News Media */
+    .news-media {
+        display: grid;
+        gap: 0.85rem;
+        margin-top: 1.4rem;
     }
-    .news-thumb { width: 100%; height: 100%; object-fit: contain; }
+    .news-card--side-media {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, var(--news-media-side-width, 50%));
+        gap: 1.5rem;
+        align-items: flex-start;
+    }
+    .news-card--side-media .news-card-main {
+        min-width: 0;
+    }
+    .news-card--side-media .news-media {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 0;
+    }
+    .news-card--side-media .news-media-single .news-media-frame {
+        display: flex;
+        justify-content: center;
+        aspect-ratio: auto;
+        max-height: none;
+    }
+    .news-card--side-media .news-media-single .news-media-frame img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 420px;
+        object-fit: contain !important;
+    }
+    .news-media-item {
+        margin: 0;
+        border-radius: 12px;
+        overflow: hidden;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+    }
+    .news-media-frame {
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        background: transparent;
+    }
+    .news-media-frame img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s ease;
+    }
+    .news-media-frame:hover img {
+        transform: scale(1.03);
+    }
+    .news-media figcaption {
+        padding: 0.55rem 0.75rem;
+        color: var(--text-light);
+        font-size: 0.9rem;
+        line-height: 1.4;
+        background: white;
+        border-top: 1px solid rgba(74, 144, 226, 0.1);
+    }
+
+    .news-media-single .news-media-frame {
+        aspect-ratio: 16 / 9;
+        max-height: 520px;
+    }
+    .news-media-two {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .news-media-two .news-media-frame,
+    .news-media-three .news-media-item:not(:first-child) .news-media-frame {
+        aspect-ratio: 4 / 3;
+    }
+    .news-media-three {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .news-media-three .news-media-item:first-child {
+        grid-column: 1 / -1;
+    }
+    .news-media-three .news-media-item:first-child .news-media-frame {
+        aspect-ratio: 16 / 9;
+    }
+    .news-media-many {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+    .news-media-many .news-media-frame {
+        aspect-ratio: 1 / 1;
+    }
+    .news-media-many .news-media-item:first-child {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    @supports not (aspect-ratio: 1 / 1) {
+        .news-media-frame { height: 220px; }
+        .news-media-single .news-media-frame,
+        .news-media-three .news-media-item:first-child .news-media-frame { height: 420px; }
+    }
 
     /* Load More Button Styles */
     .load-more-container { text-align: center; margin-top: 2rem; }
@@ -117,14 +215,46 @@ permalink: /news/
     @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
     /* Mobile Responsive */
-    @media (max-width: 768px) {
-        .news-card { flex-direction: column; }
-        .news-date-badge { width: 100%; height: 40px; flex-direction: row; margin-right: 0; margin-bottom: 1rem; border-radius: 6px; gap: 10px; }
-        .news-month, .news-year { font-size: 1.1rem; }
-        .news-img-wrapper { width: 100%; height: 200px; margin-left: 0; margin-top: 1rem; display: block !important; }
+    @media (max-width: 992px) {
+        .news-media-many {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .news-media-many .news-media-item:first-child {
+            grid-column: 1 / -1;
+            grid-row: auto;
+        }
+        .news-media-many .news-media-item:first-child .news-media-frame {
+            aspect-ratio: 16 / 9;
+        }
     }
-    @media (min-width: 768px) {
-        .news-img-wrapper.has-image { display: block; }
+    @media (max-width: 768px) {
+        .news-card--side-media {
+            display: block;
+        }
+        .news-card--side-media .news-media {
+            margin-top: 1.4rem;
+        }
+        .news-card-main { flex-direction: column; gap: 1rem; }
+        .news-date-badge { width: 100%; height: 40px; flex-direction: row; border-radius: 6px; gap: 10px; }
+        .news-month, .news-year { font-size: 1.1rem; }
+    }
+    @media (max-width: 576px) {
+        .news-media,
+        .news-media-two,
+        .news-media-three,
+        .news-media-many {
+            grid-template-columns: 1fr;
+        }
+        .news-media-three .news-media-item:first-child,
+        .news-media-many .news-media-item:first-child {
+            grid-column: auto;
+        }
+        .news-media-single .news-media-frame,
+        .news-media-two .news-media-frame,
+        .news-media-three .news-media-frame,
+        .news-media-many .news-media-frame {
+            aspect-ratio: 16 / 10;
+        }
     }
 </style>
 
@@ -145,35 +275,32 @@ permalink: /news/
         {% for post in news_posts %}
         
         <div class="news-card {% if forloop.index > initial_limit %}news-hidden{% endif %}">
-            
-            <div class="news-date-badge">
-                <span class="news-month">{{ post.date | date: "%b" }}</span>
-                <span class="news-year">{{ post.date | date: "%Y" }}</span>
-            </div>
-
-            <div class="news-content">
-                {% if post.tags %}
-                <div class="news-tags">
-                    {% for tag in post.tags %}
-                        {% assign tag_class = "" %}
-                        {% assign t = tag | downcase %}
-                        {% if t contains 'publication' %}{% assign tag_class = "tag-publication" %}{% endif %}
-                        {% if t contains 'award' %}{% assign tag_class = "tag-award" %}{% endif %}
-                        {% if t contains 'conference' %}{% assign tag_class = "tag-conference" %}{% endif %}
-                        <span class="news-tag {{ tag_class }}">{{ tag }}</span>
-                    {% endfor %}
+            <div class="news-card-main">
+                <div class="news-date-badge">
+                    <span class="news-month">{{ post.date | date: "%b" }}</span>
+                    <span class="news-year">{{ post.date | date: "%Y" }}</span>
                 </div>
-                {% endif %}
 
-                <h3 class="news-title">{{ post.title }}</h3>
-                <div class="news-body">{{ post.content }}</div>
+                <div class="news-content">
+                    {% if post.tags %}
+                    <div class="news-tags">
+                        {% for tag in post.tags %}
+                            {% assign tag_class = "" %}
+                            {% assign t = tag | downcase %}
+                            {% if t contains 'publication' %}{% assign tag_class = "tag-publication" %}{% endif %}
+                            {% if t contains 'award' %}{% assign tag_class = "tag-award" %}{% endif %}
+                            {% if t contains 'conference' %}{% assign tag_class = "tag-conference" %}{% endif %}
+                            <span class="news-tag {{ tag_class }}">{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+
+                    <h3 class="news-title">{{ post.title }}</h3>
+                    <div class="news-body">{{ post.content }}</div>
+                </div>
             </div>
 
-            {% if post.image and post.image != "" %}
-            <div class="news-img-wrapper has-image">
-                <img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ post.image }}" alt="News thumbnail" class="news-thumb img-fluid object-fit-contain">
-            </div>
-            {% endif %}
+            {% include news-media.html post=post %}
 
         </div>
         {% endfor %}
@@ -186,34 +313,122 @@ permalink: /news/
 </div>
 <script>
     function loadMoreNews() {
-        // 每次点击多显示 5 条
         const itemsToShow = 5;
-        
-        // 找到所有目前还隐藏的新闻
         const hiddenItems = document.querySelectorAll('.news-hidden');
-        
-        // 如果没有隐藏的了，直接返回
+
         if (hiddenItems.length === 0) return;
 
-        // 显示接下来的 N 条
         for (let i = 0; i < itemsToShow; i++) {
             if (hiddenItems[i]) {
                 hiddenItems[i].classList.remove('news-hidden');
             }
         }
 
-        // 再次检查剩余隐藏数量，如果没了，就把按钮隐藏掉
         const remainingHidden = document.querySelectorAll('.news-hidden');
         if (remainingHidden.length === 0) {
             document.getElementById('loadMoreBtn').style.display = 'none';
         }
+
+        updateNewsMediaLayouts();
     }
 
-    // 页面加载时检查：如果新闻总数少于初始限制（比如只有3条），直接隐藏按钮
-    document.addEventListener("DOMContentLoaded", function() {
+    function getNewsCardInnerWidth(card) {
+        const styles = window.getComputedStyle(card);
+        const width = card.getBoundingClientRect().width;
+        const paddingLeft = parseFloat(styles.paddingLeft) || 0;
+        const paddingRight = parseFloat(styles.paddingRight) || 0;
+        return width - paddingLeft - paddingRight;
+    }
+
+    function getNewsMediaIntrinsicWidth(media) {
+        const images = Array.from(media.querySelectorAll('img'));
+        if (images.length === 0) return 0;
+
+        const widths = images.map(function(img) {
+            return img.naturalWidth || img.getBoundingClientRect().width || 0;
+        });
+
+        if (widths.some(function(width) { return width <= 0; })) return 0;
+
+        const styles = window.getComputedStyle(media);
+        const gap = parseFloat(styles.columnGap) || parseFloat(styles.gap) || 0;
+
+        if (media.classList.contains('news-media-two')) {
+            return widths[0] + widths[1] + gap;
+        }
+
+        if (media.classList.contains('news-media-three')) {
+            return Math.max(widths[0], (widths[1] || 0) + (widths[2] || 0) + gap);
+        }
+
+        if (media.classList.contains('news-media-many')) {
+            const columns = Math.min(widths.length, 4);
+            const firstRowWidth = widths
+                .slice(0, columns)
+                .reduce(function(sum, width) { return sum + width; }, 0);
+            return firstRowWidth + gap * Math.max(columns - 1, 0);
+        }
+
+        return Math.max.apply(null, widths);
+    }
+
+    function updateNewsMediaLayouts() {
+        const cards = document.querySelectorAll('.news-card');
+
+        cards.forEach(function(card) {
+            const media = Array.from(card.children).find(function(child) {
+                return child.classList && child.classList.contains('news-media');
+            });
+
+            if (!media) return;
+
+            card.classList.remove('news-card--side-media', 'news-card--stacked-media');
+            card.style.removeProperty('--news-media-side-width');
+
+            const innerWidth = getNewsCardInnerWidth(card);
+            const mediaWidth = getNewsMediaIntrinsicWidth(media);
+            const canUseSideLayout =
+                window.innerWidth > 768 &&
+                innerWidth > 0 &&
+                mediaWidth > 0 &&
+                mediaWidth <= innerWidth / 2;
+
+            if (canUseSideLayout) {
+                card.classList.add('news-card--side-media');
+                card.style.setProperty('--news-media-side-width', Math.ceil(mediaWidth) + 'px');
+            } else {
+                card.classList.add('news-card--stacked-media');
+            }
+        });
+    }
+
+    function prepareNewsMediaLayouts() {
+        updateNewsMediaLayouts();
+
+        document.querySelectorAll('.news-media img').forEach(function(img) {
+            if (!img.complete) {
+                img.addEventListener('load', updateNewsMediaLayouts, { once: true });
+                img.addEventListener('error', updateNewsMediaLayouts, { once: true });
+            }
+        });
+    }
+
+    function debounceNewsLayout(fn, delay) {
+        let timer;
+        return function() {
+            clearTimeout(timer);
+            timer = setTimeout(fn, delay);
+        };
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
         const hiddenItems = document.querySelectorAll('.news-hidden');
         if (hiddenItems.length === 0) {
             document.getElementById('loadMoreBtn').style.display = 'none';
         }
+
+        prepareNewsMediaLayouts();
     });
+
+    window.addEventListener('resize', debounceNewsLayout(updateNewsMediaLayouts, 150));
 </script>

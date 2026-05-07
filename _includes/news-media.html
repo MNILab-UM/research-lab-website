@@ -1,0 +1,89 @@
+{% comment %}
+  Adaptive media block for news posts.
+
+  Supported front matter:
+
+  image: "photo.jpg"                    # legacy single image, under /images/news/
+  image_alt: "Optional alt text"
+  image_caption: "Optional caption"
+
+  images:
+    - "photo-1.jpg"
+    - file: "photo-2.jpg"
+      alt: "Optional alt text"
+      caption: "Optional caption"
+
+  Image paths without a leading slash are resolved from /images/news/.
+{% endcomment %}
+
+{% assign news_media_items = include.post.images %}
+{% assign news_media_count = 0 %}
+
+{% if include.post.images.first %}
+  {% assign news_media_count = include.post.images.size %}
+{% elsif include.post.images and include.post.images != "" %}
+  {% assign news_media_items = include.post.images | split: "||" %}
+  {% assign news_media_count = 1 %}
+{% elsif include.post.image and include.post.image != "" %}
+  {% assign news_media_items = include.post.image | split: "||" %}
+  {% assign news_media_count = 1 %}
+{% endif %}
+
+{% if news_media_count > 0 %}
+  {% assign news_media_class = "news-media-single" %}
+  {% if news_media_count == 2 %}
+    {% assign news_media_class = "news-media-two" %}
+  {% elsif news_media_count == 3 %}
+    {% assign news_media_class = "news-media-three" %}
+  {% elsif news_media_count > 3 %}
+    {% assign news_media_class = "news-media-many" %}
+  {% endif %}
+  {% assign news_media_default_fit = "cover" %}
+  {% if news_media_count == 1 %}
+    {% assign news_media_default_fit = "contain" %}
+  {% endif %}
+
+  <div class="news-media {{ news_media_class }}" aria-label="News photos">
+    {% for media in news_media_items %}
+      {% if media.file %}
+        {% assign media_src = media.file %}
+      {% elsif media.src %}
+        {% assign media_src = media.src %}
+      {% elsif media.url %}
+        {% assign media_src = media.url %}
+      {% else %}
+        {% assign media_src = media %}
+      {% endif %}
+
+      {% if media_src and media_src != "" %}
+        {% assign media_first_char = media_src | slice: 0, 1 %}
+        {% if media_src contains "://" %}
+          {% assign media_url = media_src %}
+        {% elsif media_first_char == "/" %}
+          {% assign media_url = media_src | relative_url %}
+        {% else %}
+          {% assign media_path = "/images/news/" | append: media_src %}
+          {% assign media_url = media_path | relative_url %}
+        {% endif %}
+
+        {% assign media_alt = media.alt | default: include.post.image_alt | default: include.post.title %}
+        {% assign media_caption = media.caption | default: media.title | default: include.post.image_caption %}
+        {% assign media_fit = media.fit | default: include.post.image_fit | default: news_media_default_fit %}
+
+        <figure class="news-media-item">
+          <a class="news-media-frame" href="{{ media_url }}" target="_blank" rel="noopener">
+            <img
+              src="{{ media_url }}"
+              alt="{{ media_alt | escape }}"
+              loading="lazy"
+              style="object-fit: {{ media_fit }};"
+            >
+          </a>
+          {% if media_caption and media_caption != "" %}
+            <figcaption>{{ media_caption }}</figcaption>
+          {% endif %}
+        </figure>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}

@@ -128,8 +128,6 @@ permalink: /publications/
         background: var(--primary-blue);
         color: white;
     }
-    .btn-pub i { margin-right: 4px; }
-
     /* Mobile Responsive */
     @media (max-width: 768px) {
         .year-group { flex-direction: column; }
@@ -275,14 +273,18 @@ permalink: /publications/
                         </div>
 
                         <div class="pub-links">
-                            {% if pub.URL %}
-                            <a href="{{ pub.DOI }}" class="btn-pub" target="_blank">
+                            {% if pub.DOI %}
+                            {% assign doi_url = pub.DOI %}
+                            {% unless doi_url contains "://" %}
+                                {% assign doi_url = "https://doi.org/" | append: pub.DOI %}
+                            {% endunless %}
+                            <a href="{{ doi_url }}" class="btn-pub" target="_blank">
                                 DOI
                             </a>
                             {% endif %}
                             {% if pub.pdf %}
                             <a href="{{ pub.pdf }}" class="btn-pub" target="_blank">
-                                <i class="fas fa-file-pdf"></i> PDF
+                                PDF
                             </a>
                             {% endif %}
                         </div>

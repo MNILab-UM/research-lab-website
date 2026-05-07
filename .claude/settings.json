@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:scholar.google.com)",
+      "Bash(curl -s -A 'Mozilla/5.0' 'https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfaP4OQAAAAJ&sortby=pubdate&citation_for_view=vfaP4OQAAAAJ:eJXPG6dFmWUC')",
+      "Bash(curl -sL -A 'Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\)' 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vfaP4OQAAAAJ&citation_for_view=vfaP4OQAAAAJ:eJXPG6dFmWUC' -o /tmp/paper.html)",
+      "Read(//tmp/**)",
+      "WebSearch",
+      "Bash(curl -sL --max-time 20 'https://api.crossref.org/works?query.title=Making+Waves+Harnessing+Disinfection+Byproduct+Chlorite+Oxidant+Precursor+Micropollutant+Abatement&rows=3' -o /tmp/cr.json)",
+      "Bash(xxd)",
+      "Bash(python -c ' *)",
+      "Bash(curl -sL --max-time 20 'https://api.crossref.org/works/10.1007/s00787-026-03024-4')",
+      "Bash(python -c 'import json,sys; d=json.load\\(sys.stdin\\)[\"message\"]; print\\(d.get\\(\"title\"\\)\\); print\\(d.get\\(\"container-title\"\\)\\); print\\(d.get\\(\"published-print\"\\) or d.get\\(\"published-online\"\\) or d.get\\(\"created\"\\)\\); print\\([a[\"given\"]+\" \"+a[\"family\"] for a in d[\"author\"]]\\); print\\(d.get\\(\"abstract\",\"\"\\)[:1500]\\)')",
+      "Bash(curl -sL --max-time 20 'https://api.crossref.org/works?query.title=Enhanced+Mapping+Finger+Movement+Representations+Diffuse+Optical+Tomography+Systematic+Comparison+fNIRS&rows=2')",
+      "Bash(python -c 'import json,sys; r=json.load\\(sys.stdin\\)[\"message\"][\"items\"]; *)"
+    ]
+  }
+}
