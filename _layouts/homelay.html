@@ -75,41 +75,58 @@ layout: default
 
     <section class="py-5">
     <div class="container">
-        <!-- 建议把 align-items-end 改为 align-items-start，这样图片顶部对齐 -->
-        <div class="row g-4 align-items-start"> 
-            
-            <!-- 卡片 1 -->
-            <div class="col-lg-5">
-                <a href="{{ site.url }}{{ site.baseurl }}/news" style="text-decoration: none;">
-                    <div class="card news-card" style="width: 25rem;">
-                        
-                            <!-- 删除了 height="...", 添加了 class="img-fluid w-100" -->
-                            <img class="card-img-top" src="{{ site.url }}{{ site.baseurl }}/images/home/card5.png" height="302.198" alt="Funding News">
-                        
-                        <div class="card-body">
-                            <h4 class="card-title news-title">We are funded!</h4>
-                        </div>
-                    </div>
-                </a>
-            </div>
+        <div class="row g-4 align-items-stretch home-latest-news">
 
-            <!-- 卡片 2 -->
-            <div class="col-lg-5">
-                <a href="{{ site.url }}{{ site.baseurl }}/news" style="text-decoration: none;">
-                    <div class="card news-card" style="width: 30rem;">
-                        
-                            <!-- 删除了 height="...", 添加了 class="img-fluid w-100" -->
-                            <img class="card-img-top" src="{{ site.url }}{{ site.baseurl }}/images/home/card6.jpg" height="302.198" alt="fNIRS 2024">
-                        
-                        <div class="card-body">
-                            <h4 class="card-title news-title">Prof. Rihui Li is invited to give a talk at the 2023 Southern Biomedical Engineering Innovation and Development Conference (Guangzhou, China)</h4>
-                        </div>
-                    </div>
-                </a>
-            </div>
+            {% assign latest_news = site.posts | where: 'categories', 'news' | slice: 0, 2 %}
+            {% for post in latest_news %}
 
-            <!-- More 按钮 (如果想让它在底部，可以单独给这一列加样式) -->
-            <div class="col-lg-2 text-center align-self-end"> <!-- align-self-end 让按钮沉底 -->
+                {% comment %} Resolve a thumbnail image: prefer the first item in `images:`, then legacy `image:`, else fallback. {% endcomment %}
+                {% assign thumb_src = "" %}
+                {% if post.images and post.images.first %}
+                    {% assign first_media = post.images | first %}
+                    {% if first_media.file %}
+                        {% assign thumb_src = first_media.file %}
+                    {% elsif first_media.src %}
+                        {% assign thumb_src = first_media.src %}
+                    {% elsif first_media.url %}
+                        {% assign thumb_src = first_media.url %}
+                    {% else %}
+                        {% assign thumb_src = first_media %}
+                    {% endif %}
+                {% elsif post.image and post.image != "" %}
+                    {% assign thumb_src = post.image %}
+                {% endif %}
+
+                {% if thumb_src and thumb_src != "" %}
+                    {% assign thumb_first_char = thumb_src | slice: 0, 1 %}
+                    {% if thumb_src contains "://" %}
+                        {% assign thumb_url = thumb_src %}
+                    {% elsif thumb_first_char == "/" %}
+                        {% assign thumb_url = thumb_src | relative_url %}
+                    {% else %}
+                        {% assign thumb_url = "/images/news/" | append: thumb_src | relative_url %}
+                    {% endif %}
+                {% else %}
+                    {% assign thumb_url = "/images/home/card5.png" | relative_url %}
+                {% endif %}
+
+                <div class="col-lg-5">
+                    <a href="{{ site.url }}{{ site.baseurl }}/news" style="text-decoration: none;">
+                        <div class="card news-card h-100">
+                            <div class="news-card-thumb">
+                                <img class="card-img-top" src="{{ thumb_url }}" alt="{{ post.title | escape }}">
+                            </div>
+                            <div class="card-body">
+                                <div class="news-card-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+                                <h4 class="card-title news-title">{{ post.title }}</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            {% endfor %}
+
+            <div class="col-lg-2 text-center align-self-end">
                 <a href="{{ site.url }}{{ site.baseurl }}/news" style="text-decoration: none;">
                     <button class="more-btn">More</button>
                 </a>
@@ -117,6 +134,59 @@ layout: default
         </div>
     </div>
 </section>
+
+<style>
+    .home-latest-news .news-card {
+        width: 100%;
+        border: 1px solid rgba(74, 144, 226, 0.1);
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: flex;
+        flex-direction: column;
+    }
+    .home-latest-news .news-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    }
+    .home-latest-news .news-card-thumb {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        overflow: hidden;
+        background: #f5f7fa;
+    }
+    .home-latest-news .news-card-thumb img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.4s ease;
+    }
+    .home-latest-news .news-card:hover .news-card-thumb img {
+        transform: scale(1.04);
+    }
+    .home-latest-news .card-body {
+        padding: 1.2rem 1.4rem 1.4rem;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    .home-latest-news .news-card-date {
+        font-size: 0.85rem;
+        color: var(--text-light, #6c7a89);
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+    }
+    .home-latest-news .news-title {
+        font-family: 'Crimson Text', Georgia, serif;
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: var(--dark-blue, #1a3a6c);
+        line-height: 1.35;
+        margin: 0;
+    }
+</style>
 
 
     <!-- Bootstrap JS -->
