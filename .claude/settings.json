@@ -12,7 +12,11 @@
       "Bash(curl -sL --max-time 20 'https://api.crossref.org/works/10.1007/s00787-026-03024-4')",
       "Bash(python -c 'import json,sys; d=json.load\\(sys.stdin\\)[\"message\"]; print\\(d.get\\(\"title\"\\)\\); print\\(d.get\\(\"container-title\"\\)\\); print\\(d.get\\(\"published-print\"\\) or d.get\\(\"published-online\"\\) or d.get\\(\"created\"\\)\\); print\\([a[\"given\"]+\" \"+a[\"family\"] for a in d[\"author\"]]\\); print\\(d.get\\(\"abstract\",\"\"\\)[:1500]\\)')",
       "Bash(curl -sL --max-time 20 'https://api.crossref.org/works?query.title=Enhanced+Mapping+Finger+Movement+Representations+Diffuse+Optical+Tomography+Systematic+Comparison+fNIRS&rows=2')",
-      "Bash(python -c 'import json,sys; r=json.load\\(sys.stdin\\)[\"message\"][\"items\"]; *)"
+      "Bash(python -c 'import json,sys; r=json.load\\(sys.stdin\\)[\"message\"][\"items\"]; *)",
+      "Bash(cp \"C:/Users/lizzi/Pictures/LiLab/微信图片_20260518223350_52_418.jpg\" \"f:/lab_website/research-lab-prod/research-lab-website/images/news/2026-05-18-tianfu-autism-forum.jpg\" && ls \"f:/lab_website/research-lab-prod/research-lab-website/images/news/\" | grep 2026)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\lizzi\\Pictures\\LiLab"
     ]
   }
 }
