@@ -1,5 +1,552 @@
 [
 	{
+		"id": "li2026neuraldynamics",
+		"type": "article-journal",
+		"container-title": "Trends in Neuroscience and Education",
+		"DOI": "10.1016/j.tine.2026.100299",
+		"page": "100299",
+		"title": "Neural dynamics of vocabulary acquisition: the role of anxiety and language proficiency",
+		"volume": "45",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Jiaze"
+			},
+			{
+				"family": "Li",
+				"given": "Yuhang"
+			},
+			{
+				"family": "Lei",
+				"given": "Kei Kei"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Zhang",
+				"given": "Haoyun"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					12
+				]
+			]
+		},
+		"URL": "https://doi.org/10.1016/j.tine.2026.100299"
+	},
+	{
+		"id": "yan2026fmr1",
+		"type": "article-journal",
+		"container-title": "bioRxiv : the preprint server for biology",
+		"journalAbbreviation": "bioRxiv",
+		"DOI": "10.64898/2026.10.07.756495",
+		"title": "FMR1 Perturbations Disrupt Sensory Corticostriatal Circuits and Mitochondrial Energetics in Fragile X Syndrome",
+		"author": [
+			{
+				"family": "Yan",
+				"given": "Yu"
+			},
+			{
+				"family": "Li",
+				"given": "Dongyun"
+			},
+			{
+				"family": "Yuan",
+				"given": "Jianyu"
+			},
+			{
+				"family": "Feng",
+				"given": "Danyong"
+			},
+			{
+				"family": "Chang",
+				"given": "Jiarui"
+			},
+			{
+				"family": "Zhang",
+				"given": "Fengyu"
+			},
+			{
+				"family": "Xiong",
+				"given": "Man"
+			},
+			{
+				"family": "Jiang",
+				"given": "Yan"
+			},
+			{
+				"family": "Yan",
+				"given": "Biao"
+			},
+			{
+				"family": "Xu",
+				"given": "Qiong"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "He",
+				"given": "Yi"
+			},
+			{
+				"family": "Liu",
+				"given": "Peipei"
+			},
+			{
+				"family": "Shao",
+				"given": "Mingshuo"
+			},
+			{
+				"family": "Shen",
+				"given": "Minjie"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					10
+				]
+			]
+		},
+		"URL": "https://doi.org/10.64898/2026.10.07.756495"
+	},
+	{
+		"id": "li2026atypicalnetwork",
+		"type": "article-journal",
+		"container-title": "Annals of the New York Academy of Sciences",
+		"DOI": "10.1111/nyas.70401",
+		"page": "e70401",
+		"title": "Atypical Inter-Brain Synchrony Network Couples With Behavioral and Linguistic Impairments in Autism Spectrum Disorder",
+		"volume": "1563",
+		"issue": "1",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Yuhang"
+			},
+			{
+				"family": "Zhu",
+				"given": "Yiting"
+			},
+			{
+				"family": "Geng",
+				"given": "Yingbo"
+			},
+			{
+				"family": "Feng",
+				"given": "Danyong"
+			},
+			{
+				"family": "Guan",
+				"given": "Shuo"
+			},
+			{
+				"family": "Li",
+				"given": "Dongyun"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingchun"
+			},
+			{
+				"family": "Mei",
+				"given": "Lianni"
+			},
+			{
+				"family": "Ding",
+				"given": "Xingyu"
+			},
+			{
+				"family": "Xu",
+				"given": "Qiong"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					9
+				]
+			]
+		},
+		"URL": "https://doi.org/10.1111/nyas.70401"
+	},
+	{
+		"id": "wang2026eegvisual",
+		"type": "article-journal",
+		"container-title": "arXiv",
+		"DOI": "10.48550/arXiv.2609.02582",
+		"title": "EEG-based Visual Retrieval and Reconstruction: From Neurally Visible Optimal Layer to Hierarchical Diffusion Generation",
+		"author": [
+			{
+				"family": "Wang",
+				"given": "Minyi"
+			},
+			{
+				"family": "Wu",
+				"given": "Zhenqin"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					9
+				]
+			]
+		},
+		"URL": "https://doi.org/10.48550/arXiv.2609.02582"
+	},
+	{
+		"id": "pan2026dryelectrode",
+		"type": "article-journal",
+		"container-title": "Biosensors",
+		"DOI": "10.3390/bios16090467",
+		"page": "467",
+		"title": "Systematic Benchmarking of a Dry Electrode EEG Prototype Against Wet Electrode EEG Systems in Electrophysiological/Cognitive Scenarios",
+		"volume": "16",
+		"issue": "9",
+		"author": [
+			{
+				"family": "Pan",
+				"given": "Boli"
+			},
+			{
+				"family": "Ding",
+				"given": "Shuo"
+			},
+			{
+				"family": "Geng",
+				"given": "Yingbo"
+			},
+			{
+				"family": "Liang",
+				"given": "Jiacheng"
+			},
+			{
+				"family": "Li",
+				"given": "Fali"
+			},
+			{
+				"family": "Wang",
+				"given": "Gang"
+			},
+			{
+				"family": "Li",
+				"given": "Xirong"
+			},
+			{
+				"family": "Dong",
+				"given": "Yanbin"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					8
+				]
+			]
+		},
+		"URL": "https://doi.org/10.3390/bios16090467"
+	},
+	{
+		"id": "li2026genderspecific",
+		"type": "article-journal",
+		"container-title": "BMC Psychology",
+		"DOI": "10.1186/s40359-026-05129-6",
+		"title": "Gender-specific interpersonal neural synchronization during same-gender closeness-building interactions among strangers: an fNIRS hyperscanning study",
+		"volume": "14",
+		"issue": "1",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Yuhang"
+			},
+			{
+				"family": "Zhou",
+				"given": "Shibo"
+			},
+			{
+				"family": "Ou",
+				"given": "Liutong"
+			},
+			{
+				"family": "Hu",
+				"given": "Yilin"
+			},
+			{
+				"family": "Lin",
+				"given": "Xiuyun"
+			},
+			{
+				"family": "Zhao",
+				"given": "Qi"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Chi",
+				"given": "Peilian"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					8
+				]
+			]
+		},
+		"URL": "https://doi.org/10.1186/s40359-026-05129-6"
+	},
+	{
+		"id": "bian2026emotioncognition",
+		"type": "article-journal",
+		"container-title": "eNeuro",
+		"DOI": "10.1523/ENEURO.0031-26.2026",
+		"page": "ENEURO.0031-26.2026",
+		"title": "Aberrant Emotion-Cognition Integration in FMR1 Premutation Carriers: a fNIRS Study",
+		"volume": "13",
+		"issue": "8",
+		"author": [
+			{
+				"family": "Bian",
+				"given": "Yuewen"
+			},
+			{
+				"family": "Li",
+				"given": "Yuhang"
+			},
+			{
+				"family": "Zhu",
+				"given": "Yiting"
+			},
+			{
+				"family": "Li",
+				"given": "Dongyun"
+			},
+			{
+				"family": "Geng",
+				"given": "Yingbo"
+			},
+			{
+				"family": "Guan",
+				"given": "Shuo"
+			},
+			{
+				"family": "Feng",
+				"given": "Danyong"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Xu",
+				"given": "Qiong"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					7
+				]
+			]
+		},
+		"URL": "https://doi.org/10.1523/ENEURO.0031-26.2026"
+	},
+	{
+		"id": "pan2026unraveling",
+		"type": "article-journal",
+		"container-title": "CNS Neuroscience & Therapeutics",
+		"DOI": "10.1002/cns.71046",
+		"page": "e71046",
+		"title": "Unraveling the Individualized Shared and Distinct Dynamic Functional Connectivity in Idiopathic Autism Spectrum Disorder and Fragile X Syndrome",
+		"volume": "32",
+		"issue": "7",
+		"author": [
+			{
+				"family": "Pan",
+				"given": "Boli"
+			},
+			{
+				"family": "Wang",
+				"given": "Junbo"
+			},
+			{
+				"family": "Feng",
+				"given": "Danyong"
+			},
+			{
+				"family": "Zhu",
+				"given": "Yiting"
+			},
+			{
+				"family": "Tang",
+				"given": "Ning"
+			},
+			{
+				"family": "Li",
+				"given": "Dongyun"
+			},
+			{
+				"family": "Xu",
+				"given": "Qiong"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					7
+				]
+			]
+		},
+		"URL": "https://doi.org/10.1002/cns.71046"
+	},
+	{
+		"id": "yuan2026graphconvolutional",
+		"type": "article-journal",
+		"container-title": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+		"DOI": "10.1109/TNSRE.2026.3728062",
+		"page": "3846-3856",
+		"title": "Graph Convolutional Network-Based Fusion of Multi-State fNIRS Data for Assessing Post-Stroke Upper Limb Motor Function",
+		"volume": "34",
+		"author": [
+			{
+				"family": "Yuan",
+				"given": "Ziwen"
+			},
+			{
+				"family": "Hu",
+				"given": "Zhehao"
+			},
+			{
+				"family": "Xu",
+				"given": "Weiwei"
+			},
+			{
+				"family": "Guo",
+				"given": "Jing"
+			},
+			{
+				"family": "Tao",
+				"given": "Yi"
+			},
+			{
+				"family": "Chen",
+				"given": "Meiyue"
+			},
+			{
+				"family": "Wang",
+				"given": "Lisha"
+			},
+			{
+				"family": "Zhao",
+				"given": "Ye"
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "He",
+				"given": "Yongzheng"
+			},
+			{
+				"family": "Chen",
+				"given": "Badong"
+			},
+			{
+				"family": "Wang",
+				"given": "Gang"
+			},
+			{
+				"family": "Qiao",
+				"given": "Jin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2026"
+				]
+			]
+		},
+		"URL": "https://doi.org/10.1109/TNSRE.2026.3728062"
+	},
+	{
+		"id": "eng2025immersive",
+		"type": "paper-conference",
+		"container-title": "2025 IEEE International Symposium on Emerging Metaverse (ISEMV)",
+		"DOI": "10.1109/ISEMV67326.2025.00025",
+		"page": "90-94",
+		"title": "Inside the Immersive Mind: Brain Activity During Dynamic VR Interaction Using Mobile Neuroimaging",
+		"author": [
+			{
+				"family": "Eng",
+				"given": "Cassondra M."
+			},
+			{
+				"family": "Niemi",
+				"given": "Selena R."
+			},
+			{
+				"family": "Fung",
+				"given": "Howard L."
+			},
+			{
+				"family": "Li",
+				"given": "Rihui"
+			},
+			{
+				"family": "Wetzstein",
+				"given": "Gordon"
+			},
+			{
+				"family": "Reiss",
+				"given": "Allan L."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					10
+				]
+			]
+		},
+		"URL": "https://doi.org/10.1109/ISEMV67326.2025.00025"
+	},
+	{
 		"id": "zhang2026making",
 		"type": "article-journal",
 		"container-title": "Water Research",
